@@ -1,0 +1,11 @@
+.HelpCard {
+  padding: 24px;
+  background-color: var(--white);
+  height: 100%;
+& h1,h4{
+  margin: 2px auto;
+}
+  & span {
+    font-size: 30px;
+  }
+}

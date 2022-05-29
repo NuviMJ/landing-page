@@ -1,0 +1,39 @@
+.Accordion{
+&-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  /* Body Bold */
+  font-family: 'Lexend', system-ui;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  /* identical to box height */
+
+  /* #000000 */
+  color: #000000;
+
+
+  & :hover {
+
+  }
+}
+  &-title,
+  &-content {
+    padding: 1rem;
+  }
+  &-content {
+    /* Body Regular */
+    font-family: 'Lexend', system-ui;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+text-align: left;
+    /* #000000 */
+    color: #000000;
+  }
+}

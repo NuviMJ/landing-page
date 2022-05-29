@@ -1,0 +1,103 @@
+
+.Navbar {
+
+  padding: 0.45rem 1.0875rem;
+  display: flex;
+  justify-content: center;
+
+  &-toggle {
+    display: none;
+
+  }
+  & a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  &-wrapper {
+
+
+    & > div {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0.7rem auto;
+
+    }
+  }
+
+  &-logoContainer {
+
+  }
+
+  &-navWrapper {
+
+
+    & > nav {
+      position: relative;
+
+      & > ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0 15px;
+        align-items: center;
+
+
+        & > li {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          padding: 0.7rem;
+
+          &:hover {
+            opacity: 0.7;
+          }
+
+
+        }
+      }
+    }
+  }
+
+  &-button {
+    padding: 11px 32px;
+    border-radius: 100px;
+    background: var(--black);
+    color: var(--white);
+  }
+
+  & hr {
+    opacity: 0.25;
+    border: 1px solid var(--black);
+  }
+
+  @media screen and (max-width: 1000px) {
+    &-toggle {
+      display: flex;
+    }
+    &-wrapper {
+      width: 100%;
+    }
+    &-navWrapper {
+      position: absolute;
+      display: none;
+
+      top: 60px;
+      width: 100%;
+      background-color: var(--pink-light);
+      justify-content: center;
+
+      &.expanded {
+        display: flex;
+      }
+
+      & > nav {
+        & > ul {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+

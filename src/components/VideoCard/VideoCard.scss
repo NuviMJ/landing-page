@@ -1,0 +1,23 @@
+.VideoCard {
+  padding: 0.45rem;
+  justify-content: center;
+
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+  }
+
+  &-videoContainer {
+    //height: 200px;
+    //background-color: red;
+  }
+
+  p {
+    margin: 0;
+  }
+
+
+}
+

@@ -1,0 +1,27 @@
+.HowToUse {
+  padding: 2.45rem 1.0875rem;
+  justify-content: center;
+  background-color: var(--warm-white);
+  text-align: center;
+
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0.7rem 3rem;
+    flex-direction: column;
+  }
+
+  &-cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  &-card {
+    min-width: 331px;
+    flex: 1;
+  }
+
+}
+
