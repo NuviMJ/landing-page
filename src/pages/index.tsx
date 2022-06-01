@@ -13,33 +13,41 @@ import Faq from "../sections/Faq/Faq";
 import Footer from "../sections/Footer/Footer";
 import What from "../sections/What/What";
 import SlideShow from "../components/SlideShow/SlideShow";
+import ScrollSlider from "../components/ScrollSlider/ScrollSlider";
+import {StepsProvider} from "react-step-builder";
+import CoachingBenefit from "../sections/CoachingBenefit/CoachingBenefit";
+import LeadershipCoaching from "../sections/LeadershipCoaching/LeadershipCoaching";
+import GroupWorkShop from "../sections/GroupWorkShop/GroupWorkShop";
+import Metaverse from "../sections/Metaverse/Metaverse";
+import CoachFeatures from "../sections/CoachFeatures/CoachFeatures";
 
 // markup
 const IndexPage = () => {
-  return (<>
-      <Navbar/>
-          <Hero/>
-          <HowToUse/>
-          <HowItWorks/>
-          <Help/>
-          <Why/>
-          <OurCoaches/>
-          <What/>
-          <Faq/>
-          <Footer/>
+    return (<>
+            <Navbar/>
 
-    {/*<main  >*/}
-    {/*<title>Home Page</title>*/}
-    {/*  <h1 >*/}
-    {/*    Congratulations*/}
-    {/*    <br />*/}
-    {/*    <span >— you just made a Gatsby site! </span>*/}
-    {/*    🎉🎉🎉*/}
-    {/*  </h1>*/}
+            <Hero/>
+            <HowToUse/>
 
-    {/*</main>*/}
-      </>
-  )
+            <HowItWorks/>
+            <Help/>
+            <Why/>
+            <OurCoaches/>
+            <What/>
+            <Faq/>
+            <Footer/>
+            {/*<main  >*/}
+            {/*<title>Home Page</title>*/}
+            {/*  <h1 >*/}
+            {/*    Congratulations*/}
+            {/*    <br />*/}
+            {/*    <span >— you just made a Gatsby site! </span>*/}
+            {/*    🎉🎉🎉*/}
+            {/*  </h1>*/}
+
+            {/*</main>*/}
+        </>
+    )
 }
 
 export default IndexPage

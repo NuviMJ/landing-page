@@ -25,7 +25,7 @@ const Help = () => {
                         <div className="Help-videoContainer">
                             <HoverVideoPlayer
                                 className="Help-videoCard"
-                                videoSrc=""
+                                videoSrc="https://res.cloudinary.com/coachello-dev/video/upload/v1654021005/landing-page/01_Who_are_our_coaches_V1_mbdyts.mp4"
                                 pausedOverlay={
                                     <img
                                         src={helpThumb}

@@ -1,0 +1,63 @@
+.HowItWorks3{
+  padding: 2.45rem;
+  justify-content: center;
+
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &-topContainer{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    &> div{
+      display: flex;
+      justify-content:center;
+      flex-wrap: wrap;
+    }
+
+    & h2{
+      margin: 0;
+
+    }
+  }
+  &-bottomContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  &-imgContainer {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    & > img {
+      width: 85%;
+      min-width: 340px;
+    }
+  }
+ &-contentContainer {
+   flex: 60%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   &>div{
+
+   }
+ }
+
+  @media screen and (max-width: 1000px) {
+    &-imgContainer {
+
+      & > img {
+        width: 70%;
+
+      }
+    }
+    &-bottomContainer{
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.MeetCoaches {
+  padding: 2.45rem 4.0875rem;
+  justify-content: center;
+  background-color: var(--warm-white);
+  text-align: center;
+
+  flex-direction: column;
+
+  &-wrapper {
+    background-image: url("../../assets/img/worldMap.svg");
+    display: flex;
+    justify-content: center;
+    margin: 0.7rem 3rem;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+  &-headerContainer {
+    text-align: center;
+  }
+& p{
+  margin-bottom: 2px;
+}
+  & h2{
+    margin-top: 5px;
+  }
+  &-imgContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+    flex-wrap: wrap;
+& h4{
+  margin: 5px;
+}
+  }
+
+
+
+  @media(max-width: 1148px) {
+    &-imgContainer :nth-child(3) {
+      order: 2;
+    }
+  }
+
+}
+

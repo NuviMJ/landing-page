@@ -1,0 +1,25 @@
+.ImgContentTemplate{
+  padding: 0.45rem 1.0875rem;
+  justify-content: center;
+
+  & div {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.7rem 3rem;
+    flex-wrap: wrap;
+  }
+
+  &-imgContainer {
+    flex: 1;
+
+    & > img {
+      width: 100%;
+      min-width: 378px;
+    }
+  }
+
+  &-contentContainer {
+    flex: 1;
+  }
+
+}

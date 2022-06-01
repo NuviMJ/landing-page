@@ -1,0 +1,39 @@
+.CoachProfile{
+  padding: 3.45rem 4.0875rem;
+  justify-content: center;
+background-color: var(--pink-light);
+
+  &> div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+    gap: 10px;
+  }
+
+  &-imgContainer {
+    flex: 1;
+
+    & > img {
+      width: 80%;
+      min-width: 378px;
+    }
+  }
+
+  &-contentContainer {
+    flex: 1.5;
+    & >div{
+      margin: 0.7rem 1rem;
+      & h2{
+        margin-top: 11px;
+      }
+    }
+  }
+  @media(max-width: 950px) {
+    &> div {
+align-items: center;
+     flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

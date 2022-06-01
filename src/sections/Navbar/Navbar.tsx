@@ -28,13 +28,13 @@ const Navbar = () => {
                         <nav>
                             <ul>
                                 <li>
-                                    <Link to=''>
+                                    <Link to='/'>
                                         Our Solutions
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link to=''>
+                                    <Link to='/coaches'>
                                         Our Coaches
                                     </Link>
                                 </li>

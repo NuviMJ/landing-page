@@ -6,32 +6,22 @@ import slackImg from '../../assets/img/slackUI.svg'
 import slackIcon from '../../assets/img/icons/slack.svg'
 // @ts-ignore
 import teamsIcon from '../../assets/img/icons/teams.svg'
+import ScrollSlider from "../../components/ScrollSlider/ScrollSlider";
+import HowItWorks1 from "./HowItWorks1/HowItWorks1";
+import HowItWorks2 from "./HowItWorks2/HowItWorks2";
+import HowItWorks3 from "./HowItWorks3/HowItWorks3";
+import {StepsProvider} from "react-step-builder";
 
 const HowItWorks = () => {
     return (
         <div className="HowItWorks">
-            <div className="HowItWorks-wrapper">
-                <div className="HowItWorks-topContainer">
-                    <p className="h1-red">How it works</p>
-                    <div>
-                        <h2>Integrated into &nbsp; </h2>
-                        <img src={slackIcon}/>
-                        <h2>&nbsp;  Slack or&nbsp; </h2>
-                        <img src={teamsIcon}/>
-                        <h2> &nbsp; MS Teams</h2>
-                    </div>
-                </div>
-                <div className="HowItWorks-bottomContainer">
-                    <div className="HowItWorks-contentContainer">
-                        <div><h3>1. Assessment</h3>
-                        <h4>Assess your strengths and challenges</h4>
-                        </div>
-                    </div>
-                    <div className="HowItWorks-imgContainer">
-                        <img src={slackImg}/>
-                    </div>
-                </div>
-            </div>
+            <StepsProvider>
+                <ScrollSlider>
+                    <HowItWorks1/>
+                    <HowItWorks2/>
+                    <HowItWorks3/>
+                </ScrollSlider>
+            </StepsProvider>
         </div>
     );
 };
