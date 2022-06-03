@@ -1,5 +1,5 @@
 .OurCoaches {
-  padding: 2.45rem 4.0875rem;
+  padding: 2.45rem 6.0875rem;
   justify-content: center;
   background-color: var(--warm-white);
   text-align: center;
@@ -10,7 +10,7 @@
     background-image: url("../../assets/img/worldMap.svg");
     display: flex;
     justify-content: center;
-    margin: 0.7rem 3rem;
+    //margin: 0.7rem 3rem;
     flex-direction: column;
     background-repeat: no-repeat;
     background-position: center;
@@ -47,6 +47,9 @@ margin: 10px;
 
       order: 2;
     }
+  }
+  @media screen and (max-width: 650px) {
+    padding: 2.45rem 2.0875rem;
   }
 }
 

@@ -1,6 +1,6 @@
 import * as React from "react"
 import Navbar from "../sections/Navbar/Navbar";
-import '../styles/about.scss';
+import '../styles/index.css';
 import '../styles/colour.css';
 import '../styles/fonts.css';
 // @ts-ignore

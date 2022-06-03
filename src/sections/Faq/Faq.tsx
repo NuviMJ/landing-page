@@ -12,11 +12,11 @@ const Faq = () => {
                     <h2>Questions you might have</h2>
                 </div>
                 <div className="Faq-contentContainer">
-
                     {FAQData.map(({title, content}) => (
-                        <div><Accordion title={title} content={content}/></div>
+                        <div>
+                            <Accordion title={title} content={content}/>
+                        </div>
                     ))}
-
                 </div>
             </div>
         </div>

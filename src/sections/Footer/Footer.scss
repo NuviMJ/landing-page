@@ -1,25 +1,32 @@
-.Footer{
+.Footer {
   padding: 2.45rem 4rem;
   justify-content: center;
   background-color: var(--white);
-  &>div{
+
+  & > div {
     display: flex;
 
     justify-content: center;
     gap: 20px;
   }
-&-logoContainer{
-  flex: 1.5;
-}
 
-&-contentContainer{
-flex: 1;
-}
+  &-logoContainer {
+    flex: 1.5;
+  }
 
+  &-contentContainer {
+    flex: 1;
+  }
 
-&-imgContainer{
-  flex: 1;
-}
+  & a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--black);
+  }
+
+  &-imgContainer {
+    flex: 1;
+  }
 
   @media(max-width: 900px) {
     & > div {

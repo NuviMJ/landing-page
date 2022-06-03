@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import './Accordion.scss'
 interface Props {
     title:string;
-    content:string;
+    content:any;
 }
 const Accordion = ({ title, content }:Props) => {
     const [isActive, setIsActive] = useState(false);

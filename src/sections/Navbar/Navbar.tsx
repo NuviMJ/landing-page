@@ -6,6 +6,8 @@ import headerIcon from '../../assets/img/header.svg'
 
 const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
+    const [isSubNavExpanded, setIsSubNavExpanded] = useState(false)
+
     return (
         <header className="Navbar">
             <div className="Navbar-wrapper">
@@ -27,10 +29,30 @@ const Navbar = () => {
                     }>
                         <nav>
                             <ul>
-                                <li>
-                                    <Link to='/'>
-                                        Our Solutions
-                                    </Link>
+                                <li onMouseOver={() => {
+                                    setIsSubNavExpanded(true)
+                                }} onMouseLeave={() => {
+                                    setIsSubNavExpanded(false)
+                                }} className="Navbar-menuContainer">
+                                    {/*<Link to=''>*/}
+                                    Our Solutions<span aria-hidden="true">&#x25be;</span>
+                                    {/*</Link>*/}
+                                    <ul className={
+                                        isSubNavExpanded ? "Navbar-subExpanded Navbar-subMenu" : "Navbar-subCollapsed Navbar-subMenu"
+                                    }>
+                                        <li>
+                                            <Link to='/on-demand'> On Demand</Link>
+                                        </li>
+                                        <li>
+                                            <Link to='/leadership'> Leadership</Link>
+                                        </li>
+                                        <li>
+                                            <Link to='/workshops'>Workshops</Link>
+                                        </li>
+                                        <li>
+                                            <Link to='/metaverse'>Metaverse</Link>
+                                        </li>
+                                    </ul>
                                 </li>
 
                                 <li>
@@ -46,7 +68,7 @@ const Navbar = () => {
                                 </li>
 
                                 <li>
-                                    <Link to=''>
+                                    <Link to='/case-studies'>
                                         Case Studies
                                     </Link>
                                 </li>

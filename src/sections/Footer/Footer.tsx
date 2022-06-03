@@ -25,22 +25,20 @@ const Footer = () => {
                         NETHERLANDS</p>
                 </div>
                 <div className="Footer-contentContainer">
-                    <a><p>About</p></a>
-                    <a><p>Privacy Policy</p></a>
-                    <a><p>Terms & Conditions</p></a>
-                    <a><p>I am a coach</p></a>
+                    <a href="/about"><p>About</p></a>
+                    <a href="/privacy-policy"><p>Privacy Policy</p></a>
+                    <a href="/terms-and-conditions"><p>Terms & Conditions</p></a>
+                    <a href="/coaches"><p>I am a coach</p></a>
 
                 </div>
                 <div className="Footer-contentContainer">
                     <a><p>I am an employee</p></a>
-                    <a><p>Policies</p></a>
-                    <a><p>Speak to an expert</p></a>
+                    {/*<a href="/policies"><p>Policies</p></a>*/}
+                    <a href="https://meetings.hubspot.com/quentin-bouche" target="_blank"><p>Speak to an expert</p></a>
 
                 </div>
                 <div className="Footer-imgContainer">
                     <img src={laFrenchTechLogo}/>
-
-
                 </div>
             </div>
         </footer>

@@ -7,7 +7,7 @@ import EMCCLogo from '../../assets/img/ourCoaches/emcc.svg'
 // @ts-ignore
 import coach1 from '../../assets/img/ourCoaches/coach1.svg'
 // @ts-ignore
-import coach2 from '../../assets/img/ourCoaches/coach2.svg'
+import coach2 from '../../assets/img/ourCoaches/coach(1).png'
 // @ts-ignore
 import coach3 from '../../assets/img/ourCoaches/coach3.svg'
 
@@ -29,8 +29,8 @@ const OurCoaches = () => {
                     <img src={EMCCLogo}/>
                 </div>
                 <div className="OurCoaches-imgContainer">
-                    <img src={coach1}/>
-                    <img src={coach2}/>
+                    <img  src={coach1}/>
+                    <img style={{height:"344px"}} src={coach2}/>
                     <img src={coach3}/>
                 </div>
 

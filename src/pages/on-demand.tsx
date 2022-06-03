@@ -24,7 +24,7 @@ import ImgContentTemplate from "../components/ImgContentTemplate/ImgContentTempl
 import coachingBenefitImg from '../assets/img/coachingAsBenefit.svg'
 import Measure from "../sections/Measure/Measure";
 
-const LeadershipPage = () => {
+const OnDemandPage = () => {
     return (<>
             <Navbar/>
             <ImgContentTemplate img={coachingBenefitImg} title="Coaching as a benefit"
@@ -94,4 +94,4 @@ const LeadershipPage = () => {
     )
 }
 
-export default LeadershipPage
+export default OnDemandPage

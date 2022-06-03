@@ -1,0 +1,22 @@
+.PrivacyPolicy{
+  padding: 2.45rem 20.45rem;
+  justify-content: center;
+  background-color: var(--pink-light);
+  line-height: 27px;
+&-title{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+&-top{
+  text-align: right;
+}
+
+  @media screen and (max-width: 1000px) {
+    padding: 2.45rem 10.0875rem;
+  }
+  @media screen and (max-width: 650px) {
+    padding: 2.45rem 2.0875rem;
+  }
+
+}
