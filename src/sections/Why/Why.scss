@@ -1,5 +1,5 @@
 .Why {
-  padding: 2.45rem;
+  padding: 2.45rem 6.45rem;
   justify-content: center;
   background-color: var(--pink-light);
 
@@ -19,12 +19,20 @@
     display: flex;
     flex-wrap: wrap;
     --gapvar: 10px;
-
+    justify-content: center;
     gap: var(--gapvar);
 
     & > div {
       min-width: 200px;
       flex: calc(25% - var(--gapvar));
+
+      flex-grow: initial;
+
+
     }
   }
+  @media screen and (max-width: 650px) {
+    padding: 2.45rem 2.0875rem;
+  }
+
 }

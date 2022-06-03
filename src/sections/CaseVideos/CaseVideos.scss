@@ -1,0 +1,35 @@
+.CaseVideos {
+  padding: 6.45rem;
+  justify-content: center;
+  background-color: var(--warm-white);
+
+  & > div {
+    --gapvar: 20px;
+    flex: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gapvar);
+
+    & > div {
+      flex: calc(50% - var(--gapvar));
+      min-width: 400px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+  }
+
+  & ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  @media(min-width: 1028px) {
+    & > div > div {
+      flex-grow: initial;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    padding: 2.45rem 2.0875rem;
+  }
+}

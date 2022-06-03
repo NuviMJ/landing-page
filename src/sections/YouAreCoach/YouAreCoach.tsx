@@ -1,10 +1,9 @@
 import React from 'react';
 
 
-
 import './YouAreCoach.scss'
 
-const YouAreCoach = ( ) => {
+const YouAreCoach = () => {
     return (
         <div className="YouAreCoach">
             <div>

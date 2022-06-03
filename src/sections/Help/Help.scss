@@ -1,5 +1,5 @@
 .Help {
-  padding: 4.45rem;
+  padding: 6.45rem;
   justify-content: center;
   background-color: var(--warm-white);
 
@@ -37,5 +37,8 @@ flex-wrap: wrap;
     & > div {
       flex: calc(50% - var(--gapvar));
     }
+  }
+  @media screen and (max-width: 650px) {
+    padding: 2.45rem 2.0875rem;
   }
 }

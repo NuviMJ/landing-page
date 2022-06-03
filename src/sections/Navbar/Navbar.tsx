@@ -40,7 +40,7 @@ const Navbar = () => {
                                 </li>
 
                                 <li>
-                                    <Link to=''>
+                                    <Link to='/about'>
                                         About Us
                                     </Link>
                                 </li>

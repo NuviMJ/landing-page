@@ -1,0 +1,35 @@
+.WhatYouGetTemplate {
+  padding: 6.45rem;
+  justify-content: center;
+  background-color: var(--warm-white);
+
+  & > div >div{
+    --gapvar: 20px;
+    flex: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gapvar);
+
+    & > div {
+      flex: calc(25% - var(--gapvar));
+      min-width: 200px;
+    }
+  }
+  &-button {
+    padding: 11px 32px;
+    border: 1px solid var(--black);
+    border-radius: 100px;
+    margin-top: 20px;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+@media  (max-width: 1000px) {
+  & > div >div>div{
+    flex: calc(50% - var(--gapvar));
+  }
+}
+  @media screen and (max-width: 600px) {
+    padding: 2.45rem 3.0875rem;
+  }
+}

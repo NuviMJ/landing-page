@@ -6,7 +6,7 @@ import benefitThumb from '../../assets/img/thumbnails/benefit.svg'
 // @ts-ignore
 import LDThumb from '../../assets/img/thumbnails/l&d.svg'
 // @ts-ignore
-import WorkshopThumb from '../../assets/img/thumbnails/groupWorkshop.svg'
+import WorkshopThumb from '../../assets/img/thumbnails/workshop.png'
 
 const HowToUse = () => {
     return (
@@ -25,8 +25,8 @@ const HowToUse = () => {
                                url="https://res.cloudinary.com/coachello-dev/video/upload/v1654019621/landing-page/within_a_L_D_tytbnh.mp4"/>
                     <VideoCard title="Group workshops"
                                des="Group coaching, co-development, mediation, soft-skills training "
-                               className="HowToUse-card" thumb={WorkshopThumb}
-                               url="https://res.cloudinary.com/coachello-dev/video/upload/v1654020044/landing-page/group_work_shop_wh2grf.mp4"/>
+                               className="HowToUse-card" thumb={benefitThumb}
+                               url="https://res.cloudinary.com/coachello-dev/video/upload/v1654019776/landing-page/coach_as_benefit_fmnu4r.mp4"/>
                     {/*https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4*/}
                 </div>
             </div>

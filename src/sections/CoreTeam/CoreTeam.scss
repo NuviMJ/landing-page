@@ -1,0 +1,39 @@
+.CoreTeam {
+  padding:6.45rem;
+  justify-content: center;
+  background-color: var(--warm-white);
+
+  & h2 {
+  margin-top: 0;
+  }
+
+  & > div {
+
+  }
+
+  &-headerContainer {
+
+  }
+
+  &-cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    --gapvar: 10px;
+    gap: var(--gapvar);
+
+    & > div {
+      min-width: 200px;
+      flex: calc(25% - var(--gapvar));
+    }
+  }
+
+  @media screen and (max-width:920px) {
+    &-cardContainer >div{
+      flex:auto;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    padding: 2.45rem;
+  }
+}

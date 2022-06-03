@@ -1,5 +1,5 @@
 .Hero {
-  padding: 0.45rem 1.0875rem;
+  padding: 1.45rem 6.0875rem;
 
   justify-content: center;
   & a {
@@ -11,8 +11,8 @@
 
     display: flex;
     justify-content: space-around;
-
-    margin: 0.7rem 3rem;
+gap:30px;
+    //margin: 0.7rem 3rem;
     flex-wrap: wrap;
 
   }
@@ -47,9 +47,12 @@
     align-items: center;
     padding: 0px;
     gap: 15px;
-
+    margin-top: 30px ;
     & > div {
     }
+  }
+  @media screen and (max-width: 650px) {
+    padding: 1.45rem 2.0875rem;
   }
 }
 

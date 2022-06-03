@@ -11,7 +11,7 @@ const GlobalExcellence = () => {
             <div>
                 <div className="GlobalExcellence-contentContainer">
                     <div><p className="h1-red">Global Excellence</p>
-                        <h2>Your team is global?
+                        <h2>Your team is global?<br/>
                             So is ours.</h2>
                         <p>Global Excellence - is what we require from our coaches. We determine their excellence by a
                             two-step interview process, reference checks, assessments, and by monitoring their

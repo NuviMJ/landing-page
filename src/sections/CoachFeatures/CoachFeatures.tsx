@@ -57,9 +57,9 @@ const CoachFeatures = () => {
                                            mission: make coaching accessible.</p>
                                        </>}
                                        icon={communityIcon}/></div>
-                <button className="CoachFeatures-button">Lean More</button>
 
             </div>
+                <button className="CoachFeatures-button">Lean More</button>
         </div>
 
 

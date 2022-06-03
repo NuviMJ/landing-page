@@ -45,6 +45,8 @@
       order: 2;
     }
   }
-
+  @media screen and (max-width: 600px) {
+    padding: 2.45rem 0.0875rem;
+  }
 }
 

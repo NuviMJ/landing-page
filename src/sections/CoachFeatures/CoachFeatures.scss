@@ -1,5 +1,5 @@
 .CoachFeatures {
-  padding: 4.45rem;
+  padding: 6.45rem;
   justify-content: center;
   background-color: var(--warm-white);
 
@@ -12,16 +12,19 @@
 
     & > div {
       flex: calc(50% - var(--gapvar));
+      min-width: 300px;
     }
   }
   &-button {
     padding: 11px 32px;
     border: 1px solid var(--black);
     border-radius: 100px;
-    margin-top: 20px;
+    margin-top: 40px;
     &:hover {
       opacity: 0.8;
     }
   }
-
+  @media screen and (max-width: 600px) {
+    padding: 1.45rem 2.0875rem;
+  }
 }

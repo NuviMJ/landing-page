@@ -4,7 +4,7 @@ interface Props {
     img: any;
     redTitle: string;
     titleE: any;
-    desE: any;
+    desE?: any;
 }
 
 import './ImgContentTemplateRed.scss'

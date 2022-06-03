@@ -1,0 +1,11 @@
+.WhatYouGetCard {
+  padding: 24px;
+  background-color: var(--white);
+  height: 100%;
+&  h3{
+  margin: 6px auto;
+}
+  & span {
+    font-size: 30px;
+  }
+}

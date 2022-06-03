@@ -10,10 +10,12 @@ import {ClientsFeedbackData} from "../../constant/ClientsFeedbackData";
 import upperIcon from '../../assets/img/icons/upper.svg'
 // @ts-ignore
 import downIcon from '../../assets/img/icons/down.svg'
-
-const What = ( ) => {
+interface Props {
+    backColor?:string
+}
+const What = (prop:Props ) => {
     return (
-        <div className="What">
+        <div style={{backgroundColor: prop.backColor }} className="What">
             <div className="What-wrapper">
                 <p className="h1-red">What’s out client say</p>
                 <img className="What-upper" src={upperIcon}/>

@@ -1,9 +1,10 @@
 .What {
-  padding: 3.45rem 1.0875rem;
+  padding: 8.45rem 1.0875rem;
   justify-content: center;
   background-color: var(--pink-light);
   text-align: center;
   position: relative;
+
   &-wrapper {
 
     display: flex;
@@ -12,6 +13,7 @@
     margin: 0.7rem 3rem;
 
   }
+
   /* Slideshow */
   &-slideshow {
     position: relative;
@@ -19,29 +21,39 @@
     width: 70%;
 
   }
-&-upper{
-  position: absolute;
-  left: 130px;
-}
-  &-down{
+
+  &-upper {
+    position: absolute;
+    left: 130px;
+  }
+
+  &-down {
     position: absolute;
     right: 130px;
     bottom: 50px;
   }
+
   &-sliderContainer {
     text-align: center;
 
     & h2 {
-      margin-top: 0;
+      //margin-top: 0;
     }
   }
 
   &-userContainer {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
     text-align: left;
     align-items: center;
+    margin: 15px;
+
+    & > img {
+      width: 64px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
 
     & > div > p {
       font-weight: 600;
@@ -58,21 +70,24 @@
     text-align: center;
 
   }
+  @media screen and (max-width: 600px) {
+    padding: 1.45rem 0.0875rem;
+  }
   @media screen and (max-width: 850px) {
     &-slideshow {
       width: 100%;
     }
-    &-upper{
+    &-upper {
       display: none;
     }
-    &-down{
+    &-down {
       display: none;
     }
     &-wrapper {
       margin: 0;
     }
     & h2 {
-     font-size: 25px;
+      font-size: 25px;
     }
     & p {
       font-size: 15px;
