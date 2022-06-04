@@ -1,7 +1,7 @@
 import React from 'react';
 import './LeadershipCoaching.scss'
 // @ts-ignore
-import leadershipCoachingImg from '../../assets/img/leadershipCoaching.svg'
+import leadershipCoachingImg from '../../assets/img/leadershipCoaching.png'
 import ImgContentTemplate from "../../components/ImgContentTemplate/ImgContentTemplate";
 import ImgContentTemplateRed from "../../components/ImgContentTemplateRed/ImgContentTemplateRed";
 

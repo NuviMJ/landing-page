@@ -21,13 +21,14 @@ import managerIcon from '../assets/img/icons/manager.svg'
 import What from "../sections/What/What";
 import ImgContentTemplate from "../components/ImgContentTemplate/ImgContentTemplate";
 // @ts-ignore
-import coachingBenefitImg from '../assets/img/coachingAsBenefit.svg'
+import onDemandImg from '../assets/img/onDemand.png'
+
 import Measure from "../sections/Measure/Measure";
 
 const OnDemandPage = () => {
     return (<>
             <Navbar/>
-            <ImgContentTemplate img={coachingBenefitImg} title="Coaching as a benefit"
+            <ImgContentTemplate img={onDemandImg} title="Coaching as a benefit"
                                 des={
                                     <>
                                         <p>You can only be truly performant if all of your employees thrive and you have

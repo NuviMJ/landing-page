@@ -18,7 +18,7 @@ import {StepsProvider} from "react-step-builder";
 import CoachingBenefit from "../sections/CoachingBenefit/CoachingBenefit";
 import LeadershipCoaching from "../sections/LeadershipCoaching/LeadershipCoaching";
 import GroupWorkShop from "../sections/GroupWorkShop/GroupWorkShop";
-import Metaverse from "../sections/Metaverse/Metaverse";
+import Metaverse from "../components/Metaverse/Metaverse";
 import CoachFeatures from "../sections/CoachFeatures/CoachFeatures";
 
 // markup
@@ -36,16 +36,7 @@ const IndexPage = () => {
             <What/>
             <Faq/>
             <Footer/>
-            {/*<main  >*/}
-            {/*<title>Home Page</title>*/}
-            {/*  <h1 >*/}
-            {/*    Congratulations*/}
-            {/*    <br />*/}
-            {/*    <span >— you just made a Gatsby site! </span>*/}
-            {/*    🎉🎉🎉*/}
-            {/*  </h1>*/}
 
-            {/*</main>*/}
         </>
     )
 }

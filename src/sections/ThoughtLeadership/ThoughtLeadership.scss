@@ -1,0 +1,70 @@
+.ThoughtLeadership {
+
+  justify-content: center;
+
+  & > div {
+
+
+  }
+
+
+  &-contentContainer {
+    background-color: var(--pink-light);
+    padding: 3.45rem 6.0875rem;
+
+    & > div {
+
+      min-width: 300px;
+
+      & h2 {
+        margin-top: 11px;
+      }
+    }
+  }
+
+  &-inputContainer {
+    padding: 0 6.0875rem 3rem;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  &-cardContainer {
+    background-color: var(--warm-white);
+    padding: 3.45rem 6.0875rem;
+    display: flex;
+    flex-wrap: wrap;
+    --gapvar: 20px;
+    gap: var(--gapvar);
+
+    & > div {
+      flex: calc(33% - var(--gapvar));
+      min-width: 300px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+  }
+  &-buttonContainer {
+    padding: 0 6.0875rem 3rem;
+    display: flex;
+    justify-content: center;
+    background-color: var(--warm-white);
+  }
+
+  &-button {
+    padding: 11px 32px;
+    border: 1px solid var(--black);
+    border-radius: 100px;
+
+    &:hover {
+      background: var(--black);
+      color: var(--white);
+    }
+  }
+  @media screen and (max-width: 600px) {
+    &-contentContainer,&-cardContainer,&-inputContainer {
+      padding: 1.45rem 2.0875rem;
+    }
+  }
+}

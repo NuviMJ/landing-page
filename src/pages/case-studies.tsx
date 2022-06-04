@@ -4,7 +4,7 @@ import '../styles/index.css';
 import '../styles/colour.css';
 import '../styles/fonts.css';
 // @ts-ignore
-import caseStudiesImg from '../assets/img/caseStudies.svg'
+import caseStudiesImg from '../assets/img/caseStudies.png'
 // @ts-ignore
 import philosopyImg from '../assets/img/philosophy.svg'
 

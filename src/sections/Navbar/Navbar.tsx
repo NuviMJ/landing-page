@@ -13,17 +13,17 @@ const Navbar = () => {
             <div className="Navbar-wrapper">
                 <div>
                     <div className="Navbar-logoContainer">
-                        <img src={headerIcon}/>
+                        <Link to='/'> <img src={headerIcon}/></Link>
                     </div>
-                    <button className="Navbar-toggle" onClick={() => {
+                    <a type="button" className={
+                                         isNavExpanded ? "Navbar-toggle  navbar-toggler" : "Navbar-toggle collapsed Navbar-toggle navbar-toggler"
+                                     }   onClick={() => {
                         setIsNavExpanded(!isNavExpanded)
                     }}>
-                        <svg height="20px" xmlns="http://www.w3.org/2000/svg"
-                             viewBox="0 0 448 512">
-                            <path
-                                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/>
-                        </svg>
-                    </button>
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                    </a>
                     <div className={
                         isNavExpanded ? "Navbar-navWrapper expanded" : "Navbar-navWrapper"
                     }>
@@ -35,16 +35,16 @@ const Navbar = () => {
                                     setIsSubNavExpanded(false)
                                 }} className="Navbar-menuContainer">
                                     {/*<Link to=''>*/}
-                                    Our Solutions<span aria-hidden="true">&#x25be;</span>
+                                    Our Solutions <span aria-hidden="true">&#x25be;</span>
                                     {/*</Link>*/}
                                     <ul className={
                                         isSubNavExpanded ? "Navbar-subExpanded Navbar-subMenu" : "Navbar-subCollapsed Navbar-subMenu"
                                     }>
                                         <li>
-                                            <Link to='/on-demand'> On Demand</Link>
+                                            <Link to='/on-demand'>On Demand</Link>
                                         </li>
                                         <li>
-                                            <Link to='/leadership'> Leadership</Link>
+                                            <Link to='/leadership'>Leadership</Link>
                                         </li>
                                         <li>
                                             <Link to='/workshops'>Workshops</Link>
@@ -74,7 +74,7 @@ const Navbar = () => {
                                 </li>
 
                                 <li>
-                                    <Link to=''>
+                                    <Link to='/thought-leadership'>
                                         Thought Leadership
                                     </Link>
                                 </li>

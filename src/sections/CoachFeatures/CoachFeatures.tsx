@@ -59,8 +59,10 @@ const CoachFeatures = () => {
                                        icon={communityIcon}/></div>
 
             </div>
+            <a href="mailto:livia@coachello.io">
                 <button className="CoachFeatures-button">Lean More</button>
-        </div>
+            </a>
+            </div>
 
 
     )

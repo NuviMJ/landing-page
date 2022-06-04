@@ -22,8 +22,8 @@ const YouAreCoach = () => {
                         <b>Also, can you find a better mission than bringing coaching to
                             every company for a global better workplace?</b>
                     </p>
-                    <button className="YouAreCoach-button">Learn More And Join Our Community</button>
-
+                    <a href="mailto:livia@coachello.io"><button className="YouAreCoach-button">Learn More And Join Our Community</button>
+                    </a>
                 </div>
             </div>
         </div>

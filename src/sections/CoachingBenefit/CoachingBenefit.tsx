@@ -1,7 +1,7 @@
 import React from 'react';
 import './CoachingBenefit.scss'
 // @ts-ignore
-import coachingBenefitImg from '../../assets/img/coachingAsBenefit.svg'
+import coachingBenefitImg from '../../assets/img/coachingAsBenefit.png'
 import ImgContentTemplate from "../../components/ImgContentTemplate/ImgContentTemplate";
 
 const CoachingBenefit = () => {

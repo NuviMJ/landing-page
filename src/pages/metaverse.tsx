@@ -21,10 +21,10 @@ import benefitsIcon from '../assets/img/icons/benefits.svg'
 import What from "../sections/What/What";
 import ImgContentTemplate from "../components/ImgContentTemplate/ImgContentTemplate";
 // @ts-ignore
-import coachingBenefitImg from '../../assets/img/coachingAsBenefit.svg'
+import coachingBenefitImg from '../../assets/img/coachingAsBenefit.png'
 import Measure from "../sections/Measure/Measure";
 // @ts-ignore
-import MetaverseImg from "../assets/img/Metaverse.svg";
+import MetaverseImg from "../assets/img/Metaverse.png";
 
 const MetaversePage = () => {
     return (<>

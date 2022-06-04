@@ -20,8 +20,10 @@
     border: 1px solid var(--black);
     border-radius: 100px;
     margin-top: 20px;
+
     &:hover {
-      opacity: 0.8;
+      background: var(--black);
+      color: var(--white);
     }
   }
 @media  (max-width: 1000px) {

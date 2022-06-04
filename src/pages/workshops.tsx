@@ -21,10 +21,10 @@ import clarityIcon from '../assets/img/icons/clarity.svg'
 import What from "../sections/What/What";
 import ImgContentTemplate from "../components/ImgContentTemplate/ImgContentTemplate";
 // @ts-ignore
-import coachingBenefitImg from '../../assets/img/coachingAsBenefit.svg'
+import coachingBenefitImg from '../../assets/img/coachingAsBenefit.png'
 import Measure from "../sections/Measure/Measure";
 // @ts-ignore
-import GroupWorkShopImg from "../assets/img/GroupWorkshop.svg";
+import GroupWorkShopImg from "../assets/img/GroupWorkshop.png";
 
 const WorkshopsPage = () => {
     return (<>

@@ -1,7 +1,7 @@
 import React from 'react';
 import ImgContentTemplate from "../../components/ImgContentTemplate/ImgContentTemplate";
 // @ts-ignore
-import GroupWorkShopImg from "../../assets/img/GroupWorkshop.svg";
+import GroupWorkShopImg from "../../assets/img/GroupWorkshop.png";
 
 const GroupWorkShop = () => {
     return (

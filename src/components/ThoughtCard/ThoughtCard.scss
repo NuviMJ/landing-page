@@ -1,0 +1,43 @@
+.ThoughtCard {
+  justify-content: center;
+  background-color: var(--white);
+
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+  }
+
+  &-videoContainer {
+    //height: 200px;
+    //background-color: red;
+  }
+
+  &-contentContainer {
+    margin: 10px 10px 20px 20px;
+
+    & >div {
+      display: flex;
+      gap: 10px;
+
+      & > img {
+        width: 32px;
+      }
+    }
+  }
+
+  & h3 {
+    display: flex;
+    gap: 16px;
+    margin: 10px 0;
+
+  }
+
+  p {
+    margin: 0;
+  }
+
+
+}
+

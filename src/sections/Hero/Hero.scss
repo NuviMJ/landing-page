@@ -36,7 +36,8 @@ gap:30px;
     border-radius: 100px;
 
     &:hover {
-      opacity: 0.8;
+      background: var(--black);
+      color: var(--white);
     }
   }
 
@@ -49,6 +50,9 @@ gap:30px;
     gap: 15px;
     margin-top: 30px ;
     & > div {
+      >img{
+        height: 55px;
+      }
     }
   }
   @media screen and (max-width: 650px) {

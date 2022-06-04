@@ -16,7 +16,8 @@ import CoreTeam from "../sections/CoreTeam/CoreTeam";
 const AboutPage = () => {
     return (<>
             <Navbar/>
-            <ImgContentTemplateRed img={CongueImg} redTitle="Congue rutrum" titleE={<h1>About Coachello</h1>} desE={
+            <ImgContentTemplateRed img={CongueImg}
+                                   redTitle="Congue rutrum" titleE={<h1>About Coachello</h1>} desE={
                 <>
                     <b>Coachello is a solution that puts your talents in contact with high quality coaches at moments
                         they need them most during their employee experience.</b>

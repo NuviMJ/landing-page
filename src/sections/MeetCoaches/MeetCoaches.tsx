@@ -27,11 +27,11 @@ const MeetCoaches = () => {
                 </p>
 
                 <div className="MeetCoaches-imgContainer">
-                    <div><h4>Amélie</h4><img src={amelieImg}/></div>
-                    <div><h4>Sandrine</h4><img src={sandrineImg}/></div>
-                    <div><h4>Stas</h4><img src={stasImg}/></div>
-                    <div><h4>Mirjana</h4><img src={mirjanaImg}/></div>
-                    <div><h4>Olivier</h4><img src={oliverImg}/></div>
+                    <div><h4>Amélie</h4><img src="https://i.ibb.co/phq55St/01-Amelie-Papin-Portrait-Photoshoot-Octobre-2019-compressed-Ame-lie-Papin-NEWUX.jpg"/></div>
+                    <div><h4>Sandrine</h4><img src="https://i.ibb.co/QnZ6mkp/DSC-4824-bewerkt-Sandrine-Bostyn-NEWUX.jpg"/></div>
+                    <div><h4>Stas</h4><img src={"https://i.ibb.co/xDtr19N/stasfinals-face-Stas-Gromin-NEWUX.jpg"}/></div>
+                    <div><h4>Mirjana</h4><img src={"https://i.ibb.co/1mDDX8j/NEB03385-Mirjana-Gomilanovic-NEWUX.jpg"}/></div>
+                    <div><h4>Olivier</h4><img src={"https://i.ibb.co/QCv1Gw9/O-FRIEDMAN-Olivier-Friedman-Prism-Up-NEWUX.jpg"}/></div>
                 </div>
 
             </div>

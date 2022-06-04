@@ -21,7 +21,8 @@
     border-radius: 100px;
     margin-top: 40px;
     &:hover {
-      opacity: 0.8;
+      background: var(--black);
+      color: var(--white);
     }
   }
   @media screen and (max-width: 600px) {

@@ -9,7 +9,7 @@ import ImgContentTemplateRed from "../components/ImgContentTemplateRed/ImgConten
 import WhatYouGetTemplate from "../components/WhatYouGetTemplate/WhatYouGetTemplate";
 
 // @ts-ignore
-import leadershipCoachingImg from '../assets/img/leadershipCoaching.svg'
+import leadershipCoachingImg from '../assets/img/leadershipCoaching.png'
 // @ts-ignore
 import macImg from '../assets/img/MacBook Air.svg'
 // @ts-ignore

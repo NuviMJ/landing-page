@@ -4,19 +4,19 @@ import './Hero.scss'
 // @ts-ignore
 import heroImg from '../../assets/img/Hero.svg'
 // @ts-ignore
-import boltLogo from '../../assets/img/companies/boltLogo.svg'
+import boltLogo from '../../assets/img/companies/boltLogo.png'
 // @ts-ignore
-import gorgiasLogo from '../../assets/img/companies/gorgiasLogo.svg'
+import gorgiasLogo from '../../assets/img/companies/gorgiasLogo.png'
 // @ts-ignore
-import hylandLogo from '../../assets/img/companies/hylandLogo.svg'
+import hylandLogo from '../../assets/img/companies/hylandLogo.png'
 // @ts-ignore
 import meilleursLogo from '../../assets/img/companies/meilleursLogo.png'
 // @ts-ignore
-import morningLogo from '../../assets/img/companies/morningLogo.svg'
+import morningLogo from '../../assets/img/companies/morningLogo.png'
 // @ts-ignore
-import papernestLogo from '../../assets/img/companies/papernestLogo.svg'
+import papernestLogo from '../../assets/img/companies/papernestLogo.png'
 // @ts-ignore
-import qontoLogo from '../../assets/img/companies/qontoLogo.svg'
+import qontoLogo from '../../assets/img/companies/qontoLogo.png'
 // @ts-ignore
 import keplerLogo from '../../assets/img/companies/keplerLogo.png'
 
