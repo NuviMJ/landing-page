@@ -2,7 +2,7 @@ import React from 'react';
 
 import './GlobalExcellence.scss'
 // @ts-ignore
-import ExcellenceImg from '../../assets/img/excellence.svg'
+import ExcellenceImg from '../../assets/img/excellence.png'
 
 
 const GlobalExcellence = () => {

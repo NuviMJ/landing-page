@@ -1,7 +1,7 @@
 import React from 'react';
 
 // @ts-ignore
-import macImg from '../../assets/img/MacBook Air.svg'
+import macImg from '../../assets/img/MacBook Air.png'
 import './Measure.scss'
 
 const Measure = () => {

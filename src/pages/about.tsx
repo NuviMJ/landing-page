@@ -4,7 +4,7 @@ import '../styles/index.css';
 import '../styles/colour.css';
 import '../styles/fonts.css';
 // @ts-ignore
-import CongueImg from '../assets/img/congue.svg'
+import CongueImg from '../assets/img/about.jpeg'
 // @ts-ignore
 import philosopyImg from '../assets/img/philosophy.svg'
 
@@ -17,7 +17,7 @@ const AboutPage = () => {
     return (<>
             <Navbar/>
             <ImgContentTemplateRed img={CongueImg}
-                                   redTitle="Congue rutrum" titleE={<h1>About Coachello</h1>} desE={
+                                   redTitle="Coachello" titleE={<h1>About Coachello</h1>} desE={
                 <>
                     <b>Coachello is a solution that puts your talents in contact with high quality coaches at moments
                         they need them most during their employee experience.</b>

@@ -8,7 +8,7 @@ import Footer from "../sections/Footer/Footer";
 // @ts-ignore
 import leadershipCoachingImg from '../assets/img/leadershipCoaching.png'
 // @ts-ignore
-import macImg from '../assets/img/MacBook Air.svg'
+import macImg from '../assets/img/MacBook Air.png'
 // @ts-ignore
 import selfIcon from '../assets/img/icons/self.svg'
 // @ts-ignore

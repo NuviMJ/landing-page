@@ -1,17 +1,18 @@
 .Measure {
-  padding: 3.45rem 2.0875rem;
+  padding: 3.45rem 6.0875rem;
   justify-content: center;
 
   & > div {
     display: flex;
     justify-content: space-around;
-    margin: 0.7rem 3rem 0.7rem 10px;
+    //margin: 0.7rem 3rem 0.7rem 10px;
     flex-wrap: wrap;
   }
 
   &-imgContainer {
     flex: 1;
-
+    display: flex;
+    align-items: center;
     & > img {
       width: 100%;
       min-width: 378px;
@@ -23,7 +24,7 @@
     display: flex;
     align-items: center;
     & > div {
-      margin: 0.7rem 4rem;
+      //margin: 0.7rem 4rem;
 
       & h2, h1 {
         margin-top: 11px;
@@ -31,6 +32,6 @@
     }
   }
   @media screen and (max-width: 600px) {
-    padding: 2.45rem 1.0875rem;
+    padding: 2.45rem 2.0875rem;
   }
 }

@@ -41,9 +41,12 @@
     justify-content: center;
 margin: 10px;
     gap: 5px;
+    &>img{
+      height: 90px;
+    }
   }
 
-  @media(max-width: 1080px) {
+  @media(max-width: 1130px) {
     &-imgContainer :nth-child(2) {
 
       order: 2;

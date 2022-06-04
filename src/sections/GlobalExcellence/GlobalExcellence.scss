@@ -1,11 +1,11 @@
 .GlobalExcellence {
-  padding: 3.45rem 2.0875rem;
+  padding: 3.45rem 6.0875rem;
   justify-content: center;
 
   & > div {
     display: flex;
     justify-content: space-around;
-    margin: 0.7rem 3rem 0.7rem 10px;
+    //margin: 0.7rem 3rem 0.7rem 10px;
     flex-wrap: wrap;
     background-image: url("../../assets/img/worldMap.svg");
     background-repeat: no-repeat;
@@ -17,9 +17,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    align-items: center;
     & > img {
-      width: 95%;
+      width: 100%;
       min-width: 300px;
     }
   }
@@ -29,7 +29,7 @@
     flex: 1;
 
     & > div {
-      margin: 0.7rem 4rem;
+      //margin: 0.7rem 4rem;
       min-width: 300px;
 
       & h2 {
@@ -37,7 +37,7 @@
       }
     }
   }
-  @media screen and (max-width: 600px) {
-    padding: 1.45rem 0.0875rem;
+  @media screen and (max-width: 650px) {
+    padding: 1.45rem 2.0875rem;
   }
 }

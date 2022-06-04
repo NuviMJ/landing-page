@@ -1,9 +1,9 @@
 import React from 'react';
 import './OurCoaches.scss'
 // @ts-ignore
-import ICFLogo from '../../assets/img/ourCoaches/icf.svg'
+import ICFLogo from '../../assets/img/ourCoaches/icf.png'
 // @ts-ignore
-import EMCCLogo from '../../assets/img/ourCoaches/emcc.svg'
+import EMCCLogo from '../../assets/img/ourCoaches/emcc.png'
 // @ts-ignore
 import coach1 from '../../assets/img/ourCoaches/coach1.svg'
 // @ts-ignore
