@@ -2,7 +2,7 @@ import React from 'react';
 import './Hero.scss'
 
 // @ts-ignore
-import heroImg from '../../assets/img/Hero.svg'
+import heroImg from '../../assets/img/hero.png'
 // @ts-ignore
 import boltLogo from '../../assets/img/companies/boltLogo.png'
 // @ts-ignore

@@ -1,11 +1,11 @@
 .Faq {
-  padding: 1.45rem 1.0875rem;
+  padding: 2.45rem 5.0875rem;
   justify-content: center;
   background-color: var(--warm-white);
   text-align: center;
 
   & > div {
-    margin: auto 65px;
+    //margin: auto 65px;
   }
 
   &-headerContainer {
@@ -28,7 +28,10 @@
   }
   @media(max-width: 800px) {
     & > div {
-      margin: auto 10px;
+      //margin: auto 10px;
     }
+  }
+  @media screen and (max-width: 650px) {
+    padding: 2.45rem 2.0875rem;
   }
 }

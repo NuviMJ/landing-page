@@ -1,20 +1,19 @@
 import React from 'react';
 import './HowItWorks.scss'
 
-import ScrollSlider from "../../components/ScrollSlider/ScrollSlider";
-import HowItWorks1 from "./HowItWorks1/HowItWorks1";
-import HowItWorks2 from "./HowItWorks2/HowItWorks2";
-import HowItWorks3 from "./HowItWorks3/HowItWorks3";
-import {StepsProvider} from "react-step-builder";
-import {useIntersection} from "../../hooks/useIntersection";
+
+import HowItWorksStep from "../../components/HowItWorksStep/HowItWorksStep";
+
 import {useScrollEffect} from "../../hooks/useScrollEffect";
-import './HowItWorks1/HowItWorks1.scss'
+
 // @ts-ignore
-import howItWorks1Img from '../../assets/img/howItWorks1.svg'
+import howItWorks1Img from '../../assets/img/howItWorks1.png'
 // @ts-ignore
-import howItWork2Img from '../../assets/img/howItWork2.svg'
+import howItWorks2Img from '../../assets/img/howItWorks2.png'
 // @ts-ignore
-import howItWork3sImg from '../../assets/img/howItWorks3.svg'
+import howItWorks3Img from '../../assets/img/howItWorks3.png'
+// @ts-ignore
+import frameImg from '../../assets/img/tablet.png'
 // @ts-ignore
 import slackIcon from '../../assets/img/icons/slack.svg'
 // @ts-ignore
@@ -32,7 +31,7 @@ const HowItWorks = () => {
     let styleSub: any;
     if (isTop) {
         style = {
-            paddingBottom: "400vh",
+            paddingBottom: "300vh",
             paddingTop: "0px"
         }
         styleSub = {
@@ -40,7 +39,7 @@ const HowItWorks = () => {
         }
     } else {
         style = {
-            paddingTop: "400vh",
+            paddingTop: "300vh",
             paddingBottom: "0px"
         }
         styleSub = {
@@ -66,18 +65,22 @@ const HowItWorks = () => {
                     <div style={styleSub} className={scrolling ? "HowItWorks-startEffect" : undefined}>
                         <div>
                             {/*    <div>*/}
-                            <HowItWorks1 opacity={opacity.op1}
+                            <HowItWorksStep opacity={opacity.op1}
                                 title="1. Assessment"
                                 des="Assess your strengths and challenges"
                                 img={howItWorks1Img}/>
-                            <HowItWorks1 opacity={opacity.op2}
+                            <HowItWorksStep opacity={opacity.op2}
                                 title="2. Choose your coach"
                                 des={<>Based on their personality, professional<br/> experience and languages</>}
-                                img={howItWork2Img}/>
-                            <HowItWorks1 opacity={opacity.op3}
+                                img={howItWorks2Img}/>
+                            <HowItWorksStep opacity={opacity.op3}
                                 title="3. Start 1:1 coaching"
                                 des="To reach your maximum potential!"
-                                img={howItWork3sImg}/>
+                                img={howItWorks3Img}/>
+                            <HowItWorksStep opacity={opacity.op1==0?1:0}
+                                title=" "
+                                des=" "
+                                img={frameImg}/>
                             {/*<div className="HowItWorks1">*/}
                             {/*    <div className="HowItWorks1-contentContainer">*/}
                             {/*        <div><h3>1. Assessment</h3>*/}

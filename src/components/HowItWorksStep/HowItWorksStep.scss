@@ -1,4 +1,4 @@
-.HowItWorks1 {
+.HowItWorksStep {
     //padding: 2.45rem;
     justify-content: center;
     //transition: all 1s ease-in;
@@ -18,20 +18,21 @@
     padding: 1rem 6rem;
 
     &-imgContainer {
-        //flex: 1;
+        flex: 1;
         display: flex;
         justify-content: center;
         &>img {
             min-width: 250px;
             height: 90vh;
-            width: 100%;
+            //width: 100%;
         }
     }
     &-contentContainer {
-        //flex: 1;
+        flex: 1;
         display: flex;
-        justify-content: center;
+
         align-items: center;
+        justify-content: flex-end;
         &>div {}
     }
 
@@ -39,7 +40,7 @@
         flex-direction: column;
         gap: 5px;
         &-imgContainer,&-contentContainer {
-            flex: auto;
+            //flex: auto;
         }
         &-imgContainer {
             &>img {

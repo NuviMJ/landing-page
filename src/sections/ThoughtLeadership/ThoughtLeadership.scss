@@ -45,6 +45,7 @@
       overflow: hidden;
     }
   }
+
   &-buttonContainer {
     padding: 0 6.0875rem 3rem;
     display: flex;
@@ -62,8 +63,9 @@
       color: var(--white);
     }
   }
+
   @media screen and (max-width: 600px) {
-    &-contentContainer,&-cardContainer,&-inputContainer {
+    &-contentContainer, &-cardContainer, &-inputContainer {
       padding: 1.45rem 2.0875rem;
     }
   }

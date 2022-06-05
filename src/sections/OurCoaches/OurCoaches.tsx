@@ -5,11 +5,11 @@ import ICFLogo from '../../assets/img/ourCoaches/icf.png'
 // @ts-ignore
 import EMCCLogo from '../../assets/img/ourCoaches/emcc.png'
 // @ts-ignore
-import coach1 from '../../assets/img/ourCoaches/coach1.svg'
+import coach1 from '../../assets/img/ourCoaches/coach2.png'
 // @ts-ignore
 import coach2 from '../../assets/img/ourCoaches/coach(1).png'
 // @ts-ignore
-import coach3 from '../../assets/img/ourCoaches/coach3.svg'
+import coach3 from '../../assets/img/ourCoaches/coach3.png'
 
 const OurCoaches = () => {
     return (

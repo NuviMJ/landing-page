@@ -6,7 +6,7 @@ import '../styles/fonts.css';
 // @ts-ignore
 import CongueImg from '../assets/img/about.jpeg'
 // @ts-ignore
-import philosopyImg from '../assets/img/philosophy.svg'
+import philosopyImg from '../assets/img/philosophy.png'
 
 import Footer from "../sections/Footer/Footer";
 import ImgContentTemplateRed from "../components/ImgContentTemplateRed/ImgContentTemplateRed";

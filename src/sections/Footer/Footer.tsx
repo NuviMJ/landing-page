@@ -3,20 +3,21 @@ import './Footer.scss'
 // @ts-ignore
 import coachelloLogo from '../../assets/img/header.svg'
 // @ts-ignore
-import laFrenchTechLogo from '../../assets/img/la+french+tech.svg'
+import laFrenchTechLogo from '../../assets/img/la+french+tech.png'
 
 const Footer = () => {
     return (
         <footer className="Footer">
             <div>
                 <div className="Footer-logoContainer">
-                    <img src={coachelloLogo}/>
-                    <p>Empower your team with career <br/> coaching and get strong ROI.<br/> Seamless integration in Slack and
+                    <img style={{marginTop: "15px"}} src={coachelloLogo}/>
+                    <p>Empower your team with career <br/> coaching and get strong ROI.<br/> Seamless integration in
+                        Slack and
                         <br/>Teams.</p>
 
                 </div>
                 <div className="Footer-contentContainer">
-                    <h4>HQ</h4>
+                    <h4 style={{marginTop: "15px"}}>HQ</h4>
                     <p>103 Rue du Temple
                         75003 Paris
                         FRANCE</p>
