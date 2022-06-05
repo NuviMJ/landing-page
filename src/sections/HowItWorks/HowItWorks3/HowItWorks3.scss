@@ -1,7 +1,14 @@
 .HowItWorks3{
   padding: 2.45rem;
   justify-content: center;
+  width: 100vw;
+  position: absolute;
+  margin: auto;
+  opacity: 0;
 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   &-wrapper {
     display: flex;
     justify-content: center;

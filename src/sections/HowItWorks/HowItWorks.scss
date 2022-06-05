@@ -1,7 +1,69 @@
-.HowItWorks{
-  height: 848px;
-
-  @media screen and (max-width: 1150px) {
-    height: 1148px;
+.HowItWorksContainer {
+  &-wrapper {
+    //padding: 2.45rem 6.085rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
   }
+
+  &-topContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    //margin-bottom: 20px;
+    padding: 2.45rem 6.085rem 0.45rem 6.085rem;
+    & > div {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    & h2 {
+      margin: 0;
+    }
+    @media screen and (max-width: 650px) {
+      padding: 2.45rem 2.085rem 0.45rem 2.085rem;
+    }
+  }
+
+}
+
+.HowItWorks {
+  inset: 0px auto auto 0px;
+  display: block;
+  position: relative;
+  box-sizing: content-box;
+  //width: 100vw;
+  height: 100vh;
+
+  & > div {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    // margin: auto;
+    //inset: auto;
+    right: 0;
+
+    & > div {
+      position: relative;
+      box-sizing: border-box;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //& > div {
+      //  position: relative;
+      //  box-sizing: border-box;
+      //}
+
+    }
+  }
+
+  &-startEffect {
+    position: fixed !important;
+    //inset: 0px auto auto 0px !important;
+  }
+
 }

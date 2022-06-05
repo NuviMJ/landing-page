@@ -18,7 +18,7 @@ import {StepsProvider} from "react-step-builder";
 import CoachingBenefit from "../sections/CoachingBenefit/CoachingBenefit";
 import LeadershipCoaching from "../sections/LeadershipCoaching/LeadershipCoaching";
 import GroupWorkShop from "../sections/GroupWorkShop/GroupWorkShop";
-import Metaverse from "../components/Metaverse/Metaverse";
+
 import CoachFeatures from "../sections/CoachFeatures/CoachFeatures";
 
 // markup

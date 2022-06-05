@@ -27,7 +27,7 @@ const HowToUse = () => {
                                des="Group coaching, co-development, mediation, soft-skills training "
                                className="HowToUse-card"
                                // thumb={WorkshopThumb}
-                               url="https://res.cloudinary.com/coachello-dev/video/upload/v1654336102/group_workshop4_usmwkw.mp4"/>
+                               url="https://res.cloudinary.com/coachello-dev/video/upload/v1654364985/landing-page/group_workshop_isu7km.mp4"/>
                     {/*https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4*/}
                 </div>
             </div>
