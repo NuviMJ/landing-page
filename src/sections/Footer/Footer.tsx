@@ -3,7 +3,7 @@ import './Footer.scss'
 // @ts-ignore
 import coachelloLogo from '../../assets/img/header.svg'
 // @ts-ignore
-import laFrenchTechLogo from '../../assets/img/la+french+tech.png'
+import laFrenchTechLogo from '../../assets/img/La French Tech.png'
 
 const Footer = () => {
     return (

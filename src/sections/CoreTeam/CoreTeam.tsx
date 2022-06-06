@@ -2,13 +2,13 @@ import React from 'react';
 import './CoreTeam.scss'
 
 // @ts-ignore
-import leonImg from '../../assets/img/team/leon.svg'
+import leonImg from '../../assets/img/team/leon.png'
 // @ts-ignore
-import dinalImg from '../../assets/img/team/dinal.svg'
+import dinalImg from '../../assets/img/team/dinal.png'
 // @ts-ignore
-import liviaImg from '../../assets/img/team/livia.svg'
+import liviaImg from '../../assets/img/team/livia.png'
 // @ts-ignore
-import quentinImg from '../../assets/img/team/quentin.svg'
+import quentinImg from '../../assets/img/team/quentin.png'
 
 import TeamCard from "../../components/TeamCard/TeamCard";
 
