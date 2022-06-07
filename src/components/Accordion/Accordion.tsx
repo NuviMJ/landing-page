@@ -13,7 +13,7 @@ const Accordion = ({ title, content }:Props) => {
                 <div>{title}</div>
                 <div>{isActive ? '-' : '+'}</div>
             </div>
-            {isActive && <div className="Accordion-content">{content}</div>}
+            {isActive && <div className="Accordion-content">  {content} </div>}
         </div>
     );
 };

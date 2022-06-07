@@ -17,7 +17,7 @@ const What = (prop:Props ) => {
     return (
         <div style={{backgroundColor: prop.backColor }} className="What">
             <div className="What-wrapper">
-                <p className="h1-red">What’s out client say</p>
+                <p className="h1-red">What our clients say</p>
                 <img className="What-upper" src={upperIcon}/>
                 <SlideShow className="What-slideshow">
                     {ClientsFeedbackData.map(({title,des,userDes,userName,icon},index)=> (

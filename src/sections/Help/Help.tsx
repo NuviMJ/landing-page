@@ -8,7 +8,6 @@ import satisfactionIcon from '../../assets/img/icons/satisfaction.svg'
 import roiIcon from '../../assets/img/icons/roi.svg'
 // @ts-ignore
 import timeIcon from '../../assets/img/icons/time.svg'
-
 import './Help.scss'
 // @ts-ignore
 import helpThumb from '../../assets/img/thumbnails/helpThumb.jpg'
@@ -20,7 +19,7 @@ const Help = () => {
             <div className="Help-wrapper">
                 <div className="Help-leftContainer">
                     <div>
-                        <p className="h1-red">Aliquam scelerisque</p>
+                        <p className="h1-red">Outcome based</p>
                         <h2>Help your talents navigate through the constant changes in your company & their lives</h2>
                         <div className="Help-videoContainer">
                             <HoverVideoPlayer
@@ -32,6 +31,7 @@ const Help = () => {
                                         alt=""
                                         style={{
                                             // Make the image expand to cover the video's dimensions
+                                            display:"none",
                                             width: '100%',
                                             height: '100%',
                                             objectFit: 'contain',
@@ -55,7 +55,7 @@ const Help = () => {
                         <div><HelpCard valueSuffix="/5" value="4.95" header="Satisfaction"
                               des="average user satisfaction"
                               icon={satisfactionIcon}/>  </div>
-                            <div><HelpCard value="3.5-9x" header="ROI $$"
+                            <div><HelpCard value="3.5-9x" header="ROI"
                               des="monetary gains"
                               icon={roiIcon}/>  </div>
                                 <div> <HelpCard value="24h" header="Time to roll out"

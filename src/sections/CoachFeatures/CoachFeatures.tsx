@@ -29,7 +29,7 @@ const CoachFeatures = () => {
                                       icon={certifiedIcon}/></div>
                 <div><CoachFeatureCard
                                        header="Diversified and International"
-                                       des={<><p>AWe have a coach for every profile. Someone needing support on their
+                                       des={<><p>We have a coach for every profile. Someone needing support on their
                                            leadership skills will not have the same coach as someone looking for
                                            psychological support.
                                        </p><p> Our coaches are based on 4 continents and speak over 25 languages like

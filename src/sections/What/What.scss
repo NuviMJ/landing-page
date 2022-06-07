@@ -1,5 +1,5 @@
 .What {
-  padding: 8.45rem 1.0875rem;
+  padding: 2.45rem 1.0875rem;
   justify-content: center;
   background-color: var(--pink-light);
   text-align: center;
@@ -25,12 +25,14 @@
   &-upper {
     position: absolute;
     left: 130px;
+    height: 60px;
   }
 
   &-down {
     position: absolute;
     right: 130px;
     bottom: 50px;
+    height: 60px;
   }
 
   &-sliderContainer {

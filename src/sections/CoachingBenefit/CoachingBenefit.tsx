@@ -26,8 +26,7 @@ const CoachingBenefit = () => {
                                     there at the moment they need it most.
                                 </p><p>
                                     On-demand is the best coaching support you can offer your employees as it is fully
-                                    personalised
-                                    and there at the moment they need it most. This fully personalised approach doesn’t
+                                    personalised. This fully personalised approach doesn’t
                                     mean you
                                     won’t get insights. Aggregated anonymised insights are available to show you their
                                     challenges,

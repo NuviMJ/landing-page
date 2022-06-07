@@ -1,7 +1,7 @@
 // @ts-ignore
 import a1Profile from "../assets/img/clients/avatar-1.jpeg";
 // @ts-ignore
-import a2Profile from "../assets/img/clients/avatar-2.jpeg";
+import a2Profile from "../assets/img/clients/adeline.png";
 // @ts-ignore
 import a3Profile from "../assets/img/clients/avatar-3.jpeg";
 // @ts-ignore
@@ -34,11 +34,5 @@ export const ClientsFeedbackData = [
         icon: a4Profile,
         userName: 'Martine ',
         userDes: 'Manager Tokyo Marine Insurance'
-    }, {
-        title: '“Incredible experience”',
-        des: 'As a coach I was sceptical at first but now I can clearly see the benefits of immersive coaching in the metaverse. Coachees open-up quicklier and are more stress-free when doing their exercises.',
-        icon: a5Profile,
-        userName: 'Thomas Bertelieux',
-        userDes: 'Coachello Leadership Coach'
     }
 ];

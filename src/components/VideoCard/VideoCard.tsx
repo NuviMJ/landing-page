@@ -2,18 +2,19 @@ import React from 'react';
 import './VideoCard.scss'
 import HoverVideoPlayer from 'react-hover-video-player';
 
- interface Props {
-     thumb?:any;
-     url:string;
-     className?:string;
-     title:string;
-     des:string;
+interface Props {
+    thumb?: any;
+    url: string;
+    className?: string;
+    title: string;
+    des: string;
 
- }
+}
+
 const VideoCard = (prop: Props) => {
-     const displayS = prop.thumb?'none':'block'
+    const displayS = prop.thumb ? 'block' : 'none';
     return (
-        <div className={"VideoCard " + prop.className }>
+        <div className={"VideoCard " + prop.className}>
             <div className="VideoCard-wrapper">
                 <div className="VideoCard-videoContainer">
                     <HoverVideoPlayer
@@ -27,7 +28,7 @@ const VideoCard = (prop: Props) => {
                                     width: '100%',
                                     height: '100%',
                                     objectFit: 'cover',
-                                    display:displayS
+                                    display: displayS
                                 }}
                             />
                         }

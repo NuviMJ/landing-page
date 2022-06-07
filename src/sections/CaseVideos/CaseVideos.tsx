@@ -32,11 +32,11 @@ const CaseVideos = () => {
                     <ProfileVideoCard url="https://res.cloudinary.com/coachello-dev/video/upload/v1654020751/landing-page/thomas_iid0wm.mp4"
                                       thumb={thomasThumb}
                                       name="Thomas"
-                                      position="Head of Marketing Germina"
+                                      position="CEO Lefty"
                                       des={<ul>
                                           <li>Scope: Global</li>
                                           <li>Talents: All & full remote</li>
-                                          <li>Languages: 10+</li>
+                                          <li>Languages: 4</li>
                                       </ul>
                                       }
                                       flag="http://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"/>
@@ -46,11 +46,11 @@ const CaseVideos = () => {
                     <ProfileVideoCard url="https://res.cloudinary.com/coachello-dev/video/upload/v1654020734/landing-page/jordan_gxruww.mp4"
                                       thumb={jordanThumb}
                                       name="Jordan"
-                                      position="Head of People"
+                                      position="CMO Germina"
                                       des={<ul>
                                           <li>Scope: Global</li>
                                           <li>Talents: All & full remote</li>
-                                          <li>Languages: 10+</li>
+                                          <li>Languages: 2</li>
                                       </ul>
                                       }
                                       flag="http://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"/>

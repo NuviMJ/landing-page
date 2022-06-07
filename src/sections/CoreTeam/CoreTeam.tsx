@@ -17,7 +17,7 @@ const CoreTeam = () => {
         <div className="CoreTeam">
             <div>
                 <div className="CoreTeam-headerContainer">
-                    <p className="h1-red">Executive Team</p>
+                    <p className="h1-red"></p>
                     <h2>Core team</h2>
                 </div>
                 <div className="CoreTeam-cardContainer">

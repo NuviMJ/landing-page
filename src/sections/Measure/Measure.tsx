@@ -9,7 +9,7 @@ const Measure = () => {
         <div className="Measure">
             <div>
                 <div className="Measure-contentContainer">
-                    <div><p  className="h1-red">Aliquam scelerisquep</p>
+                    <div><p  className="h1-red">Clear results</p>
                        <h2>Measure is to know
                            the unknown struggles inside your company and measure performance right from the start.</h2>
 

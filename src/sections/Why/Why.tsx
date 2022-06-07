@@ -50,7 +50,7 @@ const Why = () => {
 
                     </div>
                     <div>
-                        <WhyCard icon={drivingIcon} title="Diversity and Inclusion"/>
+                        <WhyCard icon={diversityIcon} title="Diversity and Inclusion"/>
 
                     </div>
                 </div>
