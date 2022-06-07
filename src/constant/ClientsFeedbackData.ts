@@ -1,7 +1,7 @@
 // @ts-ignore
 import a1Profile from "../assets/img/clients/avatar-1.jpeg";
 // @ts-ignore
-import a2Profile from "../assets/img/clients/adeline.png";
+import a2Profile from "../assets/img/clients/Adeline.png";
 // @ts-ignore
 import a3Profile from "../assets/img/clients/avatar-3.jpeg";
 // @ts-ignore
