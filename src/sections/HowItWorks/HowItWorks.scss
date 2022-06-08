@@ -45,7 +45,7 @@
     // margin: auto;
     //inset: auto;
     right: 0;
-
+    left: 0;
     & > div {
       position: relative;
       box-sizing: border-box;
@@ -53,6 +53,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      @media screen and (max-width: 850px) {
+        padding-top: 40px;
+      }
       //& > div {
       //  position: relative;
       //  box-sizing: border-box;

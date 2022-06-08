@@ -24,7 +24,7 @@
 
     & > img {
       min-width: 250px;
-      height: 70vh;
+      height: 80vh;
       //width: 100%;
     }
   }
@@ -40,21 +40,39 @@
       position: relative;
       margin-bottom: 200px;
 
+      & > h3 {
+        padding-right: 100px;
+      }
+
       & > h4 {
         position: absolute;
+        margin-top: 0;
       }
     }
   }
-
+  @media screen and (max-width: 1360px) {
+    gap: 80px;
+    &-contentContainer > div > h3 {
+      padding-right: 60px;
+    }
+    &-imgContainer {
+      & > img {
+        height: 65vh;
+      }
+    }
+  }
   @media screen and (max-width: 1200px) {
     gap: 40px;
+    &-contentContainer > div > h3 {
+      padding-right: 30px;
+    }
     &-imgContainer {
       & > img {
         height: 60vh;
       }
     }
   }
-    @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1100px) {
     flex-direction: column;
     gap: 5px;
     &-contentContainer {
@@ -65,12 +83,38 @@
         & > h4 {
           position: relative;
         }
+        &>h3{
+          padding-right: 0;
+        }
       }
     }
     &-imgContainer {
       & > img {
         height: 70vh;
         width: available;
+      }
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+
+    &-contentContainer {
+      & > div {
+
+
+        & > h4 {
+
+        }
+        &>h3{
+
+        }
+      }
+    }
+    &-imgContainer {
+      flex: 2.7;
+      & > img {
+        height: max-content;
+        width: 100%;
       }
     }
   }

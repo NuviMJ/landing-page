@@ -26,6 +26,8 @@ const HowItWorks = () => {
     //     threshold: 0.9
     // })
     const [opacity, isTop, scrolling, ref] = useScrollEffect()
+    // let isSmall = window.matchMedia('(max-width: 600px)').matches;
+    // console.log(isSmall)
     // console.log(opacity, isTop, scrolling)
     let style: any;
     let styleSub: any;
