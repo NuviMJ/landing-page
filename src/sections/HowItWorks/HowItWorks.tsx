@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './HowItWorks.scss'
 
 
@@ -48,15 +48,19 @@ const HowItWorks = () => {
             bottom: "0"
         }
     }
-    if(scrolling){
-        const element = document.getElementById('#navbar')
-        if (element) element.style.opacity = '0';
 
-    }else{
+    useEffect(() => {
+        if(scrolling){
+            const element = document.getElementById('#navbar')
+            if (element) element.style.opacity = '0';
 
-        const element = document.getElementById('#navbar')
-        if (element)  element.style.opacity = '1';
-    }
+        }else{
+
+            const element = document.getElementById('#navbar')
+            if (element)  element.style.opacity = '1';
+        }
+    },[scrolling]);
+
     return (
         <div className="HowItWorksContainer">
             <div className="HowItWorksContainer-wrapper">
