@@ -12,29 +12,31 @@ import './Help.scss'
 // @ts-ignore
 import helpThumb from '../../assets/img/thumbnails/helpThumb.jpg'
 import HoverVideoPlayer from "react-hover-video-player";
-class CountUp {
-    constructor(triggerEl:any, counterEl:any) {
-        const counter = document.querySelector(counterEl)
-        const trigger = document.querySelector(triggerEl)
-        let num = 0
-
-        const countUp = () => {
-            if (num <= counter.dataset.stop)
-                ++num
-            counter.textContent = num
-        }
-
-        const observer = new IntersectionObserver((el) => {
-            if (el[0].isIntersecting) {
-                const interval = setInterval(() => {
-                    (num < counter.dataset.stop) ? countUp() : clearInterval(interval)
-                }, counter.dataset.speed)
-            }
-        }, { threshold: [0] })
-
-        observer.observe(trigger)
-    }
-}
+import CountUp from "react-countup";
+import VisibilitySensor from 'react-visibility-sensor';
+// class CountUp {
+//     constructor(triggerEl: any, counterEl: any) {
+//         const counter = document.querySelector(counterEl)
+//         const trigger = document.querySelector(triggerEl)
+//         let num = 0
+//
+//         const countUp = () => {
+//             if (num <= counter.dataset.stop)
+//                 ++num
+//             counter.textContent = num
+//         }
+//
+//         const observer = new IntersectionObserver((el) => {
+//             if (el[0].isIntersecting) {
+//                 const interval = setInterval(() => {
+//                     (num < counter.dataset.stop) ? countUp() : clearInterval(interval)
+//                 }, counter.dataset.speed)
+//             }
+//         }, {threshold: [0]})
+//
+//         observer.observe(trigger)
+//     }
+// }
 
 const Help = () => {
     return (
@@ -54,7 +56,7 @@ const Help = () => {
                                         alt=""
                                         style={{
                                             // Make the image expand to cover the video's dimensions
-                                            display:"none",
+                                            display: "none",
                                             width: '100%',
                                             height: '100%',
                                             objectFit: 'contain',
@@ -72,19 +74,70 @@ const Help = () => {
                 </div>
                 <div className="Help-rightContainer">
                     <div>
-                        <HelpCard value="70%" header="Average progress"
-                              des="With respect to each coachees challenge, based on over 500 talents coached on Coachello"
-                              icon={averageIcon}/>  </div>
-                        <div>
-                            <HelpCard valueSuffix="/5" value="4.95" header="Satisfaction"
-                              des="average user satisfaction"
-                              icon={satisfactionIcon}/>  </div>
-                            <div><HelpCard value="3.5-9x" header="ROI"
-                              des="monetary gains"
-                              icon={roiIcon}/>  </div>
-                                <div> <HelpCard value="24h" header="Time to roll out"
-                              des="to start your coaching program"
-                              icon={timeIcon}/>  </div>
+                        <HelpCard value={
+                            <CountUp
+                                suffix="%"
+                                end={70} redraw={true}>
+                                {({countUpRef, start}) => (
+                                    <VisibilitySensor onChange={start} delayedCall>
+                                        <span ref={countUpRef}/>
+                                    </VisibilitySensor>
+                                )}
+                            </CountUp>
+                        }
+                                  header="Average progress"
+                                  des="With respect to each coachees challenge, based on over 500 talents coached on Coachello"
+                                  icon={averageIcon}/></div>
+                    <div>
+                        <HelpCard valueSuffix="/5"
+                                  value={
+                                      <CountUp
+                                          decimals={2}
+                                          end={4.95} redraw={true}>
+                                          {({countUpRef, start}) => (
+                                              <VisibilitySensor onChange={start} delayedCall>
+                                                  <span ref={countUpRef}/>
+                                              </VisibilitySensor>
+                                          )}
+                                      </CountUp>
+                                  }
+
+                                  header="Satisfaction"
+                                  des="average user satisfaction"
+                                  icon={satisfactionIcon}/></div>
+                    <div>
+                        <HelpCard value={
+                            <CountUp
+
+                                prefix="3.5-"
+                                suffix="x"
+                                start={1}
+                                end={9} redraw={true}>
+                                {({countUpRef, start}) => (
+                                    <VisibilitySensor onChange={start} delayedCall>
+                                        <span ref={countUpRef}/>
+                                    </VisibilitySensor>
+                                )}
+                            </CountUp>
+                        }
+                                  header="ROI"
+                                  des="monetary gains"
+                                  icon={roiIcon}/></div>
+                    <div><HelpCard value={
+                        <CountUp
+                            suffix="h"
+                            start={1}
+                            end={24} redraw={true}>
+                            {({countUpRef, start}) => (
+                                <VisibilitySensor onChange={start} delayedCall>
+                                    <span ref={countUpRef}/>
+                                </VisibilitySensor>
+                            )}
+                        </CountUp>
+                    }
+                                   header="Time to roll out"
+                                   des="to start your coaching program"
+                                   icon={timeIcon}/></div>
                 </div>
             </div>
         </div>

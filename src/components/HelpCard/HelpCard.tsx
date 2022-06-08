@@ -3,7 +3,7 @@ import  './HelpCard.scss'
 
 interface Props{
     icon:any;
-    value:string;
+    value:any;
     valueSuffix?:string;
     header:string;
     des:string;
@@ -13,7 +13,10 @@ const HelpCard = (props:Props) => {
         <div className="HelpCard">
             <div>
                 <img src={props.icon}/>
-                <h1>{props.value}<span>{props.valueSuffix}</span></h1>
+                <h1>
+                    {props.value}
+
+                    <span className="HelpCard-suffix">{props.valueSuffix}</span></h1>
                 <h4>{props.header}</h4>
                 <p>{props.des}</p>
             </div>

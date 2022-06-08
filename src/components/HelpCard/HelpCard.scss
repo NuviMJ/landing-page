@@ -2,10 +2,17 @@
   padding: 24px;
   background-color: var(--white);
   height: 100%;
-& h1,h4{
-  margin: 2px auto;
-}
-  & span {
+
+  &-suffix {
     font-size: 30px;
   }
+& h1,h4{
+  margin: 2px auto;
+  &-value{
+    line-height: 80px;
+    font-weight: 700;
+    font-size: 64px;
+  }
+}
+
 }
