@@ -1,4 +1,4 @@
-import { debounce } from 'lodash';
+import {debounce} from 'lodash';
 import {useState, useEffect, useRef} from 'react'
 
 export const useScrollEffect = () => {
@@ -20,7 +20,8 @@ export const useScrollEffect = () => {
             let element: any = containerRef.current
             let yt = scroll - element.offsetTop
             const scrollEnd = element.offsetHeight - window.innerHeight
-            // console.log('element current top position:' + yt,  (element.offsetHeight - window.innerHeight))
+            // console.log('screen:' ,scroll)
+
             // console.log('element top:' + (element.offsetHeight -window.innerHeight))
             if (yt >= 0 && yt <= scrollEnd) {
                 setScrolling(true)
@@ -72,17 +73,40 @@ export const useScrollEffect = () => {
             op2 = 0;
             op1 = 0;
         }
-
+        let op1F;
+        let op2F ;
+        let op3F;
+        if (op1 > 0.7) {
+            op1F = 1
+        } else if (op1 < 0.2 && op1>0) {
+            op1F =  0.2
+        }else{
+            op1F = op1;
+        }
+        if (op2 > 0.7) {
+            op2F = 1
+        } else if (op2 < 0.2 && op2>0) {
+            op2F =  0.2
+        }else{
+            op2F = op2;
+        }
+        if (op3 > 0.7) {
+            op3F = 1
+        } else if (op3 < 0.2 && op3>0) {
+            op3F =  0.2
+        }else{
+            op3F = op3;
+        }
         setStepOpacity({
-            op1: op1,
-            op2: op2,
-            op3: op3
+            op1: op1F,
+            op2: op2F,
+            op3: op3F
         })
     }
 
 
     useEffect(() => {
-        window.addEventListener('scroll', scrollCallback );
+        window.addEventListener('scroll', scrollCallback);
         return () => window.removeEventListener('scroll', scrollCallback);
     }, []);
 

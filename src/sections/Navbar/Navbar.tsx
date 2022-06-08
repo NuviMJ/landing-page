@@ -3,21 +3,25 @@ import './Navbar.scss'
 import {Link} from "gatsby";
 // @ts-ignore
 import headerIcon from '../../assets/img/header.svg'
+import {useIsTop} from "../../hooks/useNavStatus";
 
 const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
     const [isSubNavExpanded, setIsSubNavExpanded] = useState(false)
+    const isTop = useIsTop()
+
+
 
     return (
-        <header className="Navbar">
+        <header id="#navbar" className={"Navbar " + ((!isTop)?"Navbar-sticky":'')}>
             <div className="Navbar-wrapper">
                 <div>
                     <div className="Navbar-logoContainer">
                         <Link to='/'> <img src={headerIcon}/></Link>
                     </div>
                     <a type="button" className={
-                                         isNavExpanded ? "Navbar-toggle  navbar-toggler" : "Navbar-toggle collapsed Navbar-toggle navbar-toggler"
-                                     }   onClick={() => {
+                        isNavExpanded ? "Navbar-toggle  navbar-toggler" : "Navbar-toggle collapsed Navbar-toggle navbar-toggler"
+                    } onClick={() => {
                         setIsNavExpanded(!isNavExpanded)
                     }}>
                         <span> </span>

@@ -12,14 +12,17 @@ import OurCoaches from "../sections/OurCoaches/OurCoaches";
 import Faq from "../sections/Faq/Faq";
 import Footer from "../sections/Footer/Footer";
 import What from "../sections/What/What";
+import Counter from "../components/Counter/Counter";
+import {useRef} from "react";
 
 const IndexPage = () => {
+
     return (<>
             <Navbar/>
 
+            {/*<Counter trigger="" run={false} start={0} end={100} duration={10}/>*/}
             <Hero/>
             <HowToUse/>
-
             <HowItWorks/>
             <Help/>
             <Why/>

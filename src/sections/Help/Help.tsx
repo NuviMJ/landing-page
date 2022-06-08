@@ -12,6 +12,29 @@ import './Help.scss'
 // @ts-ignore
 import helpThumb from '../../assets/img/thumbnails/helpThumb.jpg'
 import HoverVideoPlayer from "react-hover-video-player";
+class CountUp {
+    constructor(triggerEl:any, counterEl:any) {
+        const counter = document.querySelector(counterEl)
+        const trigger = document.querySelector(triggerEl)
+        let num = 0
+
+        const countUp = () => {
+            if (num <= counter.dataset.stop)
+                ++num
+            counter.textContent = num
+        }
+
+        const observer = new IntersectionObserver((el) => {
+            if (el[0].isIntersecting) {
+                const interval = setInterval(() => {
+                    (num < counter.dataset.stop) ? countUp() : clearInterval(interval)
+                }, counter.dataset.speed)
+            }
+        }, { threshold: [0] })
+
+        observer.observe(trigger)
+    }
+}
 
 const Help = () => {
     return (
@@ -52,7 +75,8 @@ const Help = () => {
                         <HelpCard value="70%" header="Average progress"
                               des="With respect to each coachees challenge, based on over 500 talents coached on Coachello"
                               icon={averageIcon}/>  </div>
-                        <div><HelpCard valueSuffix="/5" value="4.95" header="Satisfaction"
+                        <div>
+                            <HelpCard valueSuffix="/5" value="4.95" header="Satisfaction"
                               des="average user satisfaction"
                               icon={satisfactionIcon}/>  </div>
                             <div><HelpCard value="3.5-9x" header="ROI"

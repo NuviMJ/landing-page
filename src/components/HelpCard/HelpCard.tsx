@@ -6,7 +6,7 @@ interface Props{
     value:string;
     valueSuffix?:string;
     header:string;
-    des:string
+    des:string;
 }
 const HelpCard = (props:Props) => {
     return (

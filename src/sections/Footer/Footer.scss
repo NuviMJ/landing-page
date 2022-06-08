@@ -1,7 +1,8 @@
 .Footer {
-  padding: 2.45rem 4rem;
+  padding: 2.45rem 5.5rem;
   justify-content: center;
   background-color: var(--white);
+  color: rgba(0, 0, 0, 0.84);
 
   & > div {
     display: flex;
@@ -25,10 +26,11 @@
   }
 
   &-imgContainer {
-    flex: 1;
+    flex:initial;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+
     & > img {
       width: 100px;
     }
