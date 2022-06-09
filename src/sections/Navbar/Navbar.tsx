@@ -77,11 +77,11 @@ const Navbar = () => {
                                     </Link>
                                 </li>
 
-                                <li>
-                                    <Link to='/thought-leadership'>
-                                        Thought Leadership
-                                    </Link>
-                                </li>
+                                {/*<li>*/}
+                                {/*    <Link to='/thought-leadership'>*/}
+                                {/*        Thought Leadership*/}
+                                {/*    </Link>*/}
+                                {/*</li>*/}
                                 <li>
                                     <a target="_blank" rel="noopener noreferrer"
                                        href="https://meetings.hubspot.com/quentin-bouche">

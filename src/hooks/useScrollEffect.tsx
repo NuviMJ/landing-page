@@ -78,22 +78,22 @@ export const useScrollEffect = () => {
         let op3F;
         if (op1 > 0.7) {
             op1F = 1
-        } else if (op1 < 0.2 && op1>0) {
-            op1F =  0.2
+        } else if (op1 < 0.6 && op1>0) {
+            op1F =  0.6
         }else{
             op1F = op1;
         }
         if (op2 > 0.7) {
             op2F = 1
-        } else if (op2 < 0.2 && op2>0) {
-            op2F =  0.2
+        } else if (op2 < 0.6 && op2>0) {
+            op2F =  0.6
         }else{
             op2F = op2;
         }
         if (op3 > 0.7) {
             op3F = 1
-        } else if (op3 < 0.2 && op3>0) {
-            op3F =  0.2
+        } else if (op3 < 0.6 && op3>0) {
+            op3F =  0.6
         }else{
             op3F = op3;
         }
