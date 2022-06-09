@@ -134,6 +134,18 @@
       transition: max-height 0.15s ease-in-out;
       margin: 10px 0 0;
 
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      &:focus {
+        outline: none !important;
+      }
+
       & > li {
         font-weight: 400;
         font-size: 14px;
