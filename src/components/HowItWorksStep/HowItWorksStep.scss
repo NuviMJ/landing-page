@@ -122,7 +122,8 @@
       flex: 2;
 
       & > img {
-        height: 40%;
+        height: min-content;
+        min-height: initial;
         width: 100%;
 
         &:before, &:after {
