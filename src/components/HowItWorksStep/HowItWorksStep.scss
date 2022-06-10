@@ -120,11 +120,14 @@
       }
     }
     &-imgContainer {
-      flex: 2.7;
+      flex: 2;
 
       & > img {
-        height: min-content;
+        height: auto;
         width: 100%;
+        &:before, &:after {
+          -moz-box-sizing: border-box;
+        }
       }
     }
   }
