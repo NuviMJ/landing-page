@@ -28,8 +28,8 @@ const HowToUse = () => {
                                des="Group coaching, co-development, mediation, soft-skills training "
                                className="HowToUse-card"
                                // thumb={WorkshopThumb}
-                               url="https://res.cloudinary.com/coachello-dev/video/upload/v1654578967/landing-page/group_ee6mqg.mp4"/>
-                    {/*https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4*/}
+                               url="https://res.cloudinary.com/coachello-dev/video/upload/v1654623705/landing-page/group1_fqjxrw.mp4"/>
+                    {/*https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4 https://res.cloudinary.com/coachello-dev/video/upload/v1654578967/landing-page/group_ee6mqg.mp4*/}
                 </div>
             </div>
         </div>

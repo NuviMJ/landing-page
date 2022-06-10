@@ -48,18 +48,25 @@ const HowItWorks = () => {
             bottom: "0"
         }
     }
-
     useEffect(() => {
-        if(scrolling){
+        const appHeight = () => {
+            const doc = document.documentElement
+            doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+        }
+        window.addEventListener('resize', appHeight)
+        appHeight()
+    }, []);
+    useEffect(() => {
+        if (scrolling) {
             const element = document.getElementById('#navbar')
             if (element) element.style.opacity = '0';
 
-        }else{
+        } else {
 
             const element = document.getElementById('#navbar')
-            if (element)  element.style.opacity = '1';
+            if (element) element.style.opacity = '1';
         }
-    },[scrolling]);
+    }, [scrolling]);
 
     return (
         <div className="HowItWorksContainer">
