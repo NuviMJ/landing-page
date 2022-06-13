@@ -1,10 +1,8 @@
 import React, {useEffect, useState} from "react"
-import {Router, Link, Location} from "@reach/router"
 import BlogPage from "../../../components/PrismicArticles/blog_page";
 import Navbar from "../../../sections/Navbar/Navbar";
-import {PrismicProvider, useAllPrismicDocumentsByType, usePrismicDocumentByUID} from "@prismicio/react";
+import {PrismicProvider, usePrismicDocumentByUID} from "@prismicio/react";
 import {client} from "../../../utils/prismic";
-import ThoughtLeadership from "../../../sections/ThoughtLeadership/ThoughtLeadership";
 import Footer from "../../../sections/Footer/Footer";
 import {navigate} from "gatsby-link";
 
