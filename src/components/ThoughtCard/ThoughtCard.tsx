@@ -9,6 +9,7 @@ interface Props {
     icon: any;
     thumb: any;
     title: string;
+    subject?: string;
     company: string;
     date: string;
     className?: string;

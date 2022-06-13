@@ -15,19 +15,17 @@ const Article = (prop) => {
     useEffect(() => {
         if (docP) {
             setDoc(docP);
-        } else if (!doc && !docP && state === 'loaded') {
+        } else if (!doc && !docP && state === 'failed') {
             navigate('/404');
         }
-    }, [docP,doc,state])
+    }, [docP,state])
 
     return <>{
-       doc? ( (doc.type === "blog_page") ?
-           <BlogPage doc={doc}/>
-           : <div>
-               Article type not is defined!
-           </div> ) :(( state === 'loaded') ? (
-          null
-       ) :  <p>Loading...</p>)
+        doc ? ((doc.type === "blog_page") ?
+            <BlogPage doc={doc}/>
+            : <div>
+                Article type not is defined!
+            </div>) : ((state === 'loaded') ? null : <p>Loading...</p>)
     }
 
     </>

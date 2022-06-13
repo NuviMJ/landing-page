@@ -50,17 +50,16 @@ const ThoughtLeadership = () => {
                                 to={`/thought-leadership/articles/${page.uid}`}
                                 state={page}
                             >
-                                <ThoughtCard thumb={page.data.image.url} title={page.data.title[0].text}
+                                <ThoughtCard subject={page.data.subject[0]} thumb={page.data.image.url} title={page.data.title[0].text}
                                              icon={i1Icon} company="Coachello"
-                                             date={moment(page.last_publication_date).format('DD/MM/YYYY')}
-                                />
+                                             date={moment(page.last_publication_date).format('MMMM d, YYYY')}/>
                             </Link>
                         </div>
                     ))}
 
                 </div>
                 <div className="ThoughtLeadership-buttonContainer">
-                    <button className="ThoughtLeadership-button">Lean More</button>
+                    {/*<button className="ThoughtLeadership-button">Lean More</button>*/}
                 </div>
             </div>
         </div>
