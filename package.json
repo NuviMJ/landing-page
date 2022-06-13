@@ -19,7 +19,7 @@
     "@prismicio/react": "^2.4.2",
     "gatsby": "^4.15.0",
     "gatsby-plugin-manifest": "^4.15.0",
-    "gatsby-plugin-netlify": "^5.0.0",
+    "gatsby-plugin-netlify": "next",
     "gatsby-plugin-sass": "^5.15.0",
     "moment": "^2.29.3",
     "react": "^17.0.1",
