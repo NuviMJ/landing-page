@@ -12,15 +12,15 @@ import {navigate} from "gatsby-link";
 const Article = (prop) => {
     console.log(prop.params)
     const [doc, setDoc] = useState(prop.location.state);
-    const [document, {state}] = usePrismicDocumentByUID('blog_page', prop.params.name)
+    const [docP, {state}] = usePrismicDocumentByUID('blog_page', prop.params.name)
 
     useEffect(() => {
-        if (document) {
-            setDoc(document);
-        } else if (!doc && !document && state === 'loaded') {
+        if (docP) {
+            setDoc(docP);
+        } else if (!doc && !docP && state === 'loaded') {
             navigate('/404');
         }
-    }, [document])
+    }, [docP])
 
     return <>{
        doc? ( (doc.type === "blog_page") ?
