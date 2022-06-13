@@ -5,7 +5,11 @@ const config: GatsbyConfig = {
         title: `Coachello`,
         siteUrl: `https://coachello.io`
     },
-    plugins: ["gatsby-plugin-sass",
+    plugins: [
+        // used to generate rewrites for client only paths
+        // on demo hosted on Netlify
+        "gatsby-plugin-netlify",
+        "gatsby-plugin-sass",
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
@@ -17,10 +21,7 @@ const config: GatsbyConfig = {
                 display: 'standalone',
                 icon: 'src/assets/img/coachello.svg',
             },
-        },
-        // used to generate rewrites for client only paths
-        // on demo hosted on Netlify
-        `gatsby-plugin-netlify`,]
+        }]
 
 };
 

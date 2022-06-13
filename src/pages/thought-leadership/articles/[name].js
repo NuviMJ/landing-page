@@ -18,7 +18,7 @@ const Article = (prop) => {
         } else if (!doc && !docP && state === 'loaded') {
             navigate('/404');
         }
-    }, [docP])
+    }, [docP,doc,state])
 
     return <>{
        doc? ( (doc.type === "blog_page") ?
