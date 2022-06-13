@@ -9,11 +9,26 @@ import Accordion from "../../components/Accordion/Accordion";
 import {ThoughtCardsData} from "../../constant/ThoughtCardsData";
 import ThoughtCard from "../../components/ThoughtCard/ThoughtCard";
 
+import {
+
+    useAllPrismicDocumentsByType,
+
+} from '@prismicio/react'
+// @ts-ignore
+import i1Icon from "../../assets/img/icons/cIcon.svg";
+import moment from 'moment';
+import {Link} from "gatsby";
 
 const ThoughtLeadership = () => {
+    const [pages, {state}] = useAllPrismicDocumentsByType('blog_page')
+
     return (
         <div className="ThoughtLeadership">
             <div>
+                <div>
+
+
+                </div>
                 <div className="ThoughtLeadership-contentContainer">
                     <div>
                         <p className="h1-red">The future of coaching</p>
@@ -26,12 +41,20 @@ const ThoughtLeadership = () => {
                     <Input placeHolder="Subject" name="sub" icon={searchIcon}/>
                 </div>
                 <div className="ThoughtLeadership-cardContainer">
-                    {ThoughtCardsData.map(({icon, url, title, thumb, company, date}) => (
+                    {state === 'loading' ? (
+                        <p>Loading...</p>
+                    ) : null}
+                    {pages?.map((page: any) => (
                         <div>
-                            <ThoughtCard url={url} thumb={thumb} title={title}
-                                         icon={icon} company={company}
-                                         date={date}
-                            />
+                            <Link
+                                to={`/thought-leadership/articles/${page.uid}`}
+                                state={page}
+                            >
+                                <ThoughtCard thumb={page.data.image.url} title={page.data.title[0].text}
+                                             icon={i1Icon} company="Coachello"
+                                             date={moment(page.last_publication_date).format('DD/MM/YYYY')}
+                                />
+                            </Link>
                         </div>
                     ))}
 

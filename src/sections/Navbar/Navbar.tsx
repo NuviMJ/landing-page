@@ -28,7 +28,7 @@ const Navbar = () => {
                         <span> </span>
                         <span> </span>
                     </a>
-                    <div className={
+                    <div className={ // style={  (!isTop) ? ({top: '36px'}):({top: '48px'})  }
                         isNavExpanded ? "Navbar-navWrapper expanded" : "Navbar-navWrapper"
                     }>
                         <nav>

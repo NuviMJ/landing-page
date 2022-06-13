@@ -9,15 +9,16 @@
     flex-direction: column;
   }
 
-  &-videoContainer {
-    //height: 200px;
-    //background-color: red;
+  &-imgContainer {
+    & > img {
+      width: 100%;
+    }
   }
 
   &-contentContainer {
     margin: 10px 10px 20px 20px;
 
-    & >div {
+    & > div {
       display: flex;
       gap: 10px;
 

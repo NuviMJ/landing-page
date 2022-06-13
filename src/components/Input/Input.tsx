@@ -10,7 +10,7 @@ const Input = (prop:Props) => {
     return (
 
         <div className="Input-container">
-            <input className="Input-field" type="text" placeholder={prop.placeHolder} name={prop.name}/>
+            <input disabled={true} className="Input-field" type="text" placeholder={prop.placeHolder} name={prop.name}/>
             <img src={prop.icon} />
         </div>
     );
