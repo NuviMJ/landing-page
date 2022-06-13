@@ -9,7 +9,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby clean && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"
@@ -19,9 +19,11 @@
     "@prismicio/react": "^2.4.2",
     "gatsby": "^4.15.0",
     "gatsby-plugin-manifest": "^4.15.0",
-    "gatsby-plugin-netlify": "next",
+    "gatsby-plugin-netlify": "^5.0.0",
     "gatsby-plugin-sass": "^5.15.0",
+    "gatsby-link": "^4.16.0",
     "moment": "^2.29.3",
+    "node-fetch": "^2.6.7",
     "react": "^17.0.1",
     "react-countup": "^6.2.0",
     "react-dom": "^17.0.1",
