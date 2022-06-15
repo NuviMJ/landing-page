@@ -31,7 +31,16 @@ const HowItWorks = () => {
     // })
     const [opacity, isTop, scrolling, ref] = useScrollEffect()
 
-    const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width: 650px)').matches)
+    const [isMobile, setIsMobile] = useState(false)
+    useEffect(() => {
+        if (window.matchMedia('(max-width: 650px)').matches) {
+            setIsMobile(true)
+        } else {
+            setIsMobile(false)
+        }
+
+    }, [])
+
     console.log(isMobile)
     // console.log(opacity, isTop, scrolling)
     let style: any;
@@ -54,14 +63,7 @@ const HowItWorks = () => {
         }
     }
 
-    useEffect(() => {
-        if (window.matchMedia('(max-width: 650px)').matches) {
-            setIsMobile(true)
-        } else {
-            setIsMobile(false)
-        }
 
-    }, [window.matchMedia('(max-width: 650px)').matches])
     useEffect(() => {
         const appHeight = () => {
             const doc = document.documentElement
