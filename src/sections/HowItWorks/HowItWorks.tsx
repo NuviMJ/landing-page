@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import './HowItWorks.scss'
 
 
@@ -9,11 +9,15 @@ import {useScrollEffect} from "../../hooks/useScrollEffect";
 // @ts-ignore
 import howItWorks1Img from '../../assets/img/scroll1.png'
 // @ts-ignore
+import howItWorksMobile1Img from '../../assets/img/scrollMobile1.png'
+// @ts-ignore
 import howItWorks2Img from '../../assets/img/scroll2.png'
 // @ts-ignore
 import howItWorks3Img from '../../assets/img/scroll3.png'
 // @ts-ignore
 import frameImg from '../../assets/img/frame.png'
+// @ts-ignore
+import frameMobileImg from '../../assets/img/frameMobile.png'
 // @ts-ignore
 import slackIcon from '../../assets/img/icons/slack.svg'
 // @ts-ignore
@@ -26,8 +30,9 @@ const HowItWorks = () => {
     //     threshold: 0.9
     // })
     const [opacity, isTop, scrolling, ref] = useScrollEffect()
-    // let isSmall = window.matchMedia('(max-width: 600px)').matches;
-    // console.log(isSmall)
+
+    const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width: 650px)').matches)
+    console.log(isMobile)
     // console.log(opacity, isTop, scrolling)
     let style: any;
     let styleSub: any;
@@ -48,6 +53,15 @@ const HowItWorks = () => {
             bottom: "0"
         }
     }
+
+    useEffect(() => {
+        if (window.matchMedia('(max-width: 650px)').matches) {
+            setIsMobile(true)
+        } else {
+            setIsMobile(false)
+        }
+
+    }, [window.matchMedia('(max-width: 650px)').matches])
     useEffect(() => {
         const appHeight = () => {
             const doc = document.documentElement
@@ -89,20 +103,20 @@ const HowItWorks = () => {
                             <HowItWorksStep opacity={opacity.op1}
                                             title="1. Assessment"
                                             des="Assess your strengths and challenges"
-                                            img={howItWorks1Img}/>
+                                            img={isMobile? howItWorksMobile1Img: howItWorks1Img}/>
                             <HowItWorksStep opacity={opacity.op2}
                                             title="2. Choose your coach"
                                             des={<>Based on their personality, professional<br/> experience and
                                                 languages</>}
-                                            img={howItWorks2Img}/>
+                                            img={isMobile? howItWorksMobile1Img: howItWorks2Img}/>
                             <HowItWorksStep opacity={opacity.op3}
                                             title="3. Start 1:1 coaching"
                                             des="To reach your maximum potential!"
-                                            img={howItWorks3Img}/>
-                            <HowItWorksStep opacity={1}
+                                            img={isMobile? howItWorksMobile1Img: howItWorks3Img}/>
+                            <HowItWorksStep opacity={0.1}
                                             title=" "
                                             des=" "
-                                            img={frameImg}/>
+                                            img={isMobile? frameMobileImg: frameImg}/>
                             {/*<div className="HowItWorks1">*/}
                             {/*    <div className="HowItWorks1-contentContainer">*/}
                             {/*        <div><h3>1. Assessment</h3>*/}
