@@ -13,7 +13,11 @@ import howItWorksMobile1Img from '../../assets/img/scrollMobile1.png'
 // @ts-ignore
 import howItWorks2Img from '../../assets/img/scroll2.png'
 // @ts-ignore
+import howItWorksMobile2Img from '../../assets/img/scrollMobile2.png'
+// @ts-ignore
 import howItWorks3Img from '../../assets/img/scroll3.png'
+// @ts-ignore
+import howItWorksMobile3Img from '../../assets/img/scrollMobile3.png'
 // @ts-ignore
 import frameImg from '../../assets/img/frame.png'
 // @ts-ignore
@@ -110,12 +114,12 @@ const HowItWorks = () => {
                                             title="2. Choose your coach"
                                             des={<>Based on their personality, professional<br/> experience and
                                                 languages</>}
-                                            img={isMobile? howItWorksMobile1Img: howItWorks2Img}/>
+                                            img={isMobile? howItWorksMobile2Img: howItWorks2Img}/>
                             <HowItWorksStep opacity={opacity.op3}
                                             title="3. Start 1:1 coaching"
                                             des="To reach your maximum potential!"
-                                            img={isMobile? howItWorksMobile1Img: howItWorks3Img}/>
-                            <HowItWorksStep opacity={0.1}
+                                            img={isMobile? howItWorksMobile3Img: howItWorks3Img}/>
+                            <HowItWorksStep opacity={1}
                                             title=" "
                                             des=" "
                                             img={isMobile? frameMobileImg: frameImg}/>
