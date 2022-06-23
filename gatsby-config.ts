@@ -1,8 +1,11 @@
 import type {GatsbyConfig} from "gatsby";
 
 const config: GatsbyConfig = {
+
     siteMetadata: {
         title: `Coachello`,
+        description: "Online Professional Coaching Platform",
+        author: `@coachello`,
         siteUrl: `https://coachello.io`
     },
     plugins: [
@@ -10,6 +13,7 @@ const config: GatsbyConfig = {
         // on demo hosted on Netlify
         "gatsby-plugin-netlify",
         "gatsby-plugin-sass",
+        "gatsby-plugin-react-helmet",
         {
             resolve: `gatsby-plugin-manifest`,
             options: {

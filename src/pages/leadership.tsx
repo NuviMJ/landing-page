@@ -22,9 +22,12 @@ import coachingIcon from '../assets/img/icons/coaching.svg'
 import managerIcon from '../assets/img/icons/manager.svg'
 import What from "../sections/What/What";
 import ImgContentTemplate from "../components/ImgContentTemplate/ImgContentTemplate";
-
+// @ts-ignore
+import Seo from "../utils/seo";
 const LeadershipPage = () => {
     return (<>
+            <Seo title="Leadership Coaching - Transform Your Managers Into Leaders"
+                 description="Integrate coaching as a core element of your talent & development strategy. Thanks to our professional coaching platform boost your employees skills."/>
             <Navbar/>
             <ImgContentTemplate img={leadershipCoachingImg}
                                 title="Leadership Coaching "

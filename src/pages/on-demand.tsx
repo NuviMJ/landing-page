@@ -24,9 +24,12 @@ import ImgContentTemplate from "../components/ImgContentTemplate/ImgContentTempl
 import onDemandImg from '../assets/img/onDemand.png'
 
 import Measure from "../sections/Measure/Measure";
-
+// @ts-ignore
+import Seo from "../utils/seo";
 const OnDemandPage = () => {
     return (<>
+            <Seo title="Coachello - On Demand Coaching Solution"
+                 description="On-demand is the best coaching support you can offer your employees. With Coachello unleash your employees full potential through personalized trainings."/>
             <Navbar/>
             <ImgContentTemplate img={onDemandImg} title="Coaching as a benefit"
                                 des={
