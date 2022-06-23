@@ -25,9 +25,12 @@ import coachingBenefitImg from '../../assets/img/coachingAsBenefit.png'
 import Measure from "../sections/Measure/Measure";
 // @ts-ignore
 import MetaverseImg from "../assets/img/Metaverse.png";
-
+// @ts-ignore
+import Seo from "../utils/seo";
 const MetaversePage = () => {
     return (<>
+            <Seo title="Coachello - Discover The Metaverse Coaching Experience"
+                 description="This immersive coaching experience is extremely effective. Enjoy all our professional coaching workshops in metaverse thanks to Coachello Labs."/>
             <Navbar/>
             <ImgContentTemplate img={MetaverseImg} title="Metaverse"
                                 des={<>

@@ -19,15 +19,18 @@ import coachingIcon from '../../assets/img/icons/coaching.svg'
 import managerIcon from '../../assets/img/icons/manager.svg'
 
 import ThoughtLeadership from "../../sections/ThoughtLeadership/ThoughtLeadership";
-import { PrismicProvider } from "@prismicio/react";
+import {PrismicProvider} from "@prismicio/react";
 import {client} from "../../utils/prismic";
+// @ts-ignore
+import Seo from "../../utils/seo";
 
 const ThoughtLeadershipPage = () => {
     return (
         <>
+            <Seo title="Coachello - Thought Leadership"/>
             <Navbar/>
             <PrismicProvider client={client}>
-            <ThoughtLeadership/>
+                <ThoughtLeadership/>
             </PrismicProvider>
             <Footer/>
 

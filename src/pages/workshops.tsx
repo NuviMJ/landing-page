@@ -25,9 +25,12 @@ import coachingBenefitImg from '../../assets/img/coachingAsBenefit.png'
 import Measure from "../sections/Measure/Measure";
 // @ts-ignore
 import GroupWorkShopImg from "../assets/img/GroupWorkshop.png";
-
+// @ts-ignore
+import Seo from "../utils/seo";
 const WorkshopsPage = () => {
     return (<>
+            <Seo title="Coachello - Group Coaching Workshops"
+                 description="Help your employees to improve their skills and improve the communication in your teams thanks to our group coaching workshop."/>
             <Navbar/>
             <ImgContentTemplate img={GroupWorkShopImg} title="Group workshops"
                                 des={<>

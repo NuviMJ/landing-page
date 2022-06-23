@@ -18,9 +18,12 @@ import WhatYouGetTemplate from "../components/WhatYouGetTemplate/WhatYouGetTempl
 
 // @ts-ignore
 import certifiedIcon from "../assets/img/features/certified.svg";
+// @ts-ignore
+import Seo from "../utils/seo";
 
 const CaseStudiesPage = () => {
     return (<>
+            <Seo title="Coachello - Case Studies"/>
             <Navbar/>
 
 

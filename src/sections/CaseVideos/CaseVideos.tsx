@@ -46,7 +46,7 @@ const CaseVideos = () => {
                     <ProfileVideoCard url="https://res.cloudinary.com/coachello-dev/video/upload/v1654020734/landing-page/jordan_gxruww.mp4"
                                       thumb={jordanThumb}
                                       name="Jordan"
-                                      position="CMO Germina"
+                                      position="CMO Germinal"
                                       des={<ul>
                                           <li>Scope: Global</li>
                                           <li>Talents: All & full remote</li>
