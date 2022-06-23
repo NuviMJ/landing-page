@@ -20,7 +20,7 @@ import Seo from "../utils/seo";
 // markup
 const CoachesPage = () => {
     return (<>
-            <Seo title="Coachello - Coaches"/>
+            <Seo title="Coachello - Coaches" />
             <Navbar/>
             <GlobalExcellence/>
             <CoachFeatures/>

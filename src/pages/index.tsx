@@ -16,11 +16,14 @@ import Counter from "../components/Counter/Counter";
 // @ts-ignore
 import Seo from "../utils/seo";
 import {useRef} from "react";
+// @ts-ignore
+import seoImg from '../assets/img/SEO.jpg'
 
 const IndexPage = () => {
 
     return (<>
             <Seo title="Coachello - Online Professional Coaching Platform"
+                 image={seoImg}
                  description="Discover our professional coaching platform. From group workshops to individual coaching, we are here to give you an amazing experience."/>
             <Navbar/>
 

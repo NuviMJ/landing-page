@@ -6,7 +6,8 @@ const config: GatsbyConfig = {
         title: `Coachello`,
         description: "Online Professional Coaching Platform",
         author: `@coachello`,
-        siteUrl: `https://coachello.io`
+        siteUrl: `https://coachello.io`,
+
     },
     plugins: [
         // used to generate rewrites for client only paths
