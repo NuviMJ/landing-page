@@ -6,8 +6,8 @@ const config: GatsbyConfig = {
         title: `Coachello`,
         description: "Online Professional Coaching Platform",
         author: `@coachello`,
-        siteUrl: `https://coachello.io`,
-
+        url: `https://coachello.io`,
+        image: "src/assets/img/SEO.jpg", // Path to the image placed in the 'static' folder, in the project's root directory.
     },
     plugins: [
         // used to generate rewrites for client only paths
