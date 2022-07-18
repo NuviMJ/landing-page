@@ -44,18 +44,23 @@ const ThoughtLeadership = () => {
                     {state === 'loading' ? (
                         <p>Loading...</p>
                     ) : null}
-                    {pages?.map((page: any) => (
-                        <div>
-                            <Link
-                                to={`/thought-leadership/articles/${page.uid}`}
-                                state={page}
-                            >
-                                <ThoughtCard subject={page.data.subject[0]} thumb={page.data.image.url} title={page.data.title[0].text}
-                                             icon={i1Icon} company="Coachello"
-                                             date={moment(page.last_publication_date).format('MMMM d, YYYY')}/>
-                            </Link>
-                        </div>
-                    ))}
+                    {pages?.map((page: any) => {
+                        // console.log(moment(page.last_publication_date).format('MMMM D, YYYY'))
+                            return(
+                                <div>
+                                    <Link style={{height: "100%"}}
+                                          to={`/thought-leadership/articles/${page.uid}`}
+                                          state={page}
+                                    >
+                                        <ThoughtCard subject={page.data.subject[0]} thumb={page.data.image.url}
+                                                     title={page.data.title[0].text}
+                                                     icon={i1Icon} company="Coachello"
+                                                     date={moment(page.last_publication_date).format('MMMM D, YYYY')}/>
+                                    </Link>
+                                </div>
+                            )
+                        }
+                    )}
 
                 </div>
                 <div className="ThoughtLeadership-buttonContainer">

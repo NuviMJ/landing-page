@@ -16,6 +16,7 @@ interface Props {
 }
 
 const ThoughtCard = (prop: Props) => {
+
     return (
         <div className={"ThoughtCard " + prop.className}>
             <div className="ThoughtCard-wrapper">

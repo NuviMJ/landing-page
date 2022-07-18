@@ -45,7 +45,7 @@ const HowItWorks = () => {
 
     }, [])
 
-    console.log(isMobile)
+    // console.log(isMobile)
     // console.log(opacity, isTop, scrolling)
     let style: any;
     let styleSub: any;

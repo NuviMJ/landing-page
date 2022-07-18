@@ -16,7 +16,7 @@ const CaseVideos = () => {
             <div>
                 <div>
                     <ProfileVideoCard
-                        url="https://res.cloudinary.com/coachello-dev/video/upload/v1654020755/landing-page/Adeline_qnl7tq.mp4"
+                        url="https://d1x3hp8oc8irfp.cloudfront.net/Adeline.mp4"
                         thumb={adelineThumb}
                         name="Adeline"
                         position="Head of People Gorgias"
@@ -29,7 +29,7 @@ const CaseVideos = () => {
                         flag="http://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"/>
                 </div>
                 <div>
-                    <ProfileVideoCard url="https://res.cloudinary.com/coachello-dev/video/upload/v1654020751/landing-page/thomas_iid0wm.mp4"
+                    <ProfileVideoCard url="https://d1x3hp8oc8irfp.cloudfront.net/thomas.mp4"
                                       thumb={thomasThumb}
                                       name="Thomas"
                                       position="CEO Lefty"
@@ -43,7 +43,7 @@ const CaseVideos = () => {
                 </div>
 
                 <div>
-                    <ProfileVideoCard url="https://res.cloudinary.com/coachello-dev/video/upload/v1654020734/landing-page/jordan_gxruww.mp4"
+                    <ProfileVideoCard url="https://d1x3hp8oc8irfp.cloudfront.net/jordan.mp4"
                                       thumb={jordanThumb}
                                       name="Jordan"
                                       position="CMO Germina"

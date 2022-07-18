@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import HelpCard from "../../components/HelpCard/HelpCard";
 // @ts-ignore
 import averageIcon from '../../assets/img/icons/average.svg'
@@ -14,6 +14,7 @@ import helpThumb from '../../assets/img/thumbnails/helpThumb.jpg'
 import HoverVideoPlayer from "react-hover-video-player";
 import CountUp from "react-countup";
 import VisibilitySensor from 'react-visibility-sensor';
+import HoverPlayer from "../../components/HoverPlayer/HoverPlayer";
 // class CountUp {
 //     constructor(triggerEl: any, counterEl: any) {
 //         const counter = document.querySelector(counterEl)
@@ -39,6 +40,7 @@ import VisibilitySensor from 'react-visibility-sensor';
 // }
 
 const Help = () => {
+
     return (
         <div className="Help">
             <div className="Help-wrapper">
@@ -47,28 +49,29 @@ const Help = () => {
                         <p className="h1-red">Outcome based</p>
                         <h2>Help your talents navigate through the constant changes in your company & their lives</h2>
                         <div className="Help-videoContainer">
-                            <HoverVideoPlayer
-                                className="Help-videoCard"
-                                videoSrc="https://res.cloudinary.com/coachello-dev/video/upload/v1654021005/landing-page/01_Who_are_our_coaches_V1_mbdyts.mp4"
-                                pausedOverlay={
-                                    <img
-                                        src={helpThumb}
-                                        alt=""
-                                        style={{
-                                            // Make the image expand to cover the video's dimensions
-                                            display: "none",
-                                            width: '100%',
-                                            height: '100%',
-                                            objectFit: 'contain',
-                                        }}
-                                    />
-                                }
-                                loadingOverlay={
-                                    <div className="loading-overlay">
-                                        <div className="loading-spinner"/>
-                                    </div>
-                                }
-                            />
+                           <HoverPlayer url="https://d1x3hp8oc8irfp.cloudfront.net/01 Who are our coaches V1.mp4"/>
+                            {/*<HoverVideoPlayer*/}
+                            {/*    className="Help-videoCard"*/}
+                            {/*    videoSrc="https://d1x3hp8oc8irfp.cloudfront.net/thomas.mp4"*/}
+                            {/*    pausedOverlay={*/}
+                            {/*        <img*/}
+                            {/*            src={helpThumb}*/}
+                            {/*            alt=""*/}
+                            {/*            style={{*/}
+                            {/*                // Make the image expand to cover the video's dimensions*/}
+                            {/*                display: "none",*/}
+                            {/*                width: '100%',*/}
+                            {/*                height: '100%',*/}
+                            {/*                objectFit: 'contain',*/}
+                            {/*            }}*/}
+                            {/*        />*/}
+                            {/*    }*/}
+                            {/*    loadingOverlay={*/}
+                            {/*        <div className="loading-overlay">*/}
+                            {/*            <div className="loading-spinner"/>*/}
+                            {/*        </div>*/}
+                            {/*    }*/}
+                            {/*/>*/}
                         </div>
                     </div>
                 </div>

@@ -18,17 +18,17 @@ const HowToUse = () => {
                         title="Coaching as a benefit"
                         des="On-demand 1:1 coaching sessions whenever your talents need it " className="HowToUse-card"
                         // thumb={benefitThumb}
-                        url="https://res.cloudinary.com/coachello-dev/video/upload/v1654579367/landing-page/benefit_lixolc.mp4"/>
+                        url="https://d1x3hp8oc8irfp.cloudfront.net/benefit.mp4"/>
                     <VideoCard title="Within a L&D program"
                                des="1:1 coaching sessions for identified leaders integrated into your L&D strategy"
                                className="HowToUse-card"
                                // thumb={LDThumb}
-                               url="https://res.cloudinary.com/coachello-dev/video/upload/v1654580046/landing-page/L_D_ddgnyx.mp4"/>
+                               url="https://d1x3hp8oc8irfp.cloudfront.net/L_D.mp4"/>
                     <VideoCard title="Group workshops"
                                des="Group coaching, co-development, mediation, soft-skills training "
                                className="HowToUse-card"
                                // thumb={WorkshopThumb}
-                               url="https://res.cloudinary.com/coachello-dev/video/upload/v1654623705/landing-page/group1_fqjxrw.mp4"/>
+                               url="https://d1x3hp8oc8irfp.cloudfront.net/group.mp4"/>
                     {/*https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4 https://res.cloudinary.com/coachello-dev/video/upload/v1654578967/landing-page/group_ee6mqg.mp4*/}
                 </div>
             </div>
