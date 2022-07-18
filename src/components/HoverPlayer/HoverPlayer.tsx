@@ -48,7 +48,7 @@ const HoverPlayer = (prop: Props) => {
             src={prop.url}
             onEnded={onEndedLoop}
 
-            onClick={() => mutedToggle()}
+            // onClick={() => mutedToggle()}
         ></video>
     );
 };
