@@ -4,17 +4,19 @@ import '../styles/index.css';
 import '../styles/colour.css';
 import '../styles/fonts.css';
 // @ts-ignore
-import CongueImg from '../assets/img/about.jpeg'
+import CongueImg from '../assets/img/team.png'
 // @ts-ignore
 import philosopyImg from '../assets/img/philosophy.png'
 
 import Footer from "../sections/Footer/Footer";
 import ImgContentTemplateRed from "../components/ImgContentTemplateRed/ImgContentTemplateRed";
 import CoreTeam from "../sections/CoreTeam/CoreTeam";
-
+// @ts-ignore
+import Seo from "../utils/seo";
 
 const AboutPage = () => {
     return (<>
+            <Seo title="Coachello - About Us"/>
             <Navbar/>
             <ImgContentTemplateRed img={CongueImg}
                                    redTitle="Coachello" titleE={<h1>About Coachello</h1>} desE={

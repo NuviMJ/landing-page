@@ -46,7 +46,7 @@ const CaseVideos = () => {
                     <ProfileVideoCard url="https://d1x3hp8oc8irfp.cloudfront.net/jordan.mp4"
                                       thumb={jordanThumb}
                                       name="Jordan"
-                                      position="CMO Germina"
+                                      position="CMO Germinal"
                                       des={<ul>
                                           <li>Scope: Global</li>
                                           <li>Talents: All & full remote</li>

@@ -14,10 +14,13 @@ import CoachProfile from "../components/CoachProfile/CoachProfile";
 import MeetCoaches from "../sections/MeetCoaches/MeetCoaches";
 import YouAreCoach from "../sections/YouAreCoach/YouAreCoach";
 import GlobalExcellence from "../sections/GlobalExcellence/GlobalExcellence";
+// @ts-ignore
+import Seo from "../utils/seo";
 
 // markup
 const CoachesPage = () => {
     return (<>
+            <Seo title="Coachello - Coaches" />
             <Navbar/>
             <GlobalExcellence/>
             <CoachFeatures/>

@@ -1,15 +1,20 @@
 import type {GatsbyConfig} from "gatsby";
 
 const config: GatsbyConfig = {
+
     siteMetadata: {
         title: `Coachello`,
-        siteUrl: `https://coachello.io`
+        description: "Online Professional Coaching Platform",
+        author: `@coachello`,
+        url: `https://coachello.io`,
+        image: "https://i.ibb.co/bKD9Q9P/SEO.jpg", // Path to the image placed in the 'static' folder, in the project's root directory.
     },
     plugins: [
         // used to generate rewrites for client only paths
         // on demo hosted on Netlify
         "gatsby-plugin-netlify",
         "gatsby-plugin-sass",
+        "gatsby-plugin-react-helmet",
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
