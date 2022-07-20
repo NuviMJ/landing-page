@@ -64,7 +64,7 @@ const ThoughtLeadership = () => {
 
                 </div>
                 <div className="ThoughtLeadership-buttonContainer">
-                    {/*<button className="ThoughtLeadership-button">Lean More</button>*/}
+                    {/*<button className="ThoughtLeadership-button">Learn More</button>*/}
                 </div>
             </div>
         </div>

@@ -60,7 +60,7 @@ const CoachFeatures = () => {
 
             </div>
             <a href="mailto:livia@coachello.io">
-                <button className="CoachFeatures-button">Lean More</button>
+                <button className="CoachFeatures-button">Learn More</button>
             </a>
             </div>
 
