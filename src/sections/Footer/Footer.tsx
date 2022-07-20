@@ -11,7 +11,7 @@ const Footer = () => {
             <div>
                 <div className="Footer-logoContainer">
                     <img style={{marginTop: "15px"}} src={coachelloLogo}/>
-                    <p>Empower your team with career <br/> coaching and get strong ROI.<br/> Seamless integration in
+                    <p>Empower your team with professional <br/> coaching and get strong ROI.<br/> Seamless integration in
                         Slack and
                         <br/>Teams.</p>
 
