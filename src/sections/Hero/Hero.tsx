@@ -29,7 +29,7 @@ const Hero = () => {
                     <p>We empower companies to reach their HR objectives through 1:1 coaching.</p>
                     <a target="_blank" rel="noopener noreferrer"
                        href="https://meetings.hubspot.com/quentin-bouche">
-                    <button className="Hero-button">Discuss Your Project Today!</button>
+                    <button className="Hero-button">See for yourself</button>
                     </a>
                     </div>
                 <div className="Hero-imgContainer">
