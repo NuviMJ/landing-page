@@ -22,6 +22,7 @@ const ThoughtCard = (prop: Props) => {
             <div className="ThoughtCard-wrapper">
                 <div className="ThoughtCard-imgContainer">
                     <img src={prop.thumb}/>
+                    <p>{prop.subject}</p>
                 </div>
                 <div className="ThoughtCard-contentContainer">
                     <h3>{prop.title}</h3>

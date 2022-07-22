@@ -1,16 +1,17 @@
-import React from 'react';
- import './Input.scss'
+import React, {InputHTMLAttributes} from 'react';
+import './Input.scss'
 
-interface Props {
-    placeHolder:string;
-    name:string;
-    icon:any;
+interface Props extends InputHTMLAttributes<HTMLInputElement> {
+    placeHolder: string;
+    name: string;
+    icon: any;
 }
-const Input = (prop:Props) => {
+
+const Input = ({placeHolder, name, icon, ...props}: Props) => {
     return (
         <div className="Input-container">
-            <input disabled={true} className="Input-field" type="text" placeholder={prop.placeHolder} name={prop.name}/>
-            <img src={prop.icon} />
+            <input {...props} className="Input-field" type="text" placeholder={placeHolder} name={name}/>
+            <img src={icon}/>
         </div>
     );
 };

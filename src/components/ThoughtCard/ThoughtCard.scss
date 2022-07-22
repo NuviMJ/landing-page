@@ -2,6 +2,7 @@
   justify-content: center;
   background-color: var(--white);
   height: 100%;
+
   &-wrapper {
     display: flex;
     justify-content: center;
@@ -10,8 +11,20 @@
   }
 
   &-imgContainer {
+    position: relative;
+
     & > img {
       width: 100%;
+    }
+
+    & > p {
+      position: absolute;
+      right: 5px;
+      bottom: 10px;
+      background-color: var(--pink-light);
+      border-radius: 3px;
+      padding: 1px 5px;
+      font-size: 12px;
     }
   }
 

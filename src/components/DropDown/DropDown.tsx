@@ -1,17 +1,23 @@
-import React from 'react';
- import './DropDown.scss'
+import React, {SelectHTMLAttributes} from 'react';
+import './DropDown.scss'
 
-interface Props {
-    placeHolder:string;
-    name:string;
-    icon:any;
+interface Props extends SelectHTMLAttributes<HTMLSelectElement> {
+    placeHolder: string;
+    name: string;
+    icon: any;
 }
-const DropDown = (prop:Props) => {
+
+const DropDown = ({placeHolder, name, icon, ...props}: Props) => {
     return (
 
         <div className="DropDown-container">
-            <input className="DropDown-field" type="text" placeholder={prop.placeHolder} name={prop.name}/>
-            <img src={prop.icon} />
+            <select {...props} className="DropDown-field" placeholder={placeHolder} name={name}>
+                {/*<option value="">None</option>*/}
+                <option value="dateDesc">Newest to oldest</option>
+                <option value="dateAsc">Oldest to Newest</option>
+            </select>
+
+            {/*<img src={icon} />*/}
         </div>
     );
 };
