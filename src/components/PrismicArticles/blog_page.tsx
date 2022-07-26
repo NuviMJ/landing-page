@@ -11,7 +11,7 @@ const BlogPage = ({doc}: Props) => {
     const src = prismicH.asImageSrc(doc.data.image)
     return (
         <div className="PrismicArticles">
-            <p>Published {moment(doc.last_publication_date).format('MMMM d, YYYY')}</p>
+            <p>Published {moment(doc.data.date_of_publication).format('MMMM d, YYYY')}</p>
             <p>Estimated read time:  <b>{doc.data.read_time?<PrismicText field={doc.data.read_time}/>: "5 minutes"}</b></p>
             <hr/>
             <PrismicRichText field={doc.data.title} />

@@ -5,6 +5,7 @@ import {PrismicProvider, usePrismicDocumentByUID} from "@prismicio/react";
 import {client} from "../../../utils/prismic";
 import Footer from "../../../sections/Footer/Footer";
 import {navigate} from "gatsby-link";
+import Seo from "../../../utils/seo";
 
 
 const Article = (prop) => {
@@ -18,7 +19,7 @@ const Article = (prop) => {
         } else if (!doc && !docP && state === 'failed') {
             navigate('/404');
         }
-    }, [docP,state])
+    }, [docP, state])
 
     return <>{
         doc ? ((doc.type === "blog_page") ?
@@ -34,8 +35,14 @@ const Article = (prop) => {
 }
 
 const ArticlesPage = (props) => {
+    const doc =  props.location.state;
+    console.log(doc.data.seo_title)
+    console.log(props)
     return (
         <>
+            <Seo title= {doc.data.seo_title[0].text}
+               description={doc.data.seo_description[0].text}/>
+
             <Navbar/>
             <PrismicProvider client={client}>
                 <Article {...props} />
