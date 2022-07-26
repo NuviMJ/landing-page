@@ -23,7 +23,10 @@ const Article = (prop) => {
 
     return <>{
         doc ? ((doc.type === "blog_page") ?
-            <BlogPage doc={doc}/>
+            <><Seo title={doc.data.seo_title[0].text}
+                   description={doc.data.seo_description[0].text}/>
+                <BlogPage doc={doc}/></>
+
             : <div>
                 Article type not is defined!
             </div>) : ((state === 'loaded') ? null : <p>Loading...</p>)
@@ -35,13 +38,12 @@ const Article = (prop) => {
 }
 
 const ArticlesPage = (props) => {
-    const doc =  props.location.state;
+    // const [doc, setDoc] = useState(prop.location.state);
     // console.log(doc.data.seo_title)
     // console.log(props)
     return (
         <>
-            <Seo title= {doc.data.seo_title[0].text}
-               description={doc.data.seo_description[0].text}/>
+
 
             <Navbar/>
             <PrismicProvider client={client}>
