@@ -20,7 +20,7 @@ const HowToUse = () => {
                         // thumb={benefitThumb}
                         url="https://d1x3hp8oc8irfp.cloudfront.net/benefit.mp4"/>
                     <VideoCard title="Within a L&D program"
-                               des="1:1 coaching sessions for identified leaders integrated into your L&D strategy"
+                               des="1:1 coaching program for identified leaders integrated into your L&D strategy"
                                className="HowToUse-card"
                                // thumb={LDThumb}
                                url="https://d1x3hp8oc8irfp.cloudfront.net/L_D.mp4"/>

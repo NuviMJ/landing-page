@@ -26,11 +26,10 @@ const Hero = () => {
             <div className="Hero-wrapper">
                 <div className="Hero-contentContainer">
                     <h1>High quality personalised coaching solutions</h1>
-                    <p>From group workshops to individual coaching, we are here to give you an amazing
-                        experience.</p>
+                    <p>We empower companies to reach their HR objectives through 1:1 coaching.</p>
                     <a target="_blank" rel="noopener noreferrer"
                        href="https://meetings.hubspot.com/quentin-bouche">
-                    <button className="Hero-button">Discuss Your Project Today!</button>
+                    <button className="Hero-button">See for yourself</button>
                     </a>
                     </div>
                 <div className="Hero-imgContainer">
