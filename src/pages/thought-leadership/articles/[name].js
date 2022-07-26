@@ -36,8 +36,8 @@ const Article = (prop) => {
 
 const ArticlesPage = (props) => {
     const doc =  props.location.state;
-    console.log(doc.data.seo_title)
-    console.log(props)
+    // console.log(doc.data.seo_title)
+    // console.log(props)
     return (
         <>
             <Seo title= {doc.data.seo_title[0].text}
