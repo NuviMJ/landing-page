@@ -10,7 +10,7 @@ const WhatYouGetCard = (props:Props) => {
     return (
         <div className="WhatYouGetCard">
             <div>
-                <img src={props.icon}/>
+                <img width="40" height="40" src={props.icon}/>
                 <h3>{props.header}</h3>
 
             </div>

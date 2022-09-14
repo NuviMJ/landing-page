@@ -56,6 +56,9 @@ const Navbar = () => {
                                         <li>
                                             <Link to='/metaverse'>Metaverse</Link>
                                         </li>
+                                        <li>
+                                            <Link to='/climate-coaching'>Climate Coaching</Link>
+                                        </li>
                                     </ul>
                                 </li>
 

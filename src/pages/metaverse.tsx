@@ -4,10 +4,8 @@ import '../styles/index.css';
 import '../styles/colour.css';
 import '../styles/fonts.css';
 import Footer from "../sections/Footer/Footer";
-import ImgContentTemplateRed from "../components/ImgContentTemplateRed/ImgContentTemplateRed";
 
 import WhatYouGetTemplate from "../components/WhatYouGetTemplate/WhatYouGetTemplate";
-
 
 // @ts-ignore
 import immersiveIcon from '../assets/img/icons/immersive.svg'
@@ -22,11 +20,12 @@ import What from "../sections/What/What";
 import ImgContentTemplate from "../components/ImgContentTemplate/ImgContentTemplate";
 // @ts-ignore
 import coachingBenefitImg from '../../assets/img/coachingAsBenefit.png'
-import Measure from "../sections/Measure/Measure";
+
 // @ts-ignore
 import MetaverseImg from "../assets/img/Metaverse.png";
 // @ts-ignore
 import Seo from "../utils/seo";
+
 const MetaversePage = () => {
     return (<>
             <Seo title="Coachello - Discover The Metaverse Coaching Experience"
@@ -35,7 +34,8 @@ const MetaversePage = () => {
             <ImgContentTemplate img={MetaverseImg} title="Metaverse"
                                 des={<>
                                     <p>
-                                        At Coachello we have create Coachello Labs to brings coaching in the metaverse to
+                                        At Coachello we have create Coachello Labs to brings coaching in the metaverse
+                                        to
                                         your employees.
                                     </p><p>
                                     And it’s not just a hype, there are plenty of benefits related to coaching in the
@@ -53,7 +53,8 @@ const MetaversePage = () => {
                                         </li>
                                     </ul>
                                     <p>
-                                        Beta tests has proven that this immersive coaching experience is extremely effective
+                                        Beta tests has proven that this immersive coaching experience is extremely
+                                        effective
                                         for exercises but establish confidentiality quicker between the coach & coachee.
                                     </p><p>
                                     Interested in bringing the metaverse inside your company? Talk to us today, to start
@@ -82,9 +83,8 @@ const MetaversePage = () => {
                         icon: benefitsIcon,
                         header: "Benefits of 1:1 coaching"
                     }
-
-                ]}/>
-
+                ]}
+            />
 
             <What/>
             <Footer/>
