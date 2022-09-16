@@ -29,7 +29,7 @@ import Seo from "../utils/seo";
 const ClimateCoachingPage = () => {
     return (<>
             <Seo title="Coachello - Climate Coaching"
-                 description=""/>
+                 description="Reach carbon neutrality through group workshops and 1:1 climate coaching"/>
             <Navbar/>
             <ImgContentTemplate img={ClimateImg} title="Climate Coaching"
                                 des={<>
@@ -38,11 +38,12 @@ const ClimateCoachingPage = () => {
                                         coaching is no different. Climate coaching may help you figure out what's
                                         stopping you and offer you the flexibility and direction you need if you're
                                         feeling stuck in this area, whether it's because you don't know what to do or
-                                        because you're dealing with climate anxiety. With Coachello, we have created a
-                                        climate-coaching program that helps companies in their pathway to carbon
-                                        neutrality.
+                                        because you're dealing with climate anxiety.
                                     </p>
-                                    <b>Climate coaching:</b>
+                                    <p>
+                                        With Coachello, we have created a climate-coaching program that helps companies
+                                        in their pathway to carbon neutrality through:
+                                    </p>
 
                                     <ul>
 
@@ -61,13 +62,19 @@ const ClimateCoachingPage = () => {
                                         data-driven and highest quality of coaching.
                                     </p><p>
                                     Our coaches are specialised in climate coaching - they are familiar with the
-                                    dynamics and possess the tools to help your stakeholders reach your company’s
-                                    objectives.
+                                    dynamics dynamics in this field and possess the tools to help your stakeholders
+                                    reach your company’s objectives.
                                 </p>
                                     <p>
-                                        Collective consciousness of the urgency of climate change is the biggest
-                                        solution to arrive at carbon neutrality.
+                                        Do you want to a personalised solution to actively and measurably bring down
+                                        your organisation’s footprint? Do you want to empower your talents to take
+                                        action? Do you want them to be more resourceful?
                                     </p>
+                                    <a target="_blank" rel="noopener noreferrer"
+                                       href="https://meetings.hubspot.com/leon-wever/coffee-with-coachello">
+                                        <button className="Navbar-button"> Don’t wait: Talk to us</button>
+                                    </a>
+
                                 </>
                                 }/>
 
