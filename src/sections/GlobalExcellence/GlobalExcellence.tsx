@@ -3,6 +3,7 @@ import React from 'react';
 import './GlobalExcellence.scss'
 // @ts-ignore
 import ExcellenceImg from '../../assets/img/excellence.png'
+import ReactPlayer from "react-player";
 
 
 const GlobalExcellence = () => {
@@ -20,7 +21,16 @@ const GlobalExcellence = () => {
                 </div>
                 <div className="GlobalExcellence-imgContainer">
 
-                        <img id="icon1" src={ExcellenceImg}/>
+                    <ReactPlayer
+                        style={{marginTop: "20px"}}
+                        controls={true}
+                        playing
+                        muted={true}
+                        url={"https://www.youtube.com/watch?v=hQxr6Ac_H6E"}
+                    />
+
+
+                    {/*<img id="icon1" src={ExcellenceImg}/>*/}
 
 
                 </div>
