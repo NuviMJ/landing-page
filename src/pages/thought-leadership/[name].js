@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from "react"
-import BlogPage from "../../../components/PrismicArticles/blog_page";
-import Navbar from "../../../sections/Navbar/Navbar";
+import BlogPage from "../../components/PrismicArticles/blog_page";
+import Navbar from "../../sections/Navbar/Navbar";
 import {PrismicProvider, usePrismicDocumentByUID} from "@prismicio/react";
-import {client} from "../../../utils/prismic";
-import Footer from "../../../sections/Footer/Footer";
+import {client} from "../../utils/prismic";
+import Footer from "../../sections/Footer/Footer";
 import {navigate} from "gatsby-link";
-import Seo from "../../../utils/seo";
+import Seo from "../../utils/seo";
 
 
 const Article = (prop) => {
@@ -19,12 +19,23 @@ const Article = (prop) => {
         } else if (!doc && !docP && state === 'failed') {
             navigate('/404');
         }
+
     }, [docP, state])
+    let  title = "Coachello"
+    let  description = "Coaching on demand"
+    // console.log(doc.data);
+    if (doc.data.seo_title.length>0){
+        title = doc.data.seo_title[0].text
+    }
+    if (doc.data.seo_description.length>0){
+        description = doc.data.seo_description[0].text
+    }
+
 
     return <>{
-        doc ? ((doc.type === "blog_page") ?
-            <><Seo title={doc.data.seo_title[0].text}
-                   description={doc.data.seo_description[0].text}/>
+        doc ? ((doc.type === "blog_page" ) ?
+            <><Seo title={title}
+                   description={description}/>
                 <BlogPage doc={doc}/></>
 
             : <div>

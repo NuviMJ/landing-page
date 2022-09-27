@@ -94,7 +94,7 @@ const ThoughtLeadership = () => {
                             return (
                                 <div>
                                     <Link style={{height: "100%"}}
-                                          to={`/thought-leadership/articles/${page.uid}`}
+                                          to={`/thought-leadership/${page.uid}`}
                                           state={page}>
                                         <ThoughtCard subject={page.data.subject[0]?.text} thumb={page.data.image.url}
                                                      title={page.data.title[0].text}
