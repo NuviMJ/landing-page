@@ -26,7 +26,7 @@ const GlobalExcellence = () => {
                         controls={true}
                         playing
                         muted={true}
-                        url={"https://www.youtube.com/watch?v=hQxr6Ac_H6E"}
+                        url={"https://d1x3hp8oc8irfp.cloudfront.net/coachello-coaches-testimonies.mp4"}
                     />
 
 

@@ -32,8 +32,6 @@ const Article = (prop) => {
         if (doc?.data.seo_description.length > 0) {
             description = doc.data.seo_description[0].text
         }
-
-
     }, [doc])
 
 
