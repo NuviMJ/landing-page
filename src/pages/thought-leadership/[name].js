@@ -12,8 +12,8 @@ const Article = (prop) => {
     console.log(prop.params)
     const [doc, setDoc] = useState(prop.location.state);
     const [docP, {state}] = usePrismicDocumentByUID('blog_page', prop.params.name)
-    let  title = "Coachello"
-    let  description = "Coaching on demand"
+    let title = "Coachello"
+    let description = "Coaching on demand"
     useEffect(() => {
         if (docP) {
             setDoc(docP);
@@ -26,10 +26,10 @@ const Article = (prop) => {
     useEffect(() => {
 
         // console.log(doc.data);
-        if (doc.data.seo_title.length>0){
+        if (doc?.data.seo_title.length > 0) {
             title = doc.data.seo_title[0].text
         }
-        if (doc.data.seo_description.length>0){
+        if (doc?.data.seo_description.length > 0) {
             description = doc.data.seo_description[0].text
         }
 
@@ -38,7 +38,7 @@ const Article = (prop) => {
 
 
     return <>{
-        doc ? ((doc.type === "blog_page" ) ?
+        doc ? ((doc.type === "blog_page") ?
             <><Seo title={title}
                    description={description}/>
                 <BlogPage doc={doc}/></>
