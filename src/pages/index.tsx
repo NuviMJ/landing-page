@@ -30,7 +30,7 @@ const IndexPage = () => {
             {/*<Counter trigger="" run={false} start={0} end={100} duration={10}/>*/}
             <Hero/>
             <HowToUse/>
-            <HowItWorks/>
+            {/*<HowItWorks/>*/}
             <Help/>
             <Why/>
             <OurCoaches/>
