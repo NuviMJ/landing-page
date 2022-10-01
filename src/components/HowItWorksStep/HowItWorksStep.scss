@@ -140,6 +140,8 @@
       & > img {
         height: calc(var(--app-height, 100vh) * 0.65);
         object-fit: contain;
+        max-width: 100%;
+        width: 100%;
       }
     }
 
