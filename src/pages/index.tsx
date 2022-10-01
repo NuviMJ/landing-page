@@ -25,18 +25,20 @@ const IndexPage = () => {
             <Seo title="Coachello - Online Professional Coaching Platform"
                  // image={seoImg}
                  description="Discover our professional coaching platform. From group workshops to individual coaching, we are here to give you an amazing experience."/>
-            <Navbar/>
+            {/*<Navbar/>*/}
 
             {/*<Counter trigger="" run={false} start={0} end={100} duration={10}/>*/}
             <Hero/>
-            <HowToUse/>
-            {/*<HowItWorks/>*/}
-            {/*<Help/>*/}
-            {/*<Why/>*/}
-            {/*<OurCoaches/>*/}
-            <What/>
-            <Faq/>
-            <Footer/>
+            {/*<HowToUse/>*/}
+
+            <HowItWorks/>
+            <Help/>
+            <Why/>
+            <OurCoaches/>
+
+            {/*<What/>*/}
+            {/*<Faq/>*/}
+            {/*<Footer/>*/}
 
         </>
     )
