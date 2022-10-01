@@ -33,10 +33,10 @@ const IndexPage = () => {
 
             {/*<HowItWorks/>*/}
             <Help/>
-            {/*<Why/>*/}
+            <Why/>
             {/*<OurCoaches/>*/}
 
-            {/*<What/>*/}
+            <What/>
             {/*<Faq/>*/}
             {/*<Footer/>*/}
 
