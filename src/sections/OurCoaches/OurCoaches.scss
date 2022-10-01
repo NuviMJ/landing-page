@@ -30,6 +30,7 @@
         align-items: flex-end;
         gap: 10px;
         flex-wrap: wrap;
+
     }
     &-logoContainer {
         display: flex;
@@ -44,6 +45,7 @@
     @media(max-width: 1130px) {
         &-imgContainer :nth-child(2) {
             order: 2;
+            max-width: 100%;
         }
     }
     @media screen and (max-width: 650px) {

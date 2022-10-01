@@ -29,7 +29,7 @@ const OurCoaches = () => {
                     <img src={EMCCLogo}/>
                 </div>
                 <div className="OurCoaches-imgContainer">
-                    <img style={{height: "260px"}} src={coach1}/>
+                    <img style={{height: "260px",maxWidth: "100%"}} src={coach1}/>
                     <img style={{height: "300px"}} src={coach2}/>
                     <img style={{height: "260px"}} src={coach3}/>
                 </div>

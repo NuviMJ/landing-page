@@ -33,7 +33,7 @@ const Hero = () => {
                     </a>
                     </div>
                 <div className="Hero-imgContainer">
-                <img src={heroImg}/>
+                <img style={{maxWidth:"100%"}} src={heroImg}/>
             </div>
             </div>
             <div className="Hero-companyLogoWrapper">

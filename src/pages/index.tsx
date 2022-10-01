@@ -31,13 +31,13 @@ const IndexPage = () => {
             <Hero/>
             <HowToUse/>
 
-            <HowItWorks/>
-            <Help/>
-            <Why/>
-            <OurCoaches/>
+            {/*<HowItWorks/>*/}
+            {/*<Help/>*/}
+            {/*<Why/>*/}
+            {/*<OurCoaches/>*/}
 
-            <What/>
-            <Faq/>
+            {/*<What/>*/}
+            {/*<Faq/>*/}
             {/*<Footer/>*/}
 
         </>
