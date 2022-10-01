@@ -29,15 +29,15 @@ const IndexPage = () => {
 
             {/*<Counter trigger="" run={false} start={0} end={100} duration={10}/>*/}
             <Hero/>
-            <HowToUse/>
+            {/*<HowToUse/>*/}
 
             {/*<HowItWorks/>*/}
             <Help/>
-            <Why/>
+            {/*<Why/>*/}
             {/*<OurCoaches/>*/}
 
-            <What/>
-            <Faq/>
+            {/*<What/>*/}
+            {/*<Faq/>*/}
             {/*<Footer/>*/}
 
         </>
