@@ -38,7 +38,7 @@ const IndexPage = () => {
 
             <What/>
             <Faq/>
-            {/*<Footer/>*/}
+            <Footer/>
 
         </>
     )
