@@ -103,41 +103,41 @@ const HowItWorks = () => {
                 {/*</div>*/}
 
                 <div style={style} ref={ref} className="HowItWorks">
-                    {/*<div style={styleSub} className={scrolling ? "HowItWorks-startEffect" : undefined}>*/}
-                    {/*    <div>*/}
-                    {/*        /!*    <div>*!/*/}
-                    {/*        <HowItWorksStep opacity={opacity.op1}*/}
-                    {/*                        title="1. Assessment"*/}
-                    {/*                        des="Assess your strengths and challenges"*/}
-                    {/*                        img={isMobile? howItWorksMobile1Img: howItWorks1Img}/>*/}
-                    {/*        <HowItWorksStep opacity={opacity.op2}*/}
-                    {/*                        title="2. Choose your coach"*/}
-                    {/*                        des={<>Based on their personality, professional<br/> experience and*/}
-                    {/*                            languages</>}*/}
-                    {/*                        img={isMobile? howItWorksMobile2Img: howItWorks2Img}/>*/}
-                    {/*        <HowItWorksStep opacity={opacity.op3}*/}
-                    {/*                        title="3. Start 1:1 coaching"*/}
-                    {/*                        des="To reach your maximum potential!"*/}
-                    {/*                        img={isMobile? howItWorksMobile3Img: howItWorks3Img}/>*/}
-                    {/*        <HowItWorksStep opacity={1}*/}
-                    {/*                        title=" "*/}
-                    {/*                        des=" "*/}
-                    {/*                        img={isMobile? frameMobileImg: frameImg}/>*/}
-                    {/*        /!*<div className="HowItWorks1">*!/*/}
-                    {/*        /!*    <div className="HowItWorks1-contentContainer">*!/*/}
-                    {/*        /!*        <div><h3>1. Assessment</h3>*!/*/}
-                    {/*        /!*            <h4>Assess your strengths and challenges</h4>*!/*/}
-                    {/*        /!*        </div>*!/*/}
-                    {/*        /!*    </div>*!/*/}
-                    {/*        /!*    <div className="HowItWorks1-imgContainer">*!/*/}
-                    {/*        /!*        <img src={howItWorks1Img}/>*!/*/}
-                    {/*        /!*    </div>*!/*/}
-                    {/*        /!*</div>*!/*/}
-                    {/*        /!*<HowItWorks2/>*!/*/}
-                    {/*        /!*<HowItWorks3/>*!/*/}
-                    {/*        /!*    </div>*!/*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
+                    <div style={styleSub} className={scrolling ? "HowItWorks-startEffect" : undefined}>
+                        <div>
+                            {/*    <div>*/}
+                            <HowItWorksStep opacity={opacity.op1}
+                                            title="1. Assessment"
+                                            des="Assess your strengths and challenges"
+                                            img={isMobile? howItWorksMobile1Img: howItWorks1Img}/>
+                            <HowItWorksStep opacity={opacity.op2}
+                                            title="2. Choose your coach"
+                                            des={<>Based on their personality, professional<br/> experience and
+                                                languages</>}
+                                            img={isMobile? howItWorksMobile2Img: howItWorks2Img}/>
+                            <HowItWorksStep opacity={opacity.op3}
+                                            title="3. Start 1:1 coaching"
+                                            des="To reach your maximum potential!"
+                                            img={isMobile? howItWorksMobile3Img: howItWorks3Img}/>
+                            <HowItWorksStep opacity={1}
+                                            title=" "
+                                            des=" "
+                                            img={isMobile? frameMobileImg: frameImg}/>
+                            {/*<div className="HowItWorks1">*/}
+                            {/*    <div className="HowItWorks1-contentContainer">*/}
+                            {/*        <div><h3>1. Assessment</h3>*/}
+                            {/*            <h4>Assess your strengths and challenges</h4>*/}
+                            {/*        </div>*/}
+                            {/*    </div>*/}
+                            {/*    <div className="HowItWorks1-imgContainer">*/}
+                            {/*        <img src={howItWorks1Img}/>*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
+                            {/*<HowItWorks2/>*/}
+                            {/*<HowItWorks3/>*/}
+                            {/*    </div>*/}
+                        </div>
+                    </div>
                 </div>
 
             </div>
