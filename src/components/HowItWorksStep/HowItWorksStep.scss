@@ -98,8 +98,9 @@
     &-imgContainer {
       & > img {
         height: calc(var(--app-height, 100vh) * 0.7);
-
-        width: available;
+        max-width: 100%;
+        width: 100%;
+        //width: available;
       }
     }
   }
