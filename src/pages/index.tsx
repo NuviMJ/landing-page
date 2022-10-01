@@ -34,10 +34,10 @@ const IndexPage = () => {
             {/*<HowItWorks/>*/}
             <Help/>
             <Why/>
-            {/*<OurCoaches/>*/}
+            <OurCoaches/>
 
             <What/>
-            {/*<Faq/>*/}
+            <Faq/>
             {/*<Footer/>*/}
 
         </>
