@@ -36,8 +36,8 @@ const IndexPage = () => {
             <Why/>
             <OurCoaches/>
 
-            {/*<What/>*/}
-            {/*<Faq/>*/}
+            <What/>
+            <Faq/>
             <Footer/>
 
         </>
