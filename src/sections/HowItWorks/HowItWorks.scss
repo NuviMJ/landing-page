@@ -27,8 +27,16 @@
     & h2 {
       margin: 0;
     }
+
     @media screen and (max-width: 650px) {
-      padding: 2.45rem 2.085rem 0.45rem 2.085rem;
+      padding: 2.45rem 1.8rem 0.45rem 1.8rem;
+
+
+    }
+    @media screen and (max-width: 980px) {
+      & > div > img {
+        max-width: 100%;
+      }
     }
   }
 
@@ -41,17 +49,18 @@
   box-sizing: content-box;
   //width: 100vw;
   //height: 100vh;
-  height: var(--app-height,100vh);
+  height: var(--app-height, 100vh);
 
   & > div {
     //height: 100vh;
-    height: var(--app-height,100vh);
+    height: var(--app-height, 100vh);
     width: 100%;
     position: absolute;
     // margin: auto;
     //inset: auto;
     right: 0;
     left: 0;
+
     & > div {
       position: relative;
       box-sizing: border-box;

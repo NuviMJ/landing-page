@@ -91,16 +91,16 @@ const HowItWorks = () => {
     return (
         <div className="HowItWorksContainer">
             <div className="HowItWorksContainer-wrapper">
-                {/*<div className="HowItWorksContainer-topContainer">*/}
-                {/*    <p className="h1-red">How it works</p>*/}
-                {/*    <div>*/}
-                {/*        <h2>Integrated into &nbsp; </h2>*/}
-                {/*        <img src={slackIcon}/>*/}
-                {/*        <h2>&nbsp;  Slack or&nbsp; </h2>*/}
-                {/*        <img src={teamsIcon}/>*/}
-                {/*        <h2> &nbsp; MS Teams</h2>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div className="HowItWorksContainer-topContainer">
+                    <p className="h1-red">How it works</p>
+                    <div>
+                        <h2>Integrated into &nbsp; </h2>
+                        <img src={slackIcon}/>
+                        <h2>&nbsp;  Slack or&nbsp; </h2>
+                        <img src={teamsIcon}/>
+                        <h2> &nbsp; MS Teams</h2>
+                    </div>
+                </div>
 
                 <div style={style} ref={ref} className="HowItWorks">
                     <div style={styleSub} className={scrolling ? "HowItWorks-startEffect" : undefined}>
