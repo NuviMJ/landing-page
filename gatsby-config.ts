@@ -14,6 +14,7 @@ const config: GatsbyConfig = {
         // on demo hosted on Netlify
         "gatsby-plugin-netlify",
         "gatsby-plugin-sass",
+        'gatsby-plugin-postcss',
         "gatsby-plugin-react-helmet",
         {
             resolve: `gatsby-plugin-manifest`,

@@ -4,6 +4,7 @@ import './Footer.scss'
 import coachelloLogo from '../../assets/img/header.svg'
 // @ts-ignore
 import laFrenchTechLogo from '../../assets/img/La French Tech.png'
+import {Link} from "gatsby";
 
 const Footer = () => {
     return (
@@ -36,6 +37,8 @@ const Footer = () => {
                     <a><p>I am an employee</p></a>
                     {/*<a href="/policies"><p>Policies</p></a>*/}
                     <a href="https://meetings.hubspot.com/quentin-bouche" target="_blank"><p>Speak to an expert</p></a>
+
+                        <a href='/metaverse'>Metaverse</a>
 
                 </div>
                 <div className="Footer-imgContainer">

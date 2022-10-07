@@ -53,9 +53,9 @@ const Navbar = () => {
                                         <li>
                                             <Link to='/workshops'>Workshops</Link>
                                         </li>
-                                        <li>
-                                            <Link to='/metaverse'>Metaverse</Link>
-                                        </li>
+                                        {/*<li>*/}
+                                        {/*    <Link to='/metaverse'>Metaverse</Link>*/}
+                                        {/*</li>*/}
                                         <li>
                                             <Link to='/climate-coaching'>Climate Coaching</Link>
                                         </li>

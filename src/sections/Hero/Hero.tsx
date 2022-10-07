@@ -18,18 +18,21 @@ import papernestLogo from '../../assets/img/companies/papernestLogo.png'
 // @ts-ignore
 import qontoLogo from '../../assets/img/companies/qontoLogo.png'
 // @ts-ignore
-import keplerLogo from '../../assets/img/companies/keplerLogo.png'
+import hecLogo from '../../assets/img/companies/HEC.png'
+// @ts-ignore
+import coachelloLogo from '../../assets/img/coachello.svg'
 
 const Hero = () => {
     return (
         <div className="Hero">
             <div className="Hero-wrapper">
-                <div className="Hero-contentContainer">
+                <div className="Hero-contentContainer flex flex-col items-start">
                     <h1>High quality personalised coaching solutions</h1>
-                    <p>We empower companies to reach their HR objectives through 1:1 coaching.</p>
+                    <p>Coachello = coaching for a better world.</p>
                     <a target="_blank" rel="noopener noreferrer"
                        href="https://meetings.hubspot.com/quentin-bouche">
-                    <button className="Hero-button">See for yourself</button>
+                    <button className="py-3 px-8 bg-black rounded-3xl flex gap-4 border-0 text-white items-center hover:bg-red-900"><img className="w-6 h-6" src={coachelloLogo}/>Try Coachello for Free</button>
+                    {/*<button className="Hero-button">See for yourself</button>*/}
                     </a>
                     </div>
                 <div className="Hero-imgContainer">
@@ -59,7 +62,7 @@ const Hero = () => {
                     <img src={qontoLogo}/>
                 </div>
                <div>
-                    <img src={keplerLogo}/>
+                    <img src={hecLogo}/>
                 </div>
             </div>
         </div>
