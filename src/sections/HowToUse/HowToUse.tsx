@@ -6,7 +6,7 @@ import benefitImg from '../../assets/img/benifit.png'
 // @ts-ignore
 import LDImg from '../../assets/img/leadership.png'
 // @ts-ignore
-import WorkshopImg from '../../assets/img/workShop.png'
+import WorkshopImg from '../../assets/img/workshop.png'
 // @ts-ignore
 import sustainableImg from '../../assets/img/sustainable.png'
 
