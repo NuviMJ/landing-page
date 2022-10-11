@@ -27,41 +27,46 @@ const Hero = () => {
         <div className="Hero">
             <div className="Hero-wrapper">
                 <div className="Hero-contentContainer flex flex-col items-start">
-                    <h1>High quality personalised coaching solutions</h1>
-                    <p>Coachello = coaching for a better world.</p>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <h1 className="text-8xl my-5 leading-[1.1]">Coaching for a better world.</h1>
+                    <p className="text-xl">High quality personalised coaching solutions</p>
+                    <a target="_blank"
+                       className="mt-8"
+                       rel="noopener noreferrer"
                        href="https://meetings.hubspot.com/quentin-bouche">
-                    <button className="py-3 px-8 bg-black rounded-3xl flex gap-4 border-0 text-white items-center hover:bg-red-900"><img className="w-6 h-6" src={coachelloLogo}/>Try Coachello for Free</button>
-                    {/*<button className="Hero-button">See for yourself</button>*/}
+                        <button
+                            className="py-3 cursor-pointer px-8 bg-black rounded-3xl flex gap-4 border-0 text-white items-center hover:bg-neutral-800">
+                            <img className="w-6 h-6" src={coachelloLogo}/>Try Coachello now!
+                        </button>
+                        {/*<button className="Hero-button">See for yourself</button>*/}
                     </a>
-                    </div>
+                </div>
                 <div className="Hero-imgContainer">
-                <img style={{maxWidth:"100%"}} src={heroImg}/>
-            </div>
+                    <img style={{maxWidth: "100%"}} src={heroImg}/>
+                </div>
             </div>
             <div className="Hero-companyLogoWrapper">
                 <div>
                     <img src={boltLogo}/>
                 </div>
-               <div>
+                <div>
                     <img src={gorgiasLogo}/>
                 </div>
-               <div>
+                <div>
                     <img src={hylandLogo}/>
                 </div>
-               <div>
+                <div>
                     <img src={meilleursLogo}/>
                 </div>
-               <div>
+                <div>
                     <img src={morningLogo}/>
                 </div>
-               <div>
+                <div>
                     <img src={papernestLogo}/>
                 </div>
-               <div>
+                <div>
                     <img src={qontoLogo}/>
                 </div>
-               <div>
+                <div>
                     <img src={hecLogo}/>
                 </div>
             </div>
