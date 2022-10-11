@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="Hero">
             <div className="Hero-wrapper">
                 <div className="Hero-contentContainer flex flex-col items-start">
-                    <h1 className="text-8xl my-5 leading-[1.1]">Coaching for a better world.</h1>
+                    <h1 className="text-8xl my-5 leading-[1.1]">Coaching for <br/> a better <br/>world.</h1>
                     <p className="text-xl">High quality personalised coaching solutions</p>
                     <a target="_blank"
                        className="mt-8"
