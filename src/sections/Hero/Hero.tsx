@@ -32,7 +32,7 @@ const Hero = () => {
                     <a target="_blank"
                        className="mt-8"
                        rel="noopener noreferrer"
-                       href="https://meetings.hubspot.com/quentin-bouche">
+                       href="https://meetings.hubspot.com/quentin-bouche/intro-coachello">
                         <button
                             className="py-3 cursor-pointer px-8 bg-black rounded-3xl flex gap-4 border-0 text-white items-center hover:bg-neutral-800">
                             <img className="w-6 h-6" src={coachelloLogo}/>Try Coachello now!

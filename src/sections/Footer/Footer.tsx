@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className="Footer-contentContainer">
                     <a><p>I am an employee</p></a>
                     {/*<a href="/policies"><p>Policies</p></a>*/}
-                    <a href="https://meetings.hubspot.com/quentin-bouche" target="_blank"><p>Speak to an expert</p></a>
+                    <a href="https://meetings.hubspot.com/quentin-bouche/intro-coachello" target="_blank"><p>Speak to an expert</p></a>
 
                         <a href='/metaverse'>Metaverse</a>
 

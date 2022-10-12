@@ -87,7 +87,7 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <a target="_blank" rel="noopener noreferrer"
-                                       href="https://meetings.hubspot.com/quentin-bouche">
+                                       href="https://meetings.hubspot.com/quentin-bouche/intro-coachello">
                                         <button className="Navbar-button">Request a Demo</button>
                                     </a>
                                 </li>
