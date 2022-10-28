@@ -20,6 +20,7 @@ import WhatYouGetTemplate from "../components/WhatYouGetTemplate/WhatYouGetTempl
 import certifiedIcon from "../assets/img/features/certified.svg";
 // @ts-ignore
 import Seo from "../utils/seo";
+import CompaniesStudy from "../sections/CompaniesStudy/CompaniesStudy";
 
 const CaseStudiesPage = () => {
     return (<>
@@ -32,7 +33,7 @@ const CaseStudiesPage = () => {
                                    titleE={<h1>Don’t take our word for it, take the word from our clients and their
                                        talents.</h1>}
             />
-
+<CompaniesStudy/>
             <CaseVideos/>
             <What/>
 

@@ -8,6 +8,7 @@ import {useIsTop} from "../../hooks/useNavStatus";
 const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
     const [isSubNavExpanded, setIsSubNavExpanded] = useState(false)
+    const [isSubCaseExpanded, setIsSubCaseExpanded] = useState(false)
     const isTop = useIsTop()
 
 
@@ -74,12 +75,31 @@ const Navbar = () => {
                                     </Link>
                                 </li>
 
-                                <li>
+                                {/*<li>*/}
+                                {/*    <Link to='/case-studies'>*/}
+                                {/*        Case Studies*/}
+                                {/*    </Link>*/}
+                                {/*</li>*/}
+                                <li onMouseOver={() => {
+                                    setIsSubCaseExpanded(true)
+                                }} onMouseLeave={() => {
+                                    setIsSubCaseExpanded(false)
+                                }} className=" Navbar-menuContainer" style={{opacity:"1"}}>
                                     <Link to='/case-studies'>
-                                        Case Studies
+                                    Case Studies <span aria-hidden="true">&#x25be;</span>
                                     </Link>
-                                </li>
+                                    <ul className={
+                                        isSubCaseExpanded ? "Navbar-subExpanded Navbar-subMenu" : "Navbar-subCollapsed Navbar-subMenu"
+                                    }>
+                                        <li>
+                                            <Link to='/meilleurs-agents'>Meilleurs Agent</Link>
+                                        </li>
+                                        <li>
+                                            <Link to='/gorgias'>Gorgias</Link>
+                                        </li>
 
+                                    </ul>
+                                </li>
                                 <li>
                                     <Link to='/thought-leadership'>
                                         Thought Leadership
