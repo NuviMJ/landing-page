@@ -230,7 +230,7 @@ Coachello on-demand "
                         }
 
                     />
-                    <div className={"bg-white p-5 flex gap-2"}>
+                    <div className={"bg-white p-5 flex gap-3 justify-between"}>
 
                         <div>
                             <h4 className={"m-0"}>Adeline Bodemer</h4>
