@@ -33,8 +33,8 @@ const CaseStudiesPage = () => {
                                    titleE={<h1>Don’t take our word for it, take the word from our clients and their
                                        talents.</h1>}
             />
-<CompaniesStudy/>
-            <CaseVideos/>
+            <CompaniesStudy/>
+            {/*<CaseVideos/>*/}
             <What/>
 
             <Footer/>
