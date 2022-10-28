@@ -34,6 +34,7 @@ import CompanyIconCard from "../components/CompanyIconCard/CompanyIconCard";
 import Objectives from "../sections/Objectives/Objectives";
 import CompanyCaseStudyTemplate from "../components/CompanyCaseStudyTemplate/CompanyCaseStudyTemplate";
 import What from "../sections/What/What";
+import {Link} from "gatsby";
 
 const MeilleursAgents = () => {
     return (
@@ -185,11 +186,12 @@ const MeilleursAgents = () => {
                                               </ul>
 
                                               <br/>
+                                              <Link  target="_blank" to={'https://meetings.hubspot.com/quentin-bouche/intro-coachello'}>
 
                                               <button className="Navbar-button">Learn in 20 Minutes What We Can Do For
                                                   You
                                               </button>
-
+                                              </Link>
                                           </>
                                       }/>
             <What/>

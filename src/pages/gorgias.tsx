@@ -46,6 +46,7 @@ import adelineThumb from "../assets/img/thumbnails/adeline.png";
 // @ts-ignore
 import playIcon from "../assets/img/icons/playButton.svg";
 import ReactPlayer from "react-player";
+import {Link} from "gatsby";
 
 const Gorgias = () => {
     return (
@@ -204,12 +205,12 @@ Coachello on-demand "
                                               </p>
 
                                               <br/>
-
-                                              <button className="Navbar-button">Learn in 20 minutes how to launch
-                                                  coaching
-                                                  for everyone at your company
-                                              </button>
-
+                                              <Link  target="_blank" to={'https://meetings.hubspot.com/quentin-bouche/intro-coachello'}>
+                                                  <button className="Navbar-button">Learn in 20 minutes how to launch
+                                                      coaching
+                                                      for everyone at your company
+                                                  </button>
+                                              </Link>
                                           </>
                                       }/>
 
@@ -229,9 +230,23 @@ Coachello on-demand "
                         }
 
                     />
-                    <div className={"bg-white p-5"}>
-                        <h3 className={"m-0"}>Adeline Bodemer</h3>
-                        <h4 className={"m-2"}>Head of People / Gorgias</h4>
+                    <div className={"bg-white p-5 flex gap-2"}>
+
+                        <div>
+                            <h4 className={"m-0"}>Adeline Bodemer</h4>
+                            <h5 className={"m-2"}>Head of People</h5>
+
+                        </div>
+                        <div>
+                            <h4 className={"m-0"}>Emna Charfi</h4>
+                            <h5 className={"m-2"}>Customer success</h5>
+
+                        </div>
+                        <div>
+                            <h4 className={"m-0"}>Astaeka Pramuditya</h4>
+                            <h5 className={"m-2"}>Customer Marketing</h5>
+
+                        </div>
 
                     </div>
                 </div>
