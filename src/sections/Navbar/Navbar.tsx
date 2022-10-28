@@ -92,7 +92,7 @@ const Navbar = () => {
                                         isSubCaseExpanded ? "Navbar-subExpanded Navbar-subMenu" : "Navbar-subCollapsed Navbar-subMenu"
                                     }>
                                         <li>
-                                            <Link to='/meilleurs-agents'>Meilleurs Agent</Link>
+                                            <Link to='/meilleurs-agents'>Meilleurs Agents</Link>
                                         </li>
                                         <li>
                                             <Link to='/gorgias'>Gorgias</Link>

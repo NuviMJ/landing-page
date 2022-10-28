@@ -104,7 +104,7 @@ const MeilleursAgents = () => {
                                                   to help them navigate in a period of change.
 
                                               </p>
-                                              <p>That’s why Aminata Pelletier and Clarisse Berriau, Meilleur Agents's
+                                              <p>That’s why Aminata Pelletier and Clarisse Berriau, Meilleurs Agents's
                                                   HR Managers, wanted to create a learning path that included coaching
                                                   and make them autonomous of their personal development. Coaching was
                                                   only available to C-Levels, and they wanted to scale it to more

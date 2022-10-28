@@ -222,7 +222,7 @@ Coachello on-demand "
                         light={adelineThumb}
                         playing
                         width="100%"
-                        url="https://d1x3hp8oc8irfp.cloudfront.net/Adeline.mp4"
+                        url="https://www.youtube.com/watch?v=s8p-gsnM-hs&t=1s"
                         playIcon={
                             <img src={playIcon}
                             />
