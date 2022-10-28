@@ -66,7 +66,7 @@ const Gorgias = () => {
                                                          des={'Location'}/>
                                         <CompanyIconCard icon={userIcon} header={'300+ \n' +
                                             '(Full Remote)'} des={'Company Size'}/>
-                                        <CompanyIconCard icon={buildingIcon} header={'Real Estate'} des={'e-Commerce'}/>
+                                        <CompanyIconCard icon={buildingIcon} header={'Industry'} des={'e-Commerce'}/>
                                     </div>
 
                                     <p>
@@ -220,7 +220,7 @@ Coachello on-demand "
                     <h2>“Incredible progress”</h2>
                     <ReactPlayer
                         controls={true}
-                        light={adelineThumb}
+                        // light={adelineThumb}
                         playing
                         width="100%"
                         url="https://www.youtube.com/watch?v=s8p-gsnM-hs&t=1s"

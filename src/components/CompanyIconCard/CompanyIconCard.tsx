@@ -10,7 +10,7 @@ const CompanyIconCard = (props:Props) => {
             <div className="flex flex-col gap-2">
                 <img width={32} src={props.icon}/>
 
-                <h4 className="m-0 w-2/3">{props.header}</h4>
+                <h4 className="m-0 w-5/6">{props.header}</h4>
                 <p className="m-0 font-medium">{props.des}</p>
             </div>
         </div>
