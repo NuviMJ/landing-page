@@ -47,6 +47,7 @@ import adelineThumb from "../assets/img/thumbnails/adeline.png";
 import playIcon from "../assets/img/icons/playButton.svg";
 import ReactPlayer from "react-player";
 import {Link} from "gatsby";
+import Footer from "../sections/Footer/Footer";
 
 const Gorgias = () => {
     return (
@@ -252,6 +253,7 @@ Coachello on-demand "
                 </div>
             </div>
             <What/>
+            <Footer/>
 
         </>
     );

@@ -35,6 +35,7 @@ import Objectives from "../sections/Objectives/Objectives";
 import CompanyCaseStudyTemplate from "../components/CompanyCaseStudyTemplate/CompanyCaseStudyTemplate";
 import What from "../sections/What/What";
 import {Link} from "gatsby";
+import Footer from "../sections/Footer/Footer";
 
 const MeilleursAgents = () => {
     return (
@@ -195,6 +196,7 @@ const MeilleursAgents = () => {
                                           </>
                                       }/>
             <What/>
+            <Footer/>
 
         </>
     );
