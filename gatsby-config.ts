@@ -7,15 +7,24 @@ const config: GatsbyConfig = {
         description: "Online Professional Coaching Platform",
         author: `@coachello`,
         url: `https://coachello.io`,
+        siteUrl: `https://coachello.io`,
         image: "https://i.ibb.co/bKD9Q9P/SEO.jpg", // Path to the image placed in the 'static' folder, in the project's root directory.
     },
     plugins: [
         // used to generate rewrites for client only paths
         // on demo hosted on Netlify
+        {
+            resolve: 'gatsby-plugin-exact-client-paths',
+            options: {
+                clientPaths: ['/thought-leadership/improve-your-public-speaking-training'],
+            },
+        },
+
         "gatsby-plugin-netlify",
         "gatsby-plugin-sass",
         'gatsby-plugin-postcss',
         "gatsby-plugin-react-helmet",
+        'gatsby-plugin-sitemap',
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
@@ -27,7 +36,7 @@ const config: GatsbyConfig = {
                 display: 'standalone',
                 icon: 'src/assets/img/coachello.svg',
             },
-        }   , {
+        }, {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
                 // The property ID; the tracking code won't be generated without it
