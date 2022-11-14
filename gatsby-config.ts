@@ -14,10 +14,8 @@ const config: GatsbyConfig = {
         // used to generate rewrites for client only paths
         // on demo hosted on Netlify
         {
-            resolve: 'gatsby-plugin-exact-client-paths',
-            options: {
-                clientPaths: ['/thought-leadership/improve-your-public-speaking-training'],
-            },
+            resolve: `gatsby-plugin-create-client-paths`,
+            options: {prefixes: [`/thought-leadership/*`]},
         },
 
         "gatsby-plugin-netlify",
