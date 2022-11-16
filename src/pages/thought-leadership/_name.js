@@ -1,3 +1,9 @@
+/**
+ * This is the old file used to create the blog pages
+ * _ will exclude this file when creating pages.
+ */
+
+
 import React, {useEffect, useState} from "react"
 import BlogPage from "../../components/PrismicArticles/blog_page";
 import Navbar from "../../sections/Navbar/Navbar";
