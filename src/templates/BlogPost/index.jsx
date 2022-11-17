@@ -14,7 +14,7 @@ const BlogPost = ({ data }) => {
       {/*<Article {...blog} />*/}
       <Seo
         title={blog?.dataRaw?.seo_title?.[0]?.text || "Coachello"}
-        description={blog?.dataRaw?.seo_description?.[0].text || "Coachello"}
+        description={blog?.dataRaw?.seo_description?.[0]?.text || "Coachello"}
       />
       <BlogPage blog={blog} />
       <Footer />

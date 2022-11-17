@@ -10,7 +10,9 @@ const BlogPage = ({ blog }: Props) => {
 
   return (
     <div className="PrismicArticles">
-      <p>Published {moment(doc.date_of_publication).format("MMMM d, YYYY")}</p>
+      <p>
+        Published {moment(blog?.date_of_publication).format("MMMM d, YYYY")}
+      </p>
       <p>
         Estimated read time:{" "}
         <b>
