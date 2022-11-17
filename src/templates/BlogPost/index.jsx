@@ -13,8 +13,8 @@ const BlogPost = ({ data }) => {
       <Navbar />
       {/*<Article {...blog} />*/}
       <Seo
-        title={blog?.seo_title?.[0]?.text || "Coachello"}
-        description={blog.seo_description?.[0].text || "Coachello"}
+        title={blog?.dataRaw?.seo_title?.[0]?.text || "Coachello"}
+        description={blog?.dataRaw?.seo_description?.[0].text || "Coachello"}
       />
       <BlogPage blog={blog} />
       <Footer />
