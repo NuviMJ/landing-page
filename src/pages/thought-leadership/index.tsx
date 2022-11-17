@@ -19,22 +19,48 @@ import coachingIcon from "../../assets/img/icons/coaching.svg";
 import managerIcon from "../../assets/img/icons/manager.svg";
 
 import ThoughtLeadership from "../../sections/ThoughtLeadership/ThoughtLeadership";
-import { PrismicProvider } from "@prismicio/react";
-import { client } from "../../utils/prismic";
 // @ts-ignore
 import Seo from "../../utils/seo";
+import { graphql } from "gatsby";
 
-const ThoughtLeadershipPage = () => {
+interface ThoughtLeadershipPage {
+  data: any;
+}
+
+const ThoughtLeadershipPage: React.FC<ThoughtLeadershipPage> = ({ data }) => {
   return (
     <>
       <Seo title="Coachello - Thought Leadership" />
       <Navbar />
-      <PrismicProvider client={client}>
-        <ThoughtLeadership />
-      </PrismicProvider>
+      <ThoughtLeadership data={data?.allPrismicBlogPage?.nodes || []} />
       <Footer />
     </>
   );
 };
 
 export default ThoughtLeadershipPage;
+
+export const query = graphql`
+  query BlogPage {
+    allPrismicBlogPage(sort: { order: DESC, fields: last_publication_date }) {
+      nodes {
+        id
+        data {
+          date_of_publication
+          subject {
+            text
+          }
+          title {
+            text
+          }
+          image {
+            url(imgixParams: { width: 800, q: 100 })
+            alt
+          }
+        }
+        uid
+        last_publication_date
+      }
+    }
+  }
+`;

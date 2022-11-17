@@ -1,14 +1,13 @@
 import React from "react";
-import * as prismicH from "@prismicio/helpers";
 import { PrismicRichText, PrismicText } from "@prismicio/react";
 import "./PrismicArticles.scss";
 import moment from "moment";
 interface Props {
-  doc: any;
+  blog: any;
 }
-const BlogPage = ({ doc }: Props) => {
-  console.log(doc);
-  // const src = prismicH.asImageSrc(doc.data.image)
+const BlogPage = ({ blog }: Props) => {
+  const doc = blog?.dataRaw;
+
   return (
     <div className="PrismicArticles">
       <p>Published {moment(doc.date_of_publication).format("MMMM d, YYYY")}</p>
@@ -23,8 +22,8 @@ const BlogPage = ({ doc }: Props) => {
 
       <img
         className="PrismicArticles-heroImg"
-        src={doc?.image?.url}
-        alt={doc.image.alt}
+        src={blog?.data?.image?.url}
+        alt={blog?.data?.image.alt}
       />
 
       <PrismicRichText field={doc.text} />
