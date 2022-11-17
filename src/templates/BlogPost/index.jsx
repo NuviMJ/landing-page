@@ -1,0 +1,41 @@
+import React, { useEffect, useState } from "react";
+import BlogPage from "../../components/PrismicArticles/blog_page";
+import Navbar from "../../sections/Navbar/Navbar";
+import Footer from "../../sections/Footer/Footer";
+import Seo from "../../utils/seo";
+import { graphql } from "gatsby";
+
+const BlogPost = ({ data }) => {
+  const blog = data?.prismicBlogPage;
+
+  return (
+    <>
+      <Navbar />
+      {/*<Article {...blog} />*/}
+      <Seo
+        title={blog?.seo_title?.[0]?.text || "Coachello"}
+        description={blog.seo_description?.[0].text || "Coachello"}
+      />
+      <BlogPage blog={blog} />
+      <Footer />
+    </>
+  );
+};
+
+export default BlogPost;
+
+export const query = graphql`
+  query BlogPost($id: String) {
+    prismicBlogPage(id: { eq: $id }) {
+      uid
+      id
+      url
+      dataRaw
+      data {
+        image {
+          url(imgixParams: { width: 1920, q: 100 })
+        }
+      }
+    }
+  }
+`;

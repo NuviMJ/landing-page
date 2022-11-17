@@ -1,41 +1,66 @@
-import * as React from "react"
+import * as React from "react";
 import Navbar from "../../sections/Navbar/Navbar";
-import '../../styles/index.css';
-import '../../styles/colour.css';
-import '../../styles/fonts.css';
+import "../../styles/index.css";
+import "../../styles/colour.css";
+import "../../styles/fonts.css";
 import Footer from "../../sections/Footer/Footer";
 
 // @ts-ignore
-import leadershipCoachingImg from '../../assets/img/leadershipCoaching.png'
+import leadershipCoachingImg from "../../assets/img/leadershipCoaching.png";
 // @ts-ignore
-import macImg from '../../assets/img/MacBook Air.png'
+import macImg from "../../assets/img/MacBook Air.png";
 // @ts-ignore
-import selfIcon from '../../assets/img/icons/self.svg'
+import selfIcon from "../../assets/img/icons/self.svg";
 // @ts-ignore
-import motivatedIcon from '../../assets/img/icons/motivated.svg'
+import motivatedIcon from "../../assets/img/icons/motivated.svg";
 // @ts-ignore
-import coachingIcon from '../../assets/img/icons/coaching.svg'
+import coachingIcon from "../../assets/img/icons/coaching.svg";
 // @ts-ignore
-import managerIcon from '../../assets/img/icons/manager.svg'
+import managerIcon from "../../assets/img/icons/manager.svg";
 
 import ThoughtLeadership from "../../sections/ThoughtLeadership/ThoughtLeadership";
-import {PrismicProvider} from "@prismicio/react";
-import {client} from "../../utils/prismic";
 // @ts-ignore
 import Seo from "../../utils/seo";
+import { graphql } from "gatsby";
 
-const ThoughtLeadershipPage = () => {
-    return (
-        <>
-            <Seo title="Coachello - Thought Leadership"/>
-            <Navbar/>
-            <PrismicProvider client={client}>
-                <ThoughtLeadership/>
-            </PrismicProvider>
-            <Footer/>
-
-        </>
-    )
+interface ThoughtLeadershipPage {
+  data: any;
 }
 
-export default ThoughtLeadershipPage
+const ThoughtLeadershipPage: React.FC<ThoughtLeadershipPage> = ({ data }) => {
+  return (
+    <>
+      <Seo title="Coachello - Thought Leadership" />
+      <Navbar />
+      <ThoughtLeadership data={data?.allPrismicBlogPage?.nodes || []} />
+      <Footer />
+    </>
+  );
+};
+
+export default ThoughtLeadershipPage;
+
+export const query = graphql`
+  query BlogPage {
+    allPrismicBlogPage(sort: { order: DESC, fields: last_publication_date }) {
+      nodes {
+        id
+        data {
+          date_of_publication
+          subject {
+            text
+          }
+          title {
+            text
+          }
+          image {
+            url(imgixParams: { width: 800, q: 100 })
+            alt
+          }
+        }
+        uid
+        last_publication_date
+      }
+    }
+  }
+`;
