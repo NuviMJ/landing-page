@@ -15,6 +15,7 @@ const linkResolver = (doc: any) => {
 };
 
 const config: GatsbyConfig = {
+  trailingSlash: "always",
   siteMetadata: {
     title: `Coachello`,
     description: "Online Professional Coaching Platform",
@@ -24,8 +25,6 @@ const config: GatsbyConfig = {
     image: "https://i.ibb.co/bKD9Q9P/SEO.jpg", // Path to the image placed in the 'static' folder, in the project's root directory.
   },
   plugins: [
-    // used to generate rewrites for client only paths
-    // on demo hosted on Netlify
     "gatsby-plugin-netlify",
     "gatsby-plugin-sass",
     "gatsby-plugin-postcss",
