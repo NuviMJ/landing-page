@@ -1,0 +1,36 @@
+.OnDemandTemplate {
+  padding: 4.45rem 6.0875rem;
+  justify-content: center;
+
+  & > div {
+    display: flex;
+    justify-content: space-around;
+    //margin: 0.7rem 3rem 0.7rem 10px;
+    flex-wrap: wrap;
+    gap:60px;
+  }
+
+  &-imgContainer {
+    flex: 1;
+
+    & > img {
+      width: 100%;
+      min-width: 378px;
+    }
+  }
+
+  &-contentContainer {
+    flex: 1;
+    min-width: 378px;
+    & > div {
+      //margin: 0.7rem 4rem;
+
+      & h2, h1 {
+        margin-top: 11px;
+      }
+    }
+  }
+  @media screen and (max-width: 650px) {
+    padding: 2.45rem 2.0875rem;
+  }
+}
