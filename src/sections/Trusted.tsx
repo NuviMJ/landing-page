@@ -8,7 +8,7 @@ import thrustedImg from "../assets/img/thrustedRight.png";
 
 const Trusted = () => {
   return (
-    <div className="bg-white p-24">
+    <div className="bg-white p-8 lg:p-24">
       <h3>Trusted by 100+ leading organisations</h3>
       <div className="flex flex-col lg:flex-row gap-10">
         <div className="flex gap-5 flex-1 items-center md:flex-row flex-col">
