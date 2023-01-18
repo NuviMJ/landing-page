@@ -43,6 +43,14 @@ const config: GatsbyConfig = {
       },
     },
     {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: false, // optional parameter to include script in development
+        id: process.env.HOT_JAR_LANDING_PAGE,
+        sv: 6,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
