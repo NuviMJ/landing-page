@@ -1,0 +1,16 @@
+table {
+    border: 2px solid black;
+    width: 800px;
+    height: 200px;
+  }
+    
+  th {
+    color: #FD0054;
+    border: 1px solid black;
+  }
+    
+  td {
+    text-align:unset;
+    border:1px solid black ;
+    vertical-align: top;
+  }
