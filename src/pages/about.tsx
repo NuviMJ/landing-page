@@ -7,7 +7,7 @@ import '../styles/fonts.css';
 import CongueImg from '../assets/img/team.png'
 // @ts-ignore
 import philosopyImg from '../assets/img/philosophy.png'
-
+import '../sections/YouAreCoach/YouAreCoach.scss'
 import Footer from "../sections/Footer/Footer";
 import ImgContentTemplateRed from "../components/ImgContentTemplateRed/ImgContentTemplateRed";
 import CoreTeam from "../sections/CoreTeam/CoreTeam";
@@ -37,15 +37,16 @@ const AboutPage = () => {
             <CoreTeam/>
             <ImgContentTemplateRed img={philosopyImg}
                                    redTitle="Philosophy"
-                                   titleE={<h2>Offering the highest of quality of coaching in the most efficient way
-                                       possible so you get the best price, quality, and UX equation.
+                                   titleE={<h2>Coachello brings world-class personalised support to the Workplace
                                    </h2>}
                                    desE={
                                        <>
-                                           <p>We are driven by human connections but propelled by technical innovation
-                                               and are highly data driven. </p>
+                                           <p>Coachello is selected by Slack for its Future of Work program and actively works with Microsoft to make the work place personalised. </p>
+                                           <button className="YouAreCoach-button">Learn in 20 Minutes What We Can Do For You</button>
                                        </>
+                                    
                                    }/>
+                                   
             <Footer/>
         </>
     )
