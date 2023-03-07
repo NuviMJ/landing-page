@@ -34,7 +34,7 @@ const MetaversePage = () => {
             <ImgContentTemplate img={MetaverseImg} title="Metaverse"
                                 des={<>
                                     <p>
-                                        At Coachello we have create Coachello Labs to brings coaching in the metaverse
+                                        At Coachello we have created Coachello Labs to bring coaching in the metaverse
                                         to
                                         your employees.
                                     </p><p>

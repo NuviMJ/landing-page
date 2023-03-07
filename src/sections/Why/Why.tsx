@@ -21,9 +21,9 @@ const Why = () => {
         <div className="Why">
             <div>
                 <div className="Why-headerContainer">
-                    <p className="h1-red">Why companies needs Coachello?</p>
+                    <p className="h1-red">Why companies need Coachello?</p>
                     <h2>A personalised approach <br/>
-                        for 2022 challenges </h2>
+                        for 2023 challenges </h2>
                 </div>
                 <div className="Why-cardContainer">
                     <div>

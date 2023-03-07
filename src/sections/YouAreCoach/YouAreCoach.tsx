@@ -19,8 +19,8 @@ const YouAreCoach = () => {
                         Working with Coachello means working with leading and inspiring companies. It also means
                         flexibility. Decide how many hours you want to work each week. Just focus on what you do the
                         best supported by our technology.
-                        <b>Also, can you find a better mission than bringing coaching to
-                            every company for a global better workplace?</b>
+                        <b> Also, can you find a better mission than bringing coaching to
+                            every company for a better global workplace?</b>
                     </p>
                     <a href="mailto:livia@coachello.io"><button className="YouAreCoach-button">Learn More And Join Our Community</button>
                     </a>
