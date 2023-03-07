@@ -20,10 +20,10 @@ const MeetCoaches = () => {
                     <h2>Meet some of our amazing coaches</h2>
                 </div>
                 <p>Are amazing. They are all certified by the ICF and possess over 500 hours of coaching experience.
-                    They are well-travelled individuals which can lean on rich careers. We continuously monitor their
+                    They are well-travelled individuals who can lean on rich careers. We continuously monitor their
                     performance so that we can guarantee you an excellent quality. They can help your talents on any
                     topic ranging from burn-out prevention, public speaking to management and leadership. Oh yes, your
-                    talents always choose their coach based on their personality.
+                    talents can always choose their coach based on their personality.
                 </p>
 
                 <div className="MeetCoaches-imgContainer">

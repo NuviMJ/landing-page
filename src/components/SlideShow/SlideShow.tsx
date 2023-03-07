@@ -11,7 +11,7 @@ interface Props {
     className?:string;
 }
 
-const SlideShow = ({delay = 2500, children,className}: Props) => {
+const SlideShow = ({delay = 5000, children,className}: Props) => {
     const [index, setIndex] = React.useState(0);
     const timeoutRef = React.useRef<NodeJS.Timeout>();
 
