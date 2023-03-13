@@ -4,6 +4,8 @@ import './Footer.scss'
 import coachelloLogo from '../../assets/img/header.svg'
 // @ts-ignore
 import laFrenchTechLogo from '../../assets/img/La French Tech.png'
+// @ts-ignore
+import globalCompactLogo from '../../assets/img/globalCompactLogo.png'
 import {Link} from "gatsby";
 
 const Footer = () => {
@@ -43,6 +45,9 @@ const Footer = () => {
                 </div>
                 <div className="Footer-imgContainer">
                     <img src={laFrenchTechLogo}/>
+                </div>
+                <div className="Footer-imgContainer">
+                    <img src={globalCompactLogo}/>
                 </div>
             </div>
         </footer>
