@@ -15,6 +15,7 @@ import HoverVideoPlayer from "react-hover-video-player";
 import CountUp from "react-countup";
 import VisibilitySensor from 'react-visibility-sensor';
 import HoverPlayer from "../../components/HoverPlayer/HoverPlayer";
+import ReactPlayer from "react-player";
 // class CountUp {
 //     constructor(triggerEl: any, counterEl: any) {
 //         const counter = document.querySelector(counterEl)
@@ -49,7 +50,14 @@ const Help = () => {
                         <p className="h1-red">Outcome based</p>
                         <h2>Help your talents navigate through the constant changes in your company & their lives</h2>
                         <div className="Help-videoContainer">
-                           <HoverPlayer url="https://d1x3hp8oc8irfp.cloudfront.net/01 Who are our coaches V1.mp4"/>
+                           <ReactPlayer 
+                                playing
+                                muted={true}
+                                loop={true}
+                                url="https://www.youtube.com/watch?v=ajLPlTRYTJY"  
+                                width={'540px'} 
+                                height={'300px'} />
+                           
                             {/*<HoverVideoPlayer*/}
                             {/*    className="Help-videoCard"*/}
                             {/*    videoSrc="https://d1x3hp8oc8irfp.cloudfront.net/thomas.mp4"*/}
