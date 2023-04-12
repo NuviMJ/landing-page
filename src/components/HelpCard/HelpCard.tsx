@@ -13,10 +13,10 @@ const HelpCard = (props:Props) => {
         <div className="HelpCard">
             <div>
                 <img src={props.icon}/>
-                <h1>
+                <p className='text-6xl my-4 font-medium'>
                     {props.value}
 
-                    <span className="HelpCard-suffix">{props.valueSuffix}</span></h1>
+                    <span className="HelpCard-suffix">{props.valueSuffix}</span></p>
                 <h4>{props.header}</h4>
                 <p>{props.des}</p>
             </div>
