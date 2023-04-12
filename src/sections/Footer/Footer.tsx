@@ -30,8 +30,9 @@ const Footer = () => {
                 </div>
                 <div className="Footer-contentContainer">
                     <a href="/about"><p>About</p></a>
-                    <a href="/privacy-policy"><p>Privacy Policy</p></a>
-                    <a href="/terms-and-conditions"><p>Terms & Conditions</p></a>
+                    <a href="https://legal.coachello.io/en/"><p>Legal & Admin Support</p></a>
+                    {/* <a href="/privacy-policy"><p>Privacy Policy</p></a>
+                    <a href="/terms-and-conditions"><p>Terms & Conditions</p></a> */}
                     <a href="/coaches"><p>I am a coach</p></a>
 
                 </div>
