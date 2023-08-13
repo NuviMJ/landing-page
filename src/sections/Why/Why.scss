@@ -1,11 +1,7 @@
 .Why {
-  padding: 2.45rem 6.45rem;
   justify-content: center;
-  background-color: var(--pink-light);
 
-  & h2 {
-  margin-top: 0;
-  }
+
 
   & > div {
 
@@ -18,7 +14,7 @@
   &-cardContainer {
     display: flex;
     flex-wrap: wrap;
-    --gapvar: 10px;
+    --gapvar: 24px;
     justify-content: center;
     gap: var(--gapvar);
 

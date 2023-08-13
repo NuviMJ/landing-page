@@ -4,32 +4,32 @@ import "../styles/index.css";
 import "../styles/colour.css";
 import "../styles/fonts.css";
 import Footer from "../sections/Footer/Footer";
-import ImgContentTemplateRed from "../components/ImgContentTemplateRed/ImgContentTemplateRed";
+import ImgContentTemplateRed from "../components/old/ImgContentTemplateRed/ImgContentTemplateRed";
 
-import WhatYouGetTemplate from "../components/WhatYouGetTemplate/WhatYouGetTemplate";
+import WhatYouGetTemplate from "../components/old/WhatYouGetTemplate/WhatYouGetTemplate";
 
 // @ts-ignore
-import skillsIcon from "../assets/img/icons/skills.svg";
+import skillsIcon from "../assets/img/old/icons/skills.svg";
 // @ts-ignore
-import cohesionIcon from "../assets/img/icons/cohesion.svg";
+import cohesionIcon from "../assets/img/old/icons/cohesion.svg";
 // @ts-ignore
-import performanceIcon from "../assets/img/icons/performance.svg";
+import performanceIcon from "../assets/img/old/icons/performance.svg";
 // @ts-ignore
-import clarityIcon from "../assets/img/icons/clarity.svg";
+import clarityIcon from "../assets/img/old/icons/clarity.svg";
 
-import What from "../sections/What/What";
-import ImgContentTemplate from "../components/ImgContentTemplate/ImgContentTemplate";
+import What from "../sections/old/What/What";
+import ImgContentTemplate from "../components/old/ImgContentTemplate/ImgContentTemplate";
 // @ts-ignore
 import coachingBenefitImg from "../../assets/img/coachingAsBenefit.png";
-import Measure from "../sections/Measure/Measure";
+import Measure from "../sections/old/Measure/Measure";
 // @ts-ignore
-import GroupWorkShopImg from "../assets/img/GroupWorkshop.png";
+import GroupWorkShopImg from "../assets/img/old/GroupWorkshop.png";
 // @ts-ignore
 import Seo from "../utils/seo";
 import { EveryUser, SettingConfig, UserPositioning } from "@icon-park/react";
-import InsideTemplate from "../sections/InsideTemplate";
-import BuildingBlock from "../sections/BuildingBlock";
-import Faq from "../sections/Faq/Faq";
+import InsideTemplate from "../sections/old/InsideTemplate";
+import BuildingBlock from "../sections/old/BuildingBlock";
+import Faq from "../sections/old/Faq/Faq";
 
 const WorkshopsPage = () => {
   return (

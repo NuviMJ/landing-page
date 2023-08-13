@@ -1,23 +1,27 @@
 import * as React from "react";
 import Navbar from "../sections/Navbar/Navbar";
-import "../styles/index.css";
+// import "../styles/index.css";
 import "../styles/global.css";
-import "../styles/colour.css";
-import "../styles/fonts.css";
-import Hero from "../sections/Hero/Hero";
-import HowToUse from "../sections/HowToUse/HowToUse";
-import HowItWorks from "../sections/HowItWorks/HowItWorks";
-import Help from "../sections/Help/Help";
+// import "../styles/colour.css";
+// import "../styles/fonts.css";
+import HowToUse from "../sections/old/HowToUse/HowToUse";
+import Help from "../sections/old/Help/Help";
 import Why from "../sections/Why/Why";
-import OurCoaches from "../sections/OurCoaches/OurCoaches";
-import Faq from "../sections/Faq/Faq";
+import OurCoaches from "../sections/OurCoaches";
+import Faq from "../sections/old/Faq/Faq";
 import Footer from "../sections/Footer/Footer";
-import What from "../sections/What/What";
-import Counter from "../components/Counter/Counter";
+import What from "../sections/old/What/What";
+import Counter from "../components/old/Counter/Counter";
 // @ts-ignore
 import Seo from "../utils/seo";
 import { useRef } from "react";
-import BuildingBlock from "../sections/BuildingBlock";
+import BuildingBlock from "../sections/old/BuildingBlock";
+import { useTypeWriter } from "../hooks/useTypeWriter";
+import Hero from "../sections/Hero";
+import TransformLeaders from "../sections/TransformLeaders";
+import Workspace from "../sections/Workspace";
+import HowItWorks from "../sections/HowItWorks";
+import Outcome from "../sections/Outcome";
 // // @ts-ignore
 // import seoImg from '../assets/img/SEO.jpg'
 
@@ -30,17 +34,18 @@ const IndexPage = () => {
         description="Discover our professional coaching platform. From group workshops to individual coaching, we are here to give you an amazing experience."
       />
       <Navbar />
-
       {/*<Counter trigger="" run={false} start={0} end={100} duration={10}/>*/}
       <Hero />
-      <HowToUse />
-
+      <TransformLeaders />
+      <Workspace />
       <HowItWorks />
-      <Help />
+      <Outcome />
+      {/*<Help />*/}
+      {/*<What />*/}
+      {/*<HowToUse />*/}
       <Why />
       <OurCoaches />
       <BuildingBlock />
-      <What />
       <Faq />
       <Footer />
     </>

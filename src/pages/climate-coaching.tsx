@@ -5,29 +5,29 @@ import "../styles/colour.css";
 import "../styles/fonts.css";
 import Footer from "../sections/Footer/Footer";
 
-import WhatYouGetTemplate from "../components/WhatYouGetTemplate/WhatYouGetTemplate";
+import WhatYouGetTemplate from "../components/old/WhatYouGetTemplate/WhatYouGetTemplate";
 
 // @ts-ignore
-import personalisedIcon from "../assets/img/icons/personalised.png";
+import personalisedIcon from "../assets/img/old/icons/personalised.png";
 // @ts-ignore
-import measurableImpactIcon from "../assets/img/icons/measurableImpact.png";
+import measurableImpactIcon from "../assets/img/old/icons/measurableImpact.png";
 // @ts-ignore
-import empowermentIcon from "../assets/img/icons/empowerment.png";
+import empowermentIcon from "../assets/img/old/icons/empowerment.png";
 // @ts-ignore
-import consciousnessIcon from "../assets/img/icons/consciousness.png";
+import consciousnessIcon from "../assets/img/old/icons/consciousness.png";
 
-import What from "../sections/What/What";
-import ImgContentTemplate from "../components/ImgContentTemplate/ImgContentTemplate";
+import What from "../sections/old/What/What";
+import ImgContentTemplate from "../components/old/ImgContentTemplate/ImgContentTemplate";
 // @ts-ignore
 import coachingBenefitImg from "../../assets/img/coachingAsBenefit.png";
 
 // @ts-ignore
-import ClimateImg from "../assets/img/Climate Coaching.png";
+import ClimateImg from "../assets/img/old/Climate Coaching.png";
 // @ts-ignore
 import Seo from "../utils/seo";
-import OnDemandTemplate from "../components/OnDemandTemplate/OnDemandTemplate";
+import OnDemandTemplate from "../components/old/OnDemandTemplate/OnDemandTemplate";
 // @ts-ignore
-import monthlyMeetingImg from "../assets/img/monthlyMeeting2.png";
+import monthlyMeetingImg from "../assets/img/old/monthlyMeeting2.png";
 
 const ClimateCoachingPage = () => {
   return (

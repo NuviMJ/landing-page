@@ -4,29 +4,29 @@ import "../styles/index.css";
 import "../styles/colour.css";
 import "../styles/fonts.css";
 import Footer from "../sections/Footer/Footer";
-import ImgContentTemplateRed from "../components/ImgContentTemplateRed/ImgContentTemplateRed";
+import ImgContentTemplateRed from "../components/old/ImgContentTemplateRed/ImgContentTemplateRed";
 
-import WhatYouGetTemplate from "../components/WhatYouGetTemplate/WhatYouGetTemplate";
+import WhatYouGetTemplate from "../components/old/WhatYouGetTemplate/WhatYouGetTemplate";
 
 // @ts-ignore
-import selfIcon from "../assets/img/icons/self.svg";
+import selfIcon from "../assets/img/old/icons/self.svg";
 // @ts-ignore
-import motivatedIcon from "../assets/img/icons/motivated.svg";
+import motivatedIcon from "../assets/img/old/icons/motivated.svg";
 // @ts-ignore
-import coachingIcon from "../assets/img/icons/coaching.svg";
+import coachingIcon from "../assets/img/old/icons/coaching.svg";
 // @ts-ignore
-import managerIcon from "../assets/img/icons/manager.svg";
+import managerIcon from "../assets/img/old/icons/manager.svg";
 
-import What from "../sections/What/What";
-import ImgContentTemplate from "../components/ImgContentTemplate/ImgContentTemplate";
+import What from "../sections/old/What/What";
+import ImgContentTemplate from "../components/old/ImgContentTemplate/ImgContentTemplate";
 // @ts-ignore
-import onDemandImg from "../assets/img/onDemand.png";
+import onDemandImg from "../assets/img/old/onDemand.png";
 
-import Measure from "../sections/Measure/Measure";
+import Measure from "../sections/old/Measure/Measure";
 // @ts-ignore
 import Seo from "../utils/seo";
-import Trusted from "../sections/Trusted";
-import InsideTemplate from "../sections/InsideTemplate";
+import Trusted from "../sections/old/Trusted";
+import InsideTemplate from "../sections/old/InsideTemplate";
 import {
   AllApplication,
   Badge,
@@ -53,9 +53,9 @@ import {
 } from "@icon-park/react";
 
 // @ts-ignore
-import monthlyMeetingImg from "../assets/img/monthlyMeeting.png";
-import OnDemandTemplate from "../components/OnDemandTemplate/OnDemandTemplate";
-import Faq from "../sections/Faq/Faq";
+import monthlyMeetingImg from "../assets/img/old/monthlyMeeting.png";
+import OnDemandTemplate from "../components/old/OnDemandTemplate/OnDemandTemplate";
+import Faq from "../sections/old/Faq/Faq";
 
 const OnDemandPage = () => {
   return (

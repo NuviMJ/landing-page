@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import BlogPage from "../../components/PrismicArticles/blog_page";
+import BlogPage from "../../components/old/PrismicArticles/blog_page";
 import Navbar from "../../sections/Navbar/Navbar";
 import Footer from "../../sections/Footer/Footer";
 import Seo from "../../utils/seo";
