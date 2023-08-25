@@ -20,7 +20,7 @@ import qontoLogo from "../../../assets/img/companies/qontoLogo.png";
 // @ts-ignore
 import hecLogo from "../../../assets/img/companies/HEC.png";
 // @ts-ignore
-import coachelloLogo from "../../../assets/img/old/coachello.svg";
+import coachelloLogo from "../../../assets/img/coachello.svg";
 
 const Hero = () => {
   return (
