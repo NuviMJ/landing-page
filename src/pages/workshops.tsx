@@ -29,7 +29,7 @@ import Seo from "../utils/seo";
 import { EveryUser, SettingConfig, UserPositioning } from "@icon-park/react";
 import InsideTemplate from "../sections/old/InsideTemplate";
 import BuildingBlock from "../sections/old/BuildingBlock";
-import Faq from "../sections/old/Faq/Faq";
+import Faq from "../sections/Faq/Faq";
 
 const WorkshopsPage = () => {
   return (

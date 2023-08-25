@@ -55,7 +55,7 @@ import {
 // @ts-ignore
 import monthlyMeetingImg from "../assets/img/old/monthlyMeeting.png";
 import OnDemandTemplate from "../components/old/OnDemandTemplate/OnDemandTemplate";
-import Faq from "../sections/old/Faq/Faq";
+import Faq from "../sections/Faq/Faq";
 
 const OnDemandPage = () => {
   return (

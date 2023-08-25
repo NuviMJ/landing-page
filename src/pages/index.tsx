@@ -8,9 +8,9 @@ import HowToUse from "../sections/old/HowToUse/HowToUse";
 import Help from "../sections/old/Help/Help";
 import Why from "../sections/Why/Why";
 import OurCoaches from "../sections/OurCoaches";
-import Faq from "../sections/old/Faq/Faq";
+import Faq from "../sections/Faq/Faq";
 import Footer from "../sections/Footer/Footer";
-import What from "../sections/old/What/What";
+import What from "../sections/What";
 import Counter from "../components/old/Counter/Counter";
 // @ts-ignore
 import Seo from "../utils/seo";
@@ -22,6 +22,7 @@ import TransformLeaders from "../sections/TransformLeaders";
 import Workspace from "../sections/Workspace";
 import HowItWorks from "../sections/HowItWorks";
 import Outcome from "../sections/Outcome";
+import Leaders from "../sections/Leaders";
 // // @ts-ignore
 // import seoImg from '../assets/img/SEO.jpg'
 
@@ -41,11 +42,14 @@ const IndexPage = () => {
       <HowItWorks />
       <Outcome />
       {/*<Help />*/}
-      {/*<What />*/}
       {/*<HowToUse />*/}
       <Why />
       <OurCoaches />
-      <BuildingBlock />
+
+      <Leaders />
+
+      <What />
+      {/*<BuildingBlock />*/}
       <Faq />
       <Footer />
     </>

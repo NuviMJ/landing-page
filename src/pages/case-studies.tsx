@@ -16,7 +16,7 @@ import CaseVideos from "../sections/old/CaseVideos/CaseVideos";
 import WhatYouGetTemplate from "../components/old/WhatYouGetTemplate/WhatYouGetTemplate";
 
 // @ts-ignore
-import certifiedIcon from "../assets/img/old/features/certified.svg";
+import certifiedIcon from "../assets/img/features/certified.svg";
 // @ts-ignore
 import Seo from "../utils/seo";
 import CompaniesStudy from "../sections/old/CompaniesStudy/CompaniesStudy";

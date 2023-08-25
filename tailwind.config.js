@@ -23,9 +23,12 @@ module.exports = {
         },
         green: {
           DEFAULT: "#B4E1C6",
+          light: "#E3F8EE",
         },
 
         red: { DEFAULT: "#FD0054" }, // this way we can use default bg-red-200 and so on
+
+        orange: { DEFAULT: "#E6968B" },
       },
 
       fontSize: {

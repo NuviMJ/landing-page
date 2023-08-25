@@ -4,16 +4,16 @@ import "../styles/index.css";
 import "../styles/colour.css";
 import "../styles/fonts.css";
 // @ts-ignore
-import LiviaImg from "../assets/img/old/ourCoaches/livia.svg";
+import LiviaImg from "../assets/img/livia.png";
 
 import Footer from "../sections/Footer/Footer";
 
-import CoachFeatures from "../sections/old/CoachFeatures/CoachFeatures";
+import CoachFeatures from "../sections/CoachFeatures/CoachFeatures";
 import CoachProfile from "../components/old/CoachProfile/CoachProfile";
 
-import MeetCoaches from "../sections/old/MeetCoaches/MeetCoaches";
+import MeetCoaches from "../sections/MeetCoaches/MeetCoaches";
 import YouAreCoach from "../sections/old/YouAreCoach/YouAreCoach";
-import GlobalExcellence from "../sections/old/GlobalExcellence/GlobalExcellence";
+import GlobalExcellence from "../sections/GlobalExcellence/GlobalExcellence";
 // @ts-ignore
 import Seo from "../utils/seo";
 
@@ -43,8 +43,11 @@ const CoachesPage = () => {
             </p>
             <p>
               Want to book a meeting with me? Please send me an email at{" "}
-              <a style={{ color: "var(--red)" }}>livia@coachello.io</a>
+              <a className="text-green-500">livia@coachello.io</a>
             </p>
+            <button className="dashboard-button bg-black rounded-full">
+              Learn more
+            </button>
           </>
         }
       />

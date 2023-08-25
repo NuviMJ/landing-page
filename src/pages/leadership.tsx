@@ -41,7 +41,7 @@ import {
 import OnDemandTemplate from "../components/old/OnDemandTemplate/OnDemandTemplate";
 // @ts-ignore
 import monthlyMeetingImg from "../assets/img/old/monthlyMeeting1.png";
-import Faq from "../sections/old/Faq/Faq";
+import Faq from "../sections/Faq/Faq";
 
 const LeadershipPage = () => {
   return (

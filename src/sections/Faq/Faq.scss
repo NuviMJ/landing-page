@@ -1,0 +1,37 @@
+.Faq {
+  padding: 2.45rem 5.0875rem;
+  justify-content: center;
+  //background-color: var(--warm-white);
+  text-align: center;
+
+  & > div {
+    //margin: auto 65px;
+  }
+
+  &-headerContainer {
+    text-align: center;
+    & h2{
+      margin-top: 0;
+    }
+  }
+
+  &-contentContainer {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    grid-column-gap: 40px;
+    text-align: left;
+    & > div {
+      flex: calc(45% - 5px);
+      min-width: 200px;
+    }
+  }
+  @media(max-width: 800px) {
+    & > div {
+      //margin: auto 10px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    padding: 2.45rem 2.0875rem;
+  }
+}

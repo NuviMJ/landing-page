@@ -13,6 +13,8 @@ import ImgContentTemplateRed from "../components/old/ImgContentTemplateRed/ImgCo
 import CoreTeam from "../sections/old/CoreTeam/CoreTeam";
 // @ts-ignore
 import Seo from "../utils/seo";
+import Human from "../sections/Human";
+import Recognition from "../sections/Recognition";
 
 const AboutPage = () => {
   return (
@@ -23,52 +25,32 @@ const AboutPage = () => {
         img={CongueImg}
         redTitle="Coachello"
         titleE={<h1>About Coachello</h1>}
-        desE={
-          <>
-            <b>
-              Coachello is a solution that puts your talents in contact with
-              high quality coaches at moments they need them most during their
-              employee experience.
-            </b>
-            <p>
-              Founded by Quentin, Leon, Livia and Dinal - in the midst of the
-              pandemic - to democratise coaching and to remove the barriers that
-              prevented this from happening (for companies: $$$$,
-              time-consuming, non-scalable, lack of transparency on results).
-              <p>
-                Companies would often offer coaching to executives only and rely
-                upon their own network of (befriended) coaches. The tripartite
-                agreement they put in place before starting external coaching
-                makes the process lengthy and expensive. In addition they don’t
-                have tools to scale external coaching and measure the
-                performance of their coaches.
-              </p>
-            </p>
-          </>
-        }
+        desE={<></>}
       />
-      <CoreTeam />
+      <Human />
       <ImgContentTemplateRed
         img={philosopyImg}
-        redTitle="Philosophy"
+        redTitle="Our Philosophy"
         titleE={
           <h2>
-            Coachello brings world-class personalised support to the Workplace
+            To allow every organization around the globe to have coaching
+            embedded in the workplace so that they can be sustainable on all
+            aspects
           </h2>
         }
         desE={
           <>
             <p>
-              Coachello is selected by Slack for its Future of Work program and
-              actively works with Microsoft to make the work place personalised.{" "}
+              We are driven by human connections but propelled by technical
+              innovation and are highly data driven.
             </p>
             <button className="YouAreCoach-button">
-              Learn in 20 Minutes What We Can Do For You
+              Let's discuss your project!
             </button>
           </>
         }
       />
-
+      <Recognition />
       <Footer />
     </>
   );

@@ -30,8 +30,8 @@ const OurCoaches = () => {
           choose their coach based on their personality.
         </p>
         <div className="flex ">
-          <img src={ICFLogo} />
-          <img src={EMCCLogo} />
+          <img className="h-16" src={ICFLogo} />
+          <img className="h-16" src={EMCCLogo} />
         </div>
         <br />
         <div>

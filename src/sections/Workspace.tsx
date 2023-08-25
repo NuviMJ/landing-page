@@ -45,9 +45,9 @@ const Workspace = () => {
 
       <div className="grid lg:grid-cols-2 gap-5 mt-10">
         <img className="grid-cols-1 w-full" src={i2Img} />
-        <div className="grid-cols-1 lg:p-10 lg:mx-auto">
+        <div className="grid-cols-1 lg:p-10 lg:mx-auto ">
           <h4>Embedded in MS Teams & Slack</h4>
-          <ul className={`gap-5 flex flex-col`}>
+          <ul className={`gap-5 flex flex-col px-0`}>
             <li className="icon-text">
               <TickIcon />
               Seamless connectivity

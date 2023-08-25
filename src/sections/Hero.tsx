@@ -24,14 +24,17 @@ import hecLogo from "../assets/img/companies/HEC.png";
 import { useTypeWriter } from "../hooks/useTypeWriter";
 
 const Hero = () => {
-  const sentences = ["Coaching for a better world"];
+  const sentences = [
+    "Coaching for a better world. ",
+    "Coachello is for your support. ",
+  ];
   const displayedSentence = useTypeWriter(sentences);
   return (
     <>
       <div className="section bg-warm">
-        <div className="flex flex-col lg:flex-row lg:gap-5">
-          <div className="lg:w-1/3 flex flex-col items-start justify-center">
-            {/*<h1 className="leading-[1.1] my-5">{displayedSentence}</h1>*/}
+        <div className="flex flex-col lg:flex-row lg:gap-12">
+          <div className="lg:w-2/5 flex flex-col items-start justify-center">
+            <h1 className="leading-[1.1] my-5 h-48">{displayedSentence}</h1>
 
             <a
               target="_blank"
@@ -39,12 +42,12 @@ const Hero = () => {
               rel="noopener noreferrer"
               href="https://meetings.hubspot.com/quentin-bouche/intro-coachello"
             >
-              <button className="py-3 cursor-pointer px-8 bg-pink rounded-3xl flex gap-4 border-0 items-center hover:bg-neutral-800">
+              <button className="py-3 cursor-pointer px-8 bg-pink rounded-3xl flex gap-4 border-0 items-center hover:bg-pink-200">
                 Talk to an expert
               </button>
             </a>
           </div>
-          <div className="lg:w-2/3">
+          <div className="lg:w-3/5">
             <img style={{ maxWidth: "100%" }} src={heroImg} />
           </div>
         </div>

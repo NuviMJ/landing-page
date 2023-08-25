@@ -63,17 +63,17 @@ const Navbar = () => {
                     className={
                       isSubNavExpanded
                         ? "Navbar-subExpanded Navbar-subMenu"
-                        : "Navbar-subCollapsed Navbar-subMenu"
+                        : "Navbar-subCollapsed Navbar-subMenu" + "rounded"
                     }
                   >
                     <li>
-                      <Link to="/on-demand">On Demand</Link>
+                      <Link to="/individual-coaching">Individual-coaching</Link>
                     </li>
                     <li>
-                      <Link to="/leadership">Leadership</Link>
+                      <Link to="/internal-coaching">Internal-coaching</Link>
                     </li>
                     <li>
-                      <Link to="/workshops">Workshops</Link>
+                      <Link to="/executive-coaching">Executive-coaching</Link>
                     </li>
                     {/*<li>*/}
                     {/*    <Link to='/metaverse'>Metaverse</Link>*/}
@@ -97,34 +97,34 @@ const Navbar = () => {
                 {/*        Case Studies*/}
                 {/*    </Link>*/}
                 {/*</li>*/}
-                <li
-                  onMouseOver={() => {
-                    setIsSubCaseExpanded(true);
-                  }}
-                  onMouseLeave={() => {
-                    setIsSubCaseExpanded(false);
-                  }}
-                  className=" Navbar-menuContainer"
-                  style={{ opacity: "1" }}
-                >
-                  <Link to="/case-studies">
-                    Case Studies <span aria-hidden="true">&#x25be;</span>
-                  </Link>
-                  <ul
-                    className={
-                      isSubCaseExpanded
-                        ? "Navbar-subExpanded Navbar-subMenu"
-                        : "Navbar-subCollapsed Navbar-subMenu"
-                    }
-                  >
-                    <li>
-                      <Link to="/meilleurs-agents">Meilleurs Agents</Link>
-                    </li>
-                    <li>
-                      <Link to="/gorgias">Gorgias</Link>
-                    </li>
-                  </ul>
-                </li>
+                {/*<li*/}
+                {/*  onMouseOver={() => {*/}
+                {/*    setIsSubCaseExpanded(true);*/}
+                {/*  }}*/}
+                {/*  onMouseLeave={() => {*/}
+                {/*    setIsSubCaseExpanded(false);*/}
+                {/*  }}*/}
+                {/*  className=" Navbar-menuContainer"*/}
+                {/*  style={{ opacity: "1" }}*/}
+                {/*>*/}
+                {/*  <Link to="/case-studies">*/}
+                {/*    Case Studies <span aria-hidden="true">&#x25be;</span>*/}
+                {/*  </Link>*/}
+                {/*  <ul*/}
+                {/*    className={*/}
+                {/*      isSubCaseExpanded*/}
+                {/*        ? "Navbar-subExpanded Navbar-subMenu"*/}
+                {/*        : "Navbar-subCollapsed Navbar-subMenu"*/}
+                {/*    }*/}
+                {/*  >*/}
+                {/*    <li>*/}
+                {/*      <Link to="/meilleurs-agents">Meilleurs Agents</Link>*/}
+                {/*    </li>*/}
+                {/*    <li>*/}
+                {/*      <Link to="/gorgias">Gorgias</Link>*/}
+                {/*    </li>*/}
+                {/*  </ul>*/}
+                {/*</li>*/}
                 <li>
                   <Link to="/thought-leadership">Thought Leadership</Link>
                 </li>
