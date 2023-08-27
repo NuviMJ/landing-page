@@ -14,8 +14,8 @@ import timeIcon from "../assets/img/outcome/outcome4.png";
 const Outcome = () => {
   return (
     <div className="section bg-warm">
-      <h2 className="text-center">Outcome based</h2>
-      <div className="grid lg:grid-cols-2 gap-5 lg:px-32">
+      <h2 className="text-center mb-7">Outcome based</h2>
+      <div className="grid lg:grid-cols-2 gap-5 lg:px-40">
         <div className="flex flex-col gap-5">
           <HelpCard
             value={

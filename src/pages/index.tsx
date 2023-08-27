@@ -8,8 +8,8 @@ import HowToUse from "../sections/old/HowToUse/HowToUse";
 import Help from "../sections/old/Help/Help";
 import Why from "../sections/Why/Why";
 import OurCoaches from "../sections/OurCoaches";
-import Faq from "../sections/Faq/Faq";
-import Footer from "../sections/Footer/Footer";
+import Faq from "../sections/Faq";
+import Footer from "../sections/Footer";
 import What from "../sections/What";
 import Counter from "../components/old/Counter/Counter";
 // @ts-ignore

@@ -3,7 +3,7 @@ import Navbar from "../sections/Navbar/Navbar";
 import "../styles/index.css";
 import "../styles/colour.css";
 import "../styles/fonts.css";
-import Footer from "../sections/Footer/Footer";
+import Footer from "../sections/Footer";
 import ImgContentTemplateRed from "../components/old/ImgContentTemplateRed/ImgContentTemplateRed";
 
 import WhatYouGetTemplate from "../components/old/WhatYouGetTemplate/WhatYouGetTemplate";
@@ -29,7 +29,7 @@ import Seo from "../utils/seo";
 import { EveryUser, SettingConfig, UserPositioning } from "@icon-park/react";
 import InsideTemplate from "../sections/old/InsideTemplate";
 import BuildingBlock from "../sections/old/BuildingBlock";
-import Faq from "../sections/Faq/Faq";
+import Faq from "../sections/Faq";
 
 const WorkshopsPage = () => {
   return (

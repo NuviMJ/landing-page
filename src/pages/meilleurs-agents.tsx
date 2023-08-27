@@ -35,7 +35,7 @@ import Objectives from "../sections/old/Objectives/Objectives";
 import CompanyCaseStudyTemplate from "../components/old/CompanyCaseStudyTemplate/CompanyCaseStudyTemplate";
 import What from "../sections/old/What/What";
 import { Link } from "gatsby";
-import Footer from "../sections/Footer/Footer";
+import Footer from "../sections/Footer";
 
 const MeilleursAgents = () => {
   return (

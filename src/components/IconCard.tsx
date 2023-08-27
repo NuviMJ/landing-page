@@ -10,9 +10,9 @@ interface Props {
 const IconCard = (props: Props) => {
   return (
     <div
-      className={`border-2 border-warm-dark rounded h-full flex flex-col ${props.color}`}
+      className={`border-2 border-warm-dark/40 rounded h-full flex flex-col ${props.color}`}
     >
-      <div className={`flex flex-col gap-5 p-5`}>
+      <div className={`flex flex-col gap-5 p-4`}>
         <img className="h-32 w-fit px-5" src={props.icon} />
         {props.header && <h5 className="">{props.header}</h5>}
       </div>

@@ -22,7 +22,7 @@ const Why = () => {
       <div>
         <div className="Why-headerContainer">
           <p className="red-heading">Why companies need Coachello?</p>
-          <h2 className="mt-2">
+          <h2 className="mb-8 mt-3">
             A personalised approach <br />
             for 2023 challenges{" "}
           </h2>

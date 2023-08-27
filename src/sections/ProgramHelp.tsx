@@ -20,15 +20,15 @@ import upArrow from "../assets/img/r-up-arrow.png";
 const ProgramHelp = () => {
   return (
     <div className="section bg-white">
-      <h2 className="text-center">
+      <h2 className="text-center mb-12">
         Coachello helps you create custom <br /> programs from scratch that
         provide <br /> measurable results
       </h2>
       <div className="flex gap-12 flex-wrap md:flex-nowrap items-start">
         <div className="flex flex-col justify-center flex-1">
-          <h3 className="bg-green rounded-full mx-auto">01.</h3>
-          <ul className="bg-warm px-12 py-5 flex flex-col gap-3 text-left rounded">
-            <h4 className=" text-center">Engage</h4>
+          <h3 className="bg-green rounded-full mx-auto mb-5">01.</h3>
+          <ul className="bg-warm px-16 py-5 flex flex-col gap-3 text-left rounded">
+            <h4 className=" text-center mb-5">Engage</h4>
             <span className="flex items-center gap-3">
               <CooperativeHandshake className="my-auto" /> Onboarding
             </span>
@@ -47,9 +47,9 @@ const ProgramHelp = () => {
           <img src={downArrow} className="absolute h-4" />
         </h2>
         <div className="flex flex-col justify-center text-center flex-1">
-          <h3 className="bg-green rounded-full mx-auto">02.</h3>
-          <ul className="bg-warm px-16 py-5 flex flex-col gap-3 text-left rounded">
-            <h4 className=" text-center">Develop</h4>
+          <h3 className="bg-green rounded-full mx-auto mb-5">02.</h3>
+          <ul className="bg-warm px-12 py-5 flex flex-col gap-3 text-left rounded">
+            <h4 className=" text-center mb-5">Develop</h4>
             <span className="flex items-center gap-3">
               <DocSuccess className="my-auto" /> Tripartite agreement with
               manager and coach
@@ -70,9 +70,9 @@ const ProgramHelp = () => {
         </h2>
 
         <div className="flex flex-col justify-center text-center flex-1">
-          <h3 className="bg-green rounded-full mx-auto">03.</h3>
-          <ul className="bg-warm px-16 py-5 flex flex-col gap-3 text-left rounded">
-            <h4 className=" text-center">Envision</h4>
+          <h3 className="bg-green rounded-full mx-auto mb-5">03.</h3>
+          <ul className="bg-warm px-8 py-5 flex flex-col gap-3 text-left rounded">
+            <h4 className=" text-center mb-5">Envision</h4>
             <span className="flex items-center gap-3">
               <ElectricWave className="my-auto" /> Impact assessment (involving
               peers or manager)
@@ -92,7 +92,7 @@ const ProgramHelp = () => {
           </ul>
         </div>
       </div>
-      <div className="">
+      <div className="mt-5">
         <button className="dashboard-button rounded-full bg-black mx-auto">
           Discuss your project with an expert
         </button>

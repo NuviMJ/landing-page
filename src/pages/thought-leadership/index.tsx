@@ -3,7 +3,7 @@ import Navbar from "../../sections/Navbar/Navbar";
 import "../../styles/index.css";
 import "../../styles/colour.css";
 import "../../styles/fonts.css";
-import Footer from "../../sections/Footer/Footer";
+import Footer from "../../sections/Footer";
 
 // @ts-ignore
 import leadershipCoachingImg from "../../assets/img/old/leadershipCoaching.png";

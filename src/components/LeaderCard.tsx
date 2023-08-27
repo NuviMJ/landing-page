@@ -8,9 +8,9 @@ interface Props {
 const LeaderCard = (prop: Props) => {
   return (
     <div className={`${prop.bgColor} p-8 flex items-center gap-5 rounded-2xl`}>
-      <img src={prop.img} className="w-24 h-24" />
+      <img src={prop.img} className="w-16 h-16" />
       <div className="">
-        <h4 className="my-2">{prop.title}</h4>
+        <h5 className="my-2">{prop.title}</h5>
         <p className="my-2 font-normal">{prop.des}</p>
       </div>
     </div>

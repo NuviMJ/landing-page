@@ -7,9 +7,9 @@ const ExecutiveCoaches = () => {
   return (
     <div className="section bg-warm">
       <div className="flex gap-10">
-        <img className="w-1/2" src={Img} />
-        <div className="p-10">
-          <h3>Coachello Executive coaches</h3>
+        <img className="w-2/5" src={Img} />
+        <div className="p-16">
+          <h3 className="mb-8">Coachello Executive coaches</h3>
           <p>
             Our executive coaches have a track record of success in working with
             executives to help them develop their leadership skills, overcome
@@ -17,7 +17,7 @@ const ExecutiveCoaches = () => {
             challenges that executives face and have the expertise to help you
             navigate these challenges and achieve success.
           </p>
-          <p>
+          <p className="mt-8">
             We carefully select our coaches to ensure that they have the
             experience, knowledge, and skills necessary to meet C-level
             standards. Our coaches are also trained and monitored in our proven
@@ -26,8 +26,8 @@ const ExecutiveCoaches = () => {
           </p>
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 gap-8 mt-10">
-        <div className="bg-white rounded p-5 icon-text">
+      <div className="grid lg:grid-cols-3 gap-x-12 gap-y-8 mt-12">
+        <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
             className="!w-16"
             width="24"
@@ -54,7 +54,7 @@ const ExecutiveCoaches = () => {
           10 years minimum experience as Senior Director level or C-level in
           corporate environment
         </div>
-        <div className="bg-white rounded p-5 icon-text">
+        <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
             className="!w-16"
             width="25"
@@ -82,7 +82,7 @@ const ExecutiveCoaches = () => {
           </svg>
           Global community in 20 countries
         </div>
-        <div className="bg-white rounded p-5 icon-text">
+        <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
             className="!w-16"
             width="24"
@@ -98,7 +98,7 @@ const ExecutiveCoaches = () => {
           </svg>
           1000 hours of coaching minimum
         </div>
-        <div className="bg-white rounded p-5 icon-text">
+        <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
             className="!w-16"
             width="24"
@@ -114,7 +114,7 @@ const ExecutiveCoaches = () => {
           </svg>
           Top 2% coaches
         </div>
-        <div className="bg-white rounded p-5 icon-text">
+        <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
             className="!w-16"
             width="25"

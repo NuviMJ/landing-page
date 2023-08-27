@@ -47,7 +47,7 @@ import adelineThumb from "../assets/img/old/thumbnails/adeline.png";
 import playIcon from "../assets/img/old/icons/playButton.svg";
 import ReactPlayer from "react-player";
 import { Link } from "gatsby";
-import Footer from "../sections/Footer/Footer";
+import Footer from "../sections/Footer";
 
 const Gorgias = () => {
   return (

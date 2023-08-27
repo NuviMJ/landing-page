@@ -6,7 +6,7 @@ import "../styles/fonts.css";
 // @ts-ignore
 import LiviaImg from "../assets/img/livia.png";
 
-import Footer from "../sections/Footer/Footer";
+import Footer from "../sections/Footer";
 
 import CoachFeatures from "../sections/CoachFeatures/CoachFeatures";
 import CoachProfile from "../components/old/CoachProfile/CoachProfile";

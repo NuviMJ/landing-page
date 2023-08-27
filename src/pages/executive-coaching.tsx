@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../sections/Navbar/Navbar";
 import InternalCoachingHero from "../sections/InternalCoachingHero.";
 import CaseStudies from "../sections/CaseStudies";
-import Faq from "../sections/Faq/Faq";
-import Footer from "../sections/Footer/Footer";
+import Faq from "../sections/Faq";
+import Footer from "../sections/Footer";
 // @ts-ignore
 import Seo from "../utils/seo";
 import ExecutiveCoachingHero from "../sections/ExecutiveCoachingHero";

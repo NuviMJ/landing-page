@@ -6,10 +6,10 @@ interface Props {
 }
 const WhyCard = (props: Props) => {
   return (
-    <div className="border border-gray/20 rounded px-10 py-5 h-full">
+    <div className="border border-gray/10 rounded p-5 h-full">
       <div className="flex flex-col items-center">
         <img className="h-32 " src={props.icon} />
-        <h5>{props.title}</h5>
+        <p className="my-5 text-center font-semibold">{props.title}</p>
       </div>
     </div>
   );

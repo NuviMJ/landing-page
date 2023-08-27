@@ -12,12 +12,12 @@ const HelpCard = (props: Props) => {
     <div className="flex gap-3 bg-white p-6">
       <img className="w-20 h-20" src={props.icon} />
       <div className="">
-        <p className="text-6xl font-medium m-0">
+        <p className="text-6xl font-medium my-2">
           {props.value}
 
-          <span className="">{props.valueSuffix}</span>
+          <span className="my-2">{props.valueSuffix}</span>
         </p>
-        <h4>{props.header}</h4>
+        <h4 className="my-5">{props.header}</h4>
         <p>{props.des}</p>
       </div>
     </div>

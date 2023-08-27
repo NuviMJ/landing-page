@@ -53,8 +53,8 @@ const HowItWorks = () => {
     <div className="section bg-white">
       <h2 className="text-center">How it works</h2>
       <div className="flex">
-        <div className="w-1/2 p-8 transition-all">
-          <div className="flex flex-col justify-center mt-10">
+        <div className="w-1/2 p-8">
+          <div className="flex flex-col justify-center mt-16">
             <h2 className="rounded-full bg-green font-bold mb-2 mr-auto h-16 w-16 p-2">
               {slides[currentIndex].number}.
             </h2>

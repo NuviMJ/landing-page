@@ -37,16 +37,16 @@ const Workspace = () => {
   return (
     <div className="section bg-white">
       <div className="flex flex-col items-center">
-        <h2 className="text-center">
+        <h2 className="text-center mb-5">
           The untapped potential of having <br /> coaching in the workplace
         </h2>
-        <img className="w-40 px-5" src={i1Img} />
+        <img className="h-8 px-5" src={i1Img} />
       </div>
 
       <div className="grid lg:grid-cols-2 gap-5 mt-10">
         <img className="grid-cols-1 w-full" src={i2Img} />
         <div className="grid-cols-1 lg:p-10 lg:mx-auto ">
-          <h4>Embedded in MS Teams & Slack</h4>
+          <h4 className="mb-5">Embedded in MS Teams & Slack</h4>
           <ul className={`gap-5 flex flex-col px-0`}>
             <li className="icon-text">
               <TickIcon />

@@ -8,7 +8,7 @@ import caseStudiesImg from "../assets/img/old/caseStudies.png";
 // @ts-ignore
 import philosopyImg from "../assets/img/old/philosophy.png";
 
-import Footer from "../sections/Footer/Footer";
+import Footer from "../sections/Footer";
 import ImgContentTemplateRed from "../components/old/ImgContentTemplateRed/ImgContentTemplateRed";
 import CoreTeam from "../sections/old/CoreTeam/CoreTeam";
 import What from "../sections/old/What/What";

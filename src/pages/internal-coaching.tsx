@@ -6,8 +6,8 @@ import IndividualCoachingHero from "../sections/IndividualCoachingHero";
 import Benefits from "../sections/Benefits";
 import Example from "../sections/Example";
 import ProgramHelp from "../sections/ProgramHelp";
-import Faq from "../sections/Faq/Faq";
-import Footer from "../sections/Footer/Footer";
+import Faq from "../sections/Faq";
+import Footer from "../sections/Footer";
 import InternalCoachingHero from "../sections/InternalCoachingHero.";
 import CaseStudies from "../sections/CaseStudies";
 

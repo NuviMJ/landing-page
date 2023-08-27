@@ -1,16 +1,16 @@
 import React from "react";
 
 // @ts-ignore
-import gorgiasLogo from "../assets/img/companies/gorgiasLogo.png";
+import gorgiasLogo from "../assets/img/examples/Gorgias.png";
 // @ts-ignore
-import hylandLogo from "../assets/img/companies/hylandLogo.png";
+import hylandLogo from "../assets/img/examples/hyland.png";
 // @ts-ignore
 
-import enedisLogo from "../assets/img/companies/enedis.png";
+import enedisLogo from "../assets/img/examples/enedis.png";
 // @ts-ignore
-import qontoLogo from "../assets/img/companies/qontoLogo.png";
+import qontoLogo from "../assets/img/examples/qonto.png";
 // @ts-ignore
-import columbiaLogo from "../assets/img/companies/columbia.png";
+import columbiaLogo from "../assets/img/examples/colum.png";
 
 const data = [
   {
@@ -42,12 +42,12 @@ const data = [
 const Example = () => {
   return (
     <div className="section bg-warm">
-      <h2 className="text-center">Examples</h2>
+      <h2 className="text-center mb-8">Examples</h2>
       <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-5">
         {data.map((item) => (
           <div className="rounded bg-white p-5 text-center">
-            <img src={item.logo} className="h-12" />
-            <h5 className="mb-2 text-left">{item.title}</h5>
+            <img src={item.logo} className="h-16" />
+            <h5 className="mt-5 mb-3 text-left">{item.title}</h5>
             <p className="my-3 text-left">{item.des}</p>
           </div>
         ))}

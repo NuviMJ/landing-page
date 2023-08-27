@@ -11,7 +11,7 @@ import i4Img from "../assets/img/leaders/transform4.png";
 const TransformLeaders = () => {
   return (
     <div className="section bg-white">
-      <h2 className="text-center">
+      <h2 className="text-center mb-8">
         Transform your leaders with
         <br /> Coachello
       </h2>
@@ -19,7 +19,7 @@ const TransformLeaders = () => {
         <IconCard
           icon={i1Img}
           header={"Individual coaching"}
-          color="bg-green"
+          color="bg-green-light"
           des="1:1 coaching embedded in the workplace of identified leaders"
         />
         <IconCard
@@ -31,13 +31,13 @@ const TransformLeaders = () => {
         <IconCard
           icon={i3Img}
           header={"Internal coaching"}
-          color="bg-green"
+          color="bg-green-light"
           des="Coachello technology to power your organizations coaching programs"
         />
         <IconCard
           icon={i4Img}
           header={"Executive coaching"}
-          color="bg-green"
+          color="bg-warm-dark"
           des="C-level coaches for C-level leaders"
         />
       </div>

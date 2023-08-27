@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import BlogPage from "../../components/old/PrismicArticles/blog_page";
 import Navbar from "../../sections/Navbar/Navbar";
-import Footer from "../../sections/Footer/Footer";
+import Footer from "../../sections/Footer";
 import Seo from "../../utils/seo";
 import { graphql } from "gatsby";
 

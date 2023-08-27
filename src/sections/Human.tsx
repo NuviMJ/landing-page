@@ -1,23 +1,21 @@
 import React from "react";
 import IconCard from "../components/IconCard";
 // @ts-ignore
-import i1Img from "../assets/img/leaders/transform.png";
+import i1Img from "../assets/img/about/1.png";
 // @ts-ignore
-import i2Img from "../assets/img/leaders/transform2.png";
+import i2Img from "../assets/img/about/2.png";
 // @ts-ignore
-import i3Img from "../assets/img/leaders/transform3.png";
-// @ts-ignore
-import i4Img from "../assets/img/leaders/transform4.png";
+import i3Img from "../assets/img/about/3.png";
 
 const Human = () => {
   return (
     <div className="section bg-white">
-      <h2 className="text-center">Human, Tech and Data for success</h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <h2 className="text-center my-10">Human, Tech and Data for success</h2>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:px-28">
         <IconCard
           icon={i1Img}
           header={"Human"}
-          color="bg-green"
+          color="bg-green-light"
           des="Coachello vetted world-class ICF certifies coaches"
         />
         <IconCard
@@ -29,7 +27,7 @@ const Human = () => {
         <IconCard
           icon={i3Img}
           header={"Data"}
-          color="bg-green"
+          color="bg-green-light"
           des="Showing aggregated progress of (individual) transformation and behavioural change."
         />
       </div>

@@ -23,7 +23,7 @@ const Leaders = () => {
   return (
     <>
       <div className="section lg:px-32 bg-white">
-        <h2 className="text-center">
+        <h2 className="text-center mb-8">
           Leaders at all levels need <br /> personalised support.
         </h2>
         <div className="flex items-center justify-center gap-5 px-10">
@@ -68,7 +68,7 @@ const Leaders = () => {
         </div>
       </div>
       <div className="bg-green-light flex flex-col items-center section">
-        <h2 className="text-center">
+        <h2 className="text-center mb-8">
           Learn how individualized coaching <br />
           can transform your company
         </h2>

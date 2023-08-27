@@ -1,21 +1,23 @@
 import React from "react";
 import IconCard from "../components/IconCard";
 // @ts-ignore
-import i1Img from "../assets/img/benefit/benefit1.png";
+import i1Img from "../assets/img/executives/e1.png";
 // @ts-ignore
-import i2Img from "../assets/img/benefit/benefit2.png";
+import i2Img from "../assets/img/executives/e2.png";
 // @ts-ignore
-import i3Img from "../assets/img/benefit/benefit3.png";
+import i3Img from "../assets/img/executives/e3.png";
 // @ts-ignore
-import i4Img from "../assets/img/benefit/benefit4.png";
+import i4Img from "../assets/img/executives/e4.png";
+// @ts-ignore
+import i5Img from "../assets/img/executives/e5.png";
 const Executives = () => {
   return (
     <div className="section bg-white">
-      <h2 className="text-center">What executives will get:</h2>
+      <h2 className="text-center mb-10">What executives will get:</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-5">
         <IconCard
           icon={i1Img}
-          color="bg-green"
+          color="bg-green-light"
           des="Identify growth opportunities "
         />
         <IconCard
@@ -25,17 +27,17 @@ const Executives = () => {
         />
         <IconCard
           icon={i3Img}
-          color="bg-green"
+          color="bg-green-light"
           des="Manage stress and build resilience"
         />
         <IconCard
           icon={i4Img}
-          color="bg-green"
+          color="bg-warm-dark"
           des="Improve communication  skills and strengthen relationships with teams and stakeholders"
         />
         <IconCard
-          icon={i4Img}
-          color="bg-green"
+          icon={i5Img}
+          color="bg-green-light"
           des="Make effective decisions and manage change"
         />
       </div>
