@@ -84,8 +84,11 @@ const Navbar = () => {
                   </ul>
                 </li>
 
+                {/*<li>*/}
+                {/*  <Link to="/coaches">Our Coaches</Link>*/}
+                {/*</li>*/}
                 <li>
-                  <Link to="/coaches">Our Coaches</Link>
+                  <Link to="/methodology">Methodology</Link>
                 </li>
 
                 <li>

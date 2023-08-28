@@ -18,7 +18,7 @@ const Methodology = () => {
     <>
       <Layout>
         {/*section*/}
-        <SvgMorphText />
+        {/*<SvgMorphText />*/}
         <div className="section bg-warm">
           <div className="flex flex-col lg:flex-row lg:gap-12">
             <div className="lg:w-1/2 flex flex-col items-start justify-center">
@@ -296,15 +296,15 @@ const Methodology = () => {
                 and the concrete possibility to do it.
               </p>
             </div>
-            <p className="my-5">
-              They use any tool and exercise that is relevant for a specific
-              coachee, at a specific time, working on their false, limiting
-              beliefs, authentic needs and values in their unique environment.
-              Coachees will understand their environment, themselves and others
-              better, and plan actions to reach their goals with the support of
-              their coach.
-            </p>
           </div>
+          <p className="my-5">
+            They use any tool and exercise that is relevant for a specific
+            coachee, at a specific time, working on their false, limiting
+            beliefs, authentic needs and values in their unique environment.
+            Coachees will understand their environment, themselves and others
+            better, and plan actions to reach their goals with the support of
+            their coach.
+          </p>
         </div>
 
         {/*section*/}
