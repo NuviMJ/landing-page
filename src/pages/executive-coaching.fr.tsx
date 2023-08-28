@@ -2,14 +2,14 @@ import React from "react";
 import Navbar from "../sections/Navbar/Navbar";
 import InternalCoachingHero from "../sections/InternalCoachingHero.";
 import CaseStudies from "../sections/CaseStudies";
-import Faq from "../sections/Faq";
+import Faq from "../sections/FaqFr";
 import Footer from "../sections/Footer";
 // @ts-ignore
 import Seo from "../utils/seo";
-import ExecutiveCoachingHero from "../sections/ExecutiveCoachingHero";
-import Executives from "../sections/Executives";
-import ExecutiveCoaches from "../sections/ExecutiveCoaches";
-import What from "../sections/What";
+import ExecutiveCoachingHero from "../sections/ExecutiveCoachingHeroFr";
+import Executives from "../sections/ExecutivesFr";
+import ExecutiveCoaches from "../sections/ExecutiveCoachesFr";
+import What from "../sections/WhatFr";
 // @ts-ignore
 import Layout from "../layouts";
 const ExecutiveCoaching = () => {

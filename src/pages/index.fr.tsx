@@ -6,23 +6,23 @@ import "../styles/global.css";
 // import "../styles/fonts.css";
 import HowToUse from "../sections/old/HowToUse/HowToUse";
 import Help from "../sections/old/Help/Help";
-import Why from "../sections/Why/Why";
-import OurCoaches from "../sections/OurCoaches";
-import Faq from "../sections/Faq";
+import Why from "../sections/Why/WhyFr";
+import OurCoaches from "../sections/OurCoachesFr";
+import Faq from "../sections/FaqFr";
 import Footer from "../sections/Footer";
-import What from "../sections/What";
+import What from "../sections/WhatFr";
 import Counter from "../components/old/Counter/Counter";
 // @ts-ignore
 import Seo from "../utils/seo";
 import { useRef } from "react";
 import BuildingBlock from "../sections/old/BuildingBlock";
 import { useTypeWriter } from "../hooks/useTypeWriter";
-import Hero from "../sections/Hero";
-import TransformLeaders from "../sections/TransformLeaders";
-import Workspace from "../sections/Workspace";
-import HowItWorks from "../sections/HowItWorks";
-import Outcome from "../sections/Outcome";
-import Leaders from "../sections/Leaders";
+import Hero from "../sections/HeroFr";
+import TransformLeaders from "../sections/TransformLeadersFr";
+import Workspace from "../sections/WorkspaceFr";
+import HowItWorks from "../sections/HowItWorksFr";
+import Outcome from "../sections/OutcomeFr";
+import Leaders from "../sections/LeadersFr";
 // // @ts-ignore
 // import seoImg from '../assets/img/SEO.jpg'
 // @ts-ignore

@@ -13,8 +13,8 @@ import ImgContentTemplateRed from "../components/old/ImgContentTemplateRed/ImgCo
 import CoreTeam from "../sections/old/CoreTeam/CoreTeam";
 // @ts-ignore
 import Seo from "../utils/seo";
-import Human from "../sections/Human";
-import Recognition from "../sections/Recognition";
+import Human from "../sections/HumanFr";
+import Recognition from "../sections/RecognitionFr";
 // @ts-ignore
 import Layout from "../layouts";
 
@@ -27,8 +27,7 @@ const AboutPage = () => {
           <div className="flex flex-col lg:flex-row lg:gap-5">
             <div className="lg:w-1/2 flex flex-col items-start justify-center">
               <h1 className="leading-[1.3] mb-8">
-                About
-                <br /> Coachello
+                À propos de<br/> Coachello
               </h1>
             </div>
             <div className="lg:w-1/2">
@@ -44,20 +43,17 @@ const AboutPage = () => {
             <img className="w-2/5 object-contain" src={philosopyImg} />
             <div className="p-16">
               <div className="">
-                <p className="red-heading">Our Philosophy</p>
+                <p className="red-heading">notre philosophie</p>
                 <h2 className="mt-3 mb-10">
                   {" "}
-                  To allow every organization around the globe to have coaching
-                  embedded in the workplace so that they can be sustainable on
-                  all aspects
+                  Permettre à toutes les organisations à travers le monde d'intégrer le coaching dans leur environnement de travail pour accompagner les leaders de demain.
                 </h2>
               </div>
               <p>
-                We are driven by human connections but propelled by technical
-                innovation and are highly data driven.
+                Nous sommes animés par les connexions humaines, mais aussi propulsés par l'innovation technologique et fortement orientés par les données.
               </p>
               <button className="YouAreCoach-button">
-                Let's discuss your project!
+                Parlons de votre projet !
               </button>
             </div>
           </div>

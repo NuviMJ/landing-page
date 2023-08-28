@@ -9,7 +9,7 @@ const BlogPage = ({ blog }: Props) => {
   const doc = blog?.dataRaw;
 
   return (
-    <div className="PrismicArticles">
+    <div className="PrismicArticles [&>p]:my-5 [&>h1]:my-5">
       <p>
         Published {moment(blog?.date_of_publication).format("MMMM d, YYYY")}
       </p>

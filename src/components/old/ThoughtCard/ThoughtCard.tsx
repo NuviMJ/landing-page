@@ -1,5 +1,4 @@
 import React from "react";
-import "./ThoughtCard.scss";
 // @ts-ignore
 import playIcon from "../../../assets/img/old/icons/playButton.svg";
 
@@ -17,21 +16,22 @@ interface Props {
 
 const ThoughtCard = (prop: Props) => {
   return (
-    <div className={"ThoughtCard " + prop.className}>
-      <div className="ThoughtCard-wrapper">
-        <div className="ThoughtCard-imgContainer">
-          <img src={prop.thumb} />
-          <p>{prop.subject}</p>
+    <div className={"rounded-xl h-full bg-white " + prop.className}>
+      <div className="">
+        <div className="relative">
+          <img className="w-full" src={prop.thumb} />
+          <p className="absolute right-3 bottom-5 bg-pink rounded px-2">
+            {prop.subject}
+          </p>
         </div>
-        <div className="ThoughtCard-contentContainer">
-          <h3>{prop.title}</h3>
-          <div>
+        <div className="p-5 ">
+          <h3 className="mb-5">{prop.title}</h3>
+          <div className="flex gap-5 items-center">
             <img src={prop.icon} />
-            <p>
-              {prop.company}
-              <br />
-              {prop.date}
-            </p>
+            <div>
+              <p>{prop.company}</p>
+              <p>{prop.date}</p>
+            </div>
           </div>
         </div>
       </div>

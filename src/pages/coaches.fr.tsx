@@ -54,7 +54,7 @@ const CoachesPage = () => {
       />
       <MeetCoaches />
       <YouAreCoach />
-       </Layout>
+      </Layout>
     </>
   );
 };

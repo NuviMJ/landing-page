@@ -8,7 +8,8 @@ import Example from "../sections/Example";
 import ProgramHelp from "../sections/ProgramHelp";
 import Faq from "../sections/Faq";
 import Footer from "../sections/Footer";
-
+// @ts-ignore
+import Layout from "../layouts";
 const IndividualCoaching = () => {
   return (
     <>
@@ -17,13 +18,13 @@ const IndividualCoaching = () => {
         // image={seoImg}
         description="Discover our professional coaching platform. From group workshops to individual coaching, we are here to give you an amazing experience."
       />
-      <Navbar />
+      <Layout>
       <IndividualCoachingHero />
       <Benefits />
       <Example />
       <ProgramHelp />
       <Faq />
-      <Footer />
+      </Layout>
     </>
   );
 };

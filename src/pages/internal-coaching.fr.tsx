@@ -8,8 +8,8 @@ import Example from "../sections/Example";
 import ProgramHelp from "../sections/ProgramHelp";
 import Faq from "../sections/Faq";
 import Footer from "../sections/Footer";
-import InternalCoachingHero from "../sections/InternalCoachingHero.";
-import CaseStudies from "../sections/CaseStudies";
+import InternalCoachingHero from "../sections/InternalCoachingHeroFr.";
+import CaseStudies from "../sections/CaseStudiesFr";
 // @ts-ignore
 import Layout from "../layouts";
 const InternalCoaching = () => {
