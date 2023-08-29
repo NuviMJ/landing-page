@@ -21,11 +21,11 @@ const GroupWorkshop = () => {
       <div className="section bg-warm">
         <div className="flex flex-col lg:flex-row lg:gap-12">
           <div className="lg:w-1/2 flex flex-col items-start justify-center">
-            <h1 className="leading-[1.3] mb-8">Group workshops</h1>
+            <h1 className="leading-[1.3] mb-8">Ateliers collectifs</h1>
 
             <ul className="flex flex-col gap-3 pl-0 ">
               <span className="font-semibold mb-5">
-                Tailor made group workshops
+                Ateliers collectifs sur mesure
               </span>
 
               <li className="icon-text">
@@ -41,7 +41,7 @@ const GroupWorkshop = () => {
                     fill="#72B78E"
                   />
                 </svg>
-                Strengthen your leaders relationships and the company's culture
+                Renforcer les relations entre vos leaders et la culture de l'entreprise
               </li>
               <li className="icon-text">
                 <svg
@@ -56,7 +56,7 @@ const GroupWorkshop = () => {
                     fill="#72B78E"
                   />
                 </svg>
-                Reinforce cohesion, collaboration and productivity
+                Renforcer la cohésion, la collaboration et la productivité
               </li>
               <li className="icon-text">
                 <svg
@@ -71,7 +71,7 @@ const GroupWorkshop = () => {
                     fill="#72B78E"
                   />
                 </svg>
-                Build a common managerial culture
+                Construire une culture managériale commune
               </li>
               <li className="icon-text">
                 <svg
@@ -86,7 +86,7 @@ const GroupWorkshop = () => {
                     fill="#72B78E"
                   />
                 </svg>
-                Use collective intelligence
+                Utiliser l'intelligence collective
               </li>
               <li className="icon-text">
                 <svg
@@ -101,7 +101,7 @@ const GroupWorkshop = () => {
                     fill="#72B78E"
                   />
                 </svg>
-                Bring purpose
+                Donner du sens
               </li>
               <li className="icon-text">
                 <svg
@@ -116,7 +116,7 @@ const GroupWorkshop = () => {
                     fill="#72B78E"
                   />
                 </svg>
-                Resolve conflicts
+                Résoudre les conflits
               </li>
             </ul>
           </div>
@@ -128,31 +128,31 @@ const GroupWorkshop = () => {
 
       {/*Section*/}
       <div className="section bg-white">
-        <h2 className="text-center mb-8">Case-studies</h2>
+        <h2 className="text-center mb-8">Études de cas</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
           <IconCard
             icon={i1Img}
             header={"DISC"}
             color="bg-green-light"
-            des="Qonto gives the opportunity for each team to do a DISC assessment during offsites to improve communication."
+            des="Qonto offre à chaque équipe l'opportunité de réaliser une évaluation DISC lors des réunions hors site afin d'améliorer la communication"
           />
           <IconCard
             icon={i2Img}
-            header={"Public speaking"}
+            header={"Prise de parole"}
             color="bg-warm-dark"
-            des="Virtuo is working with Coachello for all Public Speaking workshops in French and English to empower every Talent."
+            des="Virtuo travaille avec Coachello pour tous les ateliers de prise de parole en public en français et en anglais afin de renforcer les compétences de chaque talent"
           />
           <IconCard
             icon={i3Img}
-            header={"Management training"}
+            header={"Formation en management"}
             color="bg-green-light"
-            des="Amplitude Studios trained all their managers with Coachello's 'manager of the future' workshop to create a common managerial culture"
+            des="Amplitude Studios a formé tous ses managers avec l'atelier 'Le manager du futur' de Coachello pour créer une culture managériale commune"
           />
           <IconCard
             icon={i4Img}
-            header={"Co-development"}
+            header={"Co-développement"}
             color="bg-warm-dark"
-            des="Qonto is training their People Business Partner to the co-development methodology to scale co-development within the company"
+            des="Qonto forme ses HRBP sur la méthodologie de co-développement, afin de le transmettre au sein de l'entreprise"
           />
         </div>
       </div>
