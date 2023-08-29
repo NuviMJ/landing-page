@@ -24,7 +24,7 @@ import hecLogo from "../assets/img/companies/HEC.png";
 import { useTypeWriter } from "../hooks/useTypeWriter";
 
 const Hero = () => {
-  const sentences = ["a better world. ", "your succes. s"];
+  const sentences = ["a better world. ", "your succes. "];
   const displayedSentence = useTypeWriter(sentences);
   return (
     <>
