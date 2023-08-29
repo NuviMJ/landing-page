@@ -68,7 +68,7 @@ const Navbar = () => {
                     className={
                       isSubNavExpanded
                         ? "Navbar-subExpanded Navbar-subMenu"
-                        : "Navbar-subCollapsed Navbar-subMenu" + "rounded"
+                        : "Navbar-subCollapsed Navbar-subMenu" + ""
                     }
                   >
                     <li>

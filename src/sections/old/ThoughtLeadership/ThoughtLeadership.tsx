@@ -118,7 +118,7 @@ const ThoughtLeadership: React.FC<ThoughtLeadership> = ({ data: pages }) => {
             icon={searchIcon}
           />
         </div>
-        <div className="ThoughtLeadership-cardContainer">
+        <div className="shadow ThoughtLeadership-cardContainer ">
           {pagesFiltered?.map((page: any) => {
             // console.log(moment(page.last_publication_date).format('MMMM D, YYYY'))
             return (

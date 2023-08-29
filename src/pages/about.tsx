@@ -22,13 +22,13 @@ const AboutPage = () => {
       <Layout>
         <div className="section bg-warm">
           <div className="flex flex-col lg:flex-row lg:gap-5">
-            <div className="lg:w-1/2 flex flex-col items-start justify-center">
+            <div className="lg:w-3/5 flex flex-col items-start justify-center">
               <h1 className="leading-[1.3] mb-8">
                 About
                 <br /> Coachello
               </h1>
             </div>
-            <div className="lg:w-1/2">
+            <div className="lg:w-2/5">
               <img style={{ maxWidth: "100%" }} src={CongueImg} />
             </div>
           </div>
