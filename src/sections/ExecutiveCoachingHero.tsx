@@ -2,6 +2,7 @@ import React from "react";
 // @ts-ignore
 import heroImg from "../assets/img/executive.png";
 import { CheckOne } from "@icon-park/react";
+import { GreenTick } from "../components/GreenTick";
 
 const ExecutiveCoachingHero = () => {
   return (
