@@ -24,17 +24,16 @@ import hecLogo from "../assets/img/companies/HEC.png";
 import { useTypeWriter } from "../hooks/useTypeWriter";
 
 const Hero = () => {
-  const sentences = [
-    "Coaching for a better world. ",
-    "Coachello is for your support. ",
-  ];
+  const sentences = ["a better world. ", "your succes. s"];
   const displayedSentence = useTypeWriter(sentences);
   return (
     <>
       <div className="section bg-warm">
         <div className="flex flex-col lg:flex-row lg:gap-12">
           <div className="lg:w-2/5 flex flex-col items-start justify-center">
-            <h1 className="leading-[1.1] my-5 h-48">{displayedSentence}</h1>
+            <h1 className="leading-[1.1] my-5 h-48">
+              Coaching for {displayedSentence}
+            </h1>
 
             <a
               target="_blank"
@@ -42,8 +41,8 @@ const Hero = () => {
               rel="noopener noreferrer"
               href="https://meetings.hubspot.com/quentin-bouche/intro-coachello"
             >
-              <button className="py-3 cursor-pointer px-8 bg-pink rounded-3xl flex gap-4 border-0 items-center hover:bg-pink-200">
-                Talk to an expert
+              <button className=" py-3 cursor-pointer px-8 bg-pink rounded-3xl flex gap-4 border-0 items-center hover:bg-pink-200">
+                Talk to an expert &#10132;
               </button>
             </a>
           </div>

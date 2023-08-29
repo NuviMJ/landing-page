@@ -93,11 +93,11 @@ const Footer = () => {
             <img src={instaIcon} alt="Instagram" className="w-8" />
             <img src={linkedInIcon} alt="LinkedIn" className="w-8" />
           </div>
-          <p className="my-5">
+          <p className="my-5 font-extralight">
             You don't have a project yet but want to receive innovative content
             on soft-skills and invitations for future webinars?{" "}
           </p>
-          <p className="my-5">
+          <p className="my-5 font-extralight">
             Subscribe to our monthly selection of ressources and webinars for HR
             / L&D leaders
           </p>
