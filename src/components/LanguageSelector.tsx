@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, navigate } from "gatsby";
 import { useLocation } from "@reach/router";
+import useLocale from "../hooks/useLocale";
 
 const LanguageSelector: React.FC = () => {
   const location = useLocation();
@@ -9,7 +10,6 @@ const LanguageSelector: React.FC = () => {
   const newPath = currentPath.startsWith(`/${"fr"}/`)
     ? currentPath.replace(`/${"fr"}/`, "/")
     : `/fr${currentPath}`;
-
   return (
     <div className="flex gap-1 rounded ">
       <Link

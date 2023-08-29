@@ -1,16 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.scss";
 import { Link } from "gatsby";
 // @ts-ignore
 import headerIcon from "../../assets/img/old/header.svg";
 import { useIsTop } from "../../hooks/useNavStatus";
+import useLocale from "../../hooks/useLocale";
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   const [isSubNavExpanded, setIsSubNavExpanded] = useState(false);
+  const [prefix, setPrefix] = useState("");
   const [isSubCaseExpanded, setIsSubCaseExpanded] = useState(false);
   const isTop = useIsTop();
-
+  const locale = useLocale();
+  useEffect(() => {
+    setPrefix(locale == "fr" ? "/fr" : "");
+  }, [locale]);
   return (
     <header
       id="#navbar"
@@ -19,7 +24,7 @@ const Navbar = () => {
       <div className="Navbar-wrapper">
         <div>
           <div className="Navbar-logoContainer">
-            <Link to="/">
+            <Link to={`${prefix}/`}>
               {" "}
               <img src={headerIcon} />
             </Link>
@@ -57,7 +62,7 @@ const Navbar = () => {
                   className="Navbar-menuContainer"
                 >
                   {/*<Link to=''>*/}
-                  Our Solutions <span aria-hidden="true">&#x25be;</span>
+                  Solutions <span aria-hidden="true">&#x25be;</span>
                   {/*</Link>*/}
                   <ul
                     className={
@@ -67,32 +72,45 @@ const Navbar = () => {
                     }
                   >
                     <li>
-                      <Link to="/individual-coaching">Individual-coaching</Link>
+                      <Link to={`${prefix}/individual-coaching`}>
+                        Individual-coaching
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/internal-coaching">Internal-coaching</Link>
+                      <Link to={`${prefix}/internal-coaching`}>
+                        Internal-coaching
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/executive-coaching">Executive-coaching</Link>
+                      <Link to={`${prefix}/executive-coaching`}>
+                        Executive-coaching
+                      </Link>
                     </li>
                     {/*<li>*/}
                     {/*    <Link to='/metaverse'>Metaverse</Link>*/}
                     {/*</li>*/}
                     <li>
-                      <Link to="/climate-coaching">Climate Coaching</Link>
+                      <Link to={`${prefix}/group-workshop`}>
+                        Group Workshop
+                      </Link>
                     </li>
+                    {/*<li>*/}
+                    {/*  <Link to={`${prefix}/climate-coaching`}>*/}
+                    {/*    Climate Coaching*/}
+                    {/*  </Link>*/}
+                    {/*</li>*/}
                   </ul>
                 </li>
 
-                {/*<li>*/}
-                {/*  <Link to="/coaches">Our Coaches</Link>*/}
-                {/*</li>*/}
                 <li>
-                  <Link to="/methodology">Methodology</Link>
+                  <Link to={`${prefix}/coaches`}>Coaches</Link>
+                </li>
+                <li>
+                  <Link to={`${prefix}/methodology`}>Methodology</Link>
                 </li>
 
                 <li>
-                  <Link to="/about">About Us</Link>
+                  <Link to={`${prefix}/about`}>About Us</Link>
                 </li>
 
                 {/*<li>*/}
@@ -129,15 +147,17 @@ const Navbar = () => {
                 {/*  </ul>*/}
                 {/*</li>*/}
                 <li>
-                  <Link to="/thought-leadership">Thought Leadership</Link>
+                  <Link to={`${prefix}/thought-leadership`}>
+                    Thought Leadership
+                  </Link>
                 </li>
                 <li>
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://meetings.hubspot.com/quentin-bouche/intro-coachello"
+                    href="https://dashbord.coachello.io"
                   >
-                    <button className="Navbar-button">Request a Demo</button>
+                    <button className="Navbar-button">Access Dashboard</button>
                   </a>
                 </li>
               </ul>

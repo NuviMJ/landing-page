@@ -1,13 +1,10 @@
 import * as React from "react";
 import Navbar from "../sections/Navbar/Navbar";
-import "../styles/index.css";
-import "../styles/colour.css";
-import "../styles/fonts.css";
+
 // @ts-ignore
-import CongueImg from "../assets/img/old/team.png";
+import CongueImg from "../assets/img/about.png";
 // @ts-ignore
 import philosopyImg from "../assets/img/philosophy.png";
-import "../sections/old/YouAreCoach/YouAreCoach.scss";
 import Footer from "../sections/Footer";
 import ImgContentTemplateRed from "../components/old/ImgContentTemplateRed/ImgContentTemplateRed";
 import CoreTeam from "../sections/old/CoreTeam/CoreTeam";
@@ -52,11 +49,11 @@ const AboutPage = () => {
                   all aspects
                 </h2>
               </div>
-              <p>
+              <p className="my-5">
                 We are driven by human connections but propelled by technical
                 innovation and are highly data driven.
               </p>
-              <button className="YouAreCoach-button">
+              <button className="dashboard-button bg-black rounded-full ">
                 Let's discuss your project!
               </button>
             </div>

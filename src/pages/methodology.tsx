@@ -13,12 +13,13 @@ import Support from "../sections/Support";
 // @ts-ignore
 import Layout from "../layouts";
 import SvgMorphText from "../components/MorphEffect";
+import MorphingText from "../components/MorphEffect";
 const Methodology = () => {
   return (
     <>
       <Layout>
+        {/*<MorphingText />*/}
         {/*section*/}
-        {/*<SvgMorphText />*/}
         <div className="section bg-warm">
           <div className="flex flex-col lg:flex-row lg:gap-12">
             <div className="lg:w-1/2 flex flex-col items-start justify-center">

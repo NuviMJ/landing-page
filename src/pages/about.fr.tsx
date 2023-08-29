@@ -1,13 +1,9 @@
 import * as React from "react";
-import Navbar from "../sections/Navbar/Navbar";
-import "../styles/index.css";
-import "../styles/colour.css";
-import "../styles/fonts.css";
+
 // @ts-ignore
-import CongueImg from "../assets/img/old/team.png";
+import CongueImg from "../assets/img/about.png";
 // @ts-ignore
 import philosopyImg from "../assets/img/philosophy.png";
-import "../sections/old/YouAreCoach/YouAreCoach.scss";
 import Footer from "../sections/Footer";
 import ImgContentTemplateRed from "../components/old/ImgContentTemplateRed/ImgContentTemplateRed";
 import CoreTeam from "../sections/old/CoreTeam/CoreTeam";
@@ -27,7 +23,8 @@ const AboutPage = () => {
           <div className="flex flex-col lg:flex-row lg:gap-5">
             <div className="lg:w-1/2 flex flex-col items-start justify-center">
               <h1 className="leading-[1.3] mb-8">
-                À propos de<br/> Coachello
+                À propos de
+                <br /> Coachello
               </h1>
             </div>
             <div className="lg:w-1/2">
@@ -46,13 +43,17 @@ const AboutPage = () => {
                 <p className="red-heading">notre philosophie</p>
                 <h2 className="mt-3 mb-10">
                   {" "}
-                  Permettre à toutes les organisations à travers le monde d'intégrer le coaching dans leur environnement de travail pour accompagner les leaders de demain.
+                  Permettre à toutes les organisations à travers le monde
+                  d'intégrer le coaching dans leur environnement de travail pour
+                  accompagner les leaders de demain.
                 </h2>
               </div>
               <p>
-                Nous sommes animés par les connexions humaines, mais aussi propulsés par l'innovation technologique et fortement orientés par les données.
+                Nous sommes animés par les connexions humaines, mais aussi
+                propulsés par l'innovation technologique et fortement orientés
+                par les données.
               </p>
-              <button className="YouAreCoach-button">
+              <button className="dashboard-button bg-black rounded-full">
                 Parlons de votre projet !
               </button>
             </div>

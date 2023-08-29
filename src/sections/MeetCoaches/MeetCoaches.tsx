@@ -13,13 +13,13 @@ import kristImg from "../../assets/img/coaches/krist.png";
 
 const MeetCoaches = () => {
   return (
-    <div className="MeetCoaches section bg-white">
-      <div className="MeetCoaches-wrapper">
-        <div className="MeetCoaches-headerContainer">
-          <p className="h1-red">Our Coaches</p>
-          <h2>Meet some of our amazing coaches</h2>
+    <div className="section bg-white">
+      <div className="text-center lg:px-24">
+        <div className="">
+          <p className="red-heading">Our Coaches</p>
+          <h2 className="mt-3 mb-10">Meet some of our amazing coaches</h2>
         </div>
-        <p>
+        <p className="mb-10">
           Are amazing. They are all certified by the ICF and possess over 500
           hours of coaching experience. They are well-travelled individuals who
           can lean on rich careers. We continuously monitor their performance so
@@ -32,7 +32,7 @@ const MeetCoaches = () => {
         <div className="MeetCoaches-imgContainer gap-5">
           <div>
             <h4>Amélie</h4>
-            <img src="https://i.ibb.co/phq55St/01-Amelie-Papin-Portrait-Photoshoot-Octobre-2019-compressed-Ame-lie-Papin-NEWUX.jpg" />
+            <img src={amelieImg} />
           </div>
           <div>
             <h4>Joffrey</h4>

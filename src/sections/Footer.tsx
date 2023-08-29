@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // @ts-ignore
 import coachelloLogo from "../assets/img/old/header.svg";
 // @ts-ignore
@@ -17,8 +17,14 @@ import { Link } from "gatsby";
 import Input from "../components/Input";
 import InputWithIcon from "../components/InputWithIcon";
 import { EmailBlock, Envelope, EnvelopeOne } from "@icon-park/react";
+import useLocale from "../hooks/useLocale";
 
 const Footer = () => {
+  const [prefix, setPrefix] = useState("");
+  const locale = useLocale();
+  useEffect(() => {
+    setPrefix(locale == "fr" ? "/fr" : "");
+  }, [locale]);
   return (
     <footer className="bg-white section text-black">
       <hr className="border-gray/10 mb-10" />
@@ -52,7 +58,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex flex-col flex-1 gap-5">
-          <Link to="/about" className="mb-2">
+          <Link to={`${prefix}/about`} className="mb-2">
             About
           </Link>
 
@@ -62,7 +68,7 @@ const Footer = () => {
           <Link to="/terms-and-conditions" className="mb-2">
             Terms & Conditions
           </Link>
-          <Link to="/coaches" className="mb-2">
+          <Link to={`${prefix}/coaches`} className="mb-2">
             I am a coach
           </Link>
           <a href="https://legal.coachello.io/en/" className="mb-2">

@@ -1,33 +1,36 @@
 import React from "react";
-import "./CoachFeatures.scss";
 
 // @ts-ignore
-import certifiedIcon from "../../assets/img/features/certified.png";
+import certifiedIcon from "../assets/img/features/certified.png";
 // @ts-ignore
-import communityIcon from "../../assets/img/features/ommunity.png";
+import communityIcon from "../assets/img/features/ommunity.png";
 // @ts-ignore
-import diversifiedIcon from "../../assets/img/features/diversified.png";
+import diversifiedIcon from "../assets/img/features/diversified.png";
 // @ts-ignore
-import videoIcon from "../../assets/img/features/video.png";
-import CoachFeatureCard from "../../components/old/CoachFeatureCard/CoachFeatureCard";
+import videoIcon from "../assets/img/features/video.png";
+import CoachFeatureCard from "../components/CoachFeatureCard";
 
 const CoachFeatures = () => {
   return (
-    <div className="CoachFeatures section bg-white">
-      <h2 className="text-center"> Nos coachs</h2>
+    <div className="section bg-white">
+      <h2 className="text-center mb-8"> Our coaches</h2>
 
-      <div>
+      <div className="grid gap-12 lg:grid-cols-2">
         <div>
           <CoachFeatureCard
-            header="Certifiés et supervisés"
+            header="Certified and supervised"
             des={
               <>
+                <p className="my-5">
+                  All our coaches are certified by the world’s leading coaching
+                  associations and trained following the ICF methodology. They
+                  adhere to the ICF and Coachello deontology of coaching.
+                </p>
                 <p>
-                  Tous nos coachs sont certifiés par les principales associations mondiales de coaching et formés selon la méthodologie de l'ICF. Ils adhèrent à la déontologie du coaching de l'ICF et de Coachello.
-                  </p>
-                  <p>
-                  Ils sont expérimentés et possèdent chacun leur domaine d'expertise pour répondre aux besoins spécifiques de chacun de vos employés. Ils bénéficient tous d'au moins dix ans d'expérience professionnelles antérieures dans différents secteurs.
-
+                  They are experienced and all have their own domain of
+                  expertise to match with each of your employees’ specifics
+                  needs. They each bank on at least five years of previous
+                  professional experience that will be visible to your talents.
                 </p>
               </>
             }
@@ -39,7 +42,7 @@ const CoachFeatures = () => {
             header="Diversified and International"
             des={
               <>
-                <p>
+                <p className="my-5">
                   We have a coach for every profile. Someone needing support on
                   their leadership skills will not have the same coach as
                   someone looking for psychological support.
@@ -62,7 +65,7 @@ const CoachFeatures = () => {
             header="Trained in video coaching"
             des={
               <>
-                <p>
+                <p className="my-5">
                   All our coaches have been trained to master video coaching
                   sessions. They respect coaching deontology and our ethical
                   chart.
@@ -82,7 +85,7 @@ const CoachFeatures = () => {
             header="Community"
             des={
               <>
-                <p>
+                <p className="my-5">
                   All our coaches are part of our community to enhance
                   co-development, improve skills and strengthen the quality of
                   individual coachings. We regularly organise events, webinars
