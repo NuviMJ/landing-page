@@ -88,14 +88,14 @@
 
 @layer components {
     .dashboard-button {
-        @apply text-white hover:border-red px-2 md:px-8 py-2 rounded-md flex gap-1 items-center justify-center border-2 border-black text-center cursor-pointer disabled:cursor-auto disabled:hover:bg-gray;
+        @apply text-white hover:border-red px-3 md:px-8 py-2 rounded-md flex gap-1 items-center justify-center border-2 border-black text-center cursor-pointer disabled:cursor-auto disabled:hover:bg-gray;
     }
 
     .icon-text {
         @apply [&>*:nth-child(1)]:shrink-0 [&>*:nth-child(1)]:w-5 [&>*:nth-child(1)]:stroke-[1.5] flex gap-2 items-center
     }
     .section {
-        @apply p-2 md:p-5 lg:px-32 lg:py-20
+        @apply px-3 py-6 md:px-5 lg:px-32 lg:py-20
 
     }
     .card-container {

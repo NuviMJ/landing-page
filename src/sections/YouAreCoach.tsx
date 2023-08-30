@@ -3,10 +3,10 @@ import React from "react";
 const YouAreCoach = () => {
   return (
     <div className="section bg-warm-light">
-      <div className="flex gap-10 items-center">
+      <div className="flex flex-col md:flex-row gap-10 items-center">
         <div className="flex-1">
           <p className="red-heading">You’re a coach?</p>
-          <h2 className="mt-3 mb-10">
+          <h2 className="mt-3 lg:mb-10">
             Join an amazing <br />
             community
           </h2>

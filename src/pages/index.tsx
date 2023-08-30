@@ -36,22 +36,22 @@ const IndexPage = () => {
         description="Discover our professional coaching platform. From group workshops to individual coaching, we are here to give you an amazing experience."
       />
       <Layout>
-      {/*<Counter trigger="" run={false} start={0} end={100} duration={10}/>*/}
-      <Hero />
-      <TransformLeaders />
-      <Workspace />
-      <HowItWorks />
-      <Outcome />
-      {/*<Help />*/}
-      {/*<HowToUse />*/}
-      <Why />
-      <OurCoaches />
+        {/*<Counter trigger="" run={false} start={0} end={100} duration={10}/>*/}
+        <Hero />
+        <TransformLeaders />
+        <Workspace />
+        <HowItWorks />
+        <Outcome />
+        {/*<Help />*/}
+        {/*<HowToUse />*/}
+        <Why />
+        <OurCoaches />
 
-      <Leaders />
+        <Leaders />
 
-      <What />
-      {/*<BuildingBlock />*/}
-      <Faq />
+        <What />
+        {/*<BuildingBlock />*/}
+        <Faq />
       </Layout>
     </>
   );

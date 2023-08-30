@@ -26,7 +26,7 @@ const Leaders = () => {
         <h2 className="text-center mb-8">
           Leaders at all levels need <br /> personalised support.
         </h2>
-        <div className="flex items-center justify-center gap-5 px-10">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-5 md:px-10">
           <LeaderCard
             bgColor="bg-warm"
             img={p1Img}
@@ -46,7 +46,7 @@ const Leaders = () => {
             des="Stefen"
           />
         </div>
-        <div className="flex items-center justify-center gap-5 mt-5">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-5 mt-5">
           <LeaderCard
             bgColor="bg-warm-dark"
             img={p4Img}

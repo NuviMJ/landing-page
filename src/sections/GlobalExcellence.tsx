@@ -11,7 +11,7 @@ const GlobalExcellence = () => {
     <div className="section bg-warm-light">
       <div
         style={{ backgroundImage: `url(${mapImg})` }}
-        className="flex gap-10 bg-contain"
+        className="flex flex-col md:flex-row gap-10 bg-contain"
       >
         <div className="">
           <div className="">
@@ -30,7 +30,7 @@ const GlobalExcellence = () => {
             we can guarantee the coaching quality to all stakeholders.
           </p>
         </div>
-        <img className="w-3/5 object-contain" src={ExcellenceImg} />
+        <img className="lg:w-3/5 object-contain" src={ExcellenceImg} />
       </div>
     </div>
   );

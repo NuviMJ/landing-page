@@ -29,7 +29,7 @@ const Footer = () => {
     <footer className="bg-white section text-black">
       <hr className="border-gray/10 mb-10" />
 
-      <div className="flex justify-center gap-8 md:gap-16">
+      <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-16">
         <div className="flex flex-col flex-1">
           <img className="w-48" src={coachelloLogo} alt="Coachello Logo" />
           <p className="my-4">

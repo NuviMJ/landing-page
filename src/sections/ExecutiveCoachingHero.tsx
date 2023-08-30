@@ -7,7 +7,7 @@ import { GreenTick } from "../components/GreenTick";
 const ExecutiveCoachingHero = () => {
   return (
     <div className="section bg-warm">
-      <div className="flex flex-col lg:flex-row lg:gap-5">
+      <div className="flex flex-col lg:flex-row gap-5">
         <div className="lg:w-1/2 flex flex-col items-start justify-center">
           <h1 className="leading-[1.3] mb-8">Executive & C-suite coaching</h1>
 

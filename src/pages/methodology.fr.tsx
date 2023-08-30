@@ -20,7 +20,7 @@ const Methodology = () => {
       <Layout>
         {/*section*/}
         <div className="section bg-warm">
-          <div className="flex flex-col lg:flex-row lg:gap-12">
+          <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2 flex flex-col items-start justify-center">
               <h1 className="leading-[1.3] mb-8">La méthodologie Coachello</h1>
 
@@ -80,13 +80,13 @@ const Methodology = () => {
           </div>
         </div>
         {/*section*/}
-        <div className="section bg-white flex md:gap-24">
+        <div className="section bg-white flex md:gap-24 flex-col md:flex-row">
           <div className="flex-1">
             <h2 className="mb-10">
               La Méthode
               <br /> Coachello
             </h2>
-            <p>
+            <p className="mb-5">
               Coachello combine l’humain, l’IA et la technologie pour augmenter
               l'efficacité et le bien-être des leaders à tous les niveaux grâce
               au coaching individuel avec une approche orientée résultat.
@@ -114,12 +114,12 @@ const Methodology = () => {
         </div>
 
         {/*section*/}
-        <div className="section bg-white flex gap-20">
+        <div className="section bg-white flex gap-20 flex-col md:flex-row">
           <div className="flex-1">
             <img src={methodImg} className="w-full" />
           </div>
           <div className="flex-1">
-            <h2 className="my-5">Comment ça marche</h2>
+            <h2 className="md:my-5">Comment ça marche</h2>
             <p className="my-5">
               Les coachés utilisent nos applications MS Teams ou Slack pour
               accéder à du coaching asynchrone ainsi qu'à des séances de
@@ -190,12 +190,12 @@ const Methodology = () => {
         <Support />
 
         {/*section*/}
-        <div className="section bg-warm flex gap-20">
+        <div className="section bg-warm flex gap-20 flex-col md:flex-row">
           <div className="flex-1">
             <img src={sessionImg} className="w-full" />
           </div>
           <div className="flex-1">
-            <h2 className="my-5">Confidentialité des séances :</h2>
+            <h2 className="md:my-5">Confidentialité des séances :</h2>
             <p className="my-5">
               Elles sont entièrement confidentielles. Rien de ce qui est dit en
               séance ne sera partagé à personne en dehors des séances. Ceci est
@@ -268,9 +268,9 @@ const Methodology = () => {
         </div>
 
         {/*section*/}
-        <div className="section bg-orange-light flex gap-10">
-          <div className="w-1/2"></div>
-          <div className="w-1/2">
+        <div className="section bg-orange-light flex gap-10 flex-col md:flex-row">
+          <div className="flex-1"></div>
+          <div className="flex-1">
             <h2 className="mb-10">Gestion des progrès</h2>
             <p className="my-5">
               Après avoir entamé un travail en coaching, le coaché pourra
@@ -285,7 +285,7 @@ const Methodology = () => {
 
         {/*section*/}
         <div className="section bg-white">
-          <div className="flex flex-col lg:flex-row lg:gap-12">
+          <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2 flex flex-col items-start justify-center">
               <h1 className="leading-[1.3] mb-8">Les Coachs Coachello</h1>
               <p>

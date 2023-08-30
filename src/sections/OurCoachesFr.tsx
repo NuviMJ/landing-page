@@ -21,21 +21,24 @@ const OurCoaches = () => {
           <h2 className="my-5">Portée mondiale, approche locale</h2>
         </div>
         <p className="text-center">
-          Nos coachs sont tous certifiés par l’ICF, ont réalisé plus de 500 heures de coaching, sont supervisés et ont tous eu des carrières professionnels riches dans diverses industries à des hauts postes. Profondément humanistes, ils sont tous animés par la même envie de faire grandir leurs coachés. Nous animons cette communauté en continu et veillons à garder une qualité
-
-
+          Nos coachs sont tous certifiés par l’ICF, ont réalisé plus de 500
+          heures de coaching, sont supervisés et ont tous eu des carrières
+          professionnels riches dans diverses industries à des hauts postes.
+          Profondément humanistes, ils sont tous animés par la même envie de
+          faire grandir leurs coachés. Nous animons cette communauté en continu
+          et veillons à garder une qualité
         </p>
         <div className="flex my-5">
           <img className="h-16" src={ICFLogo} />
           <img className="h-16" src={EMCCLogo} />
         </div>
-        <div>
+        <div className="w-full md:w-[560px]">
           <ReactPlayer
             playing
             muted={true}
             loop={true}
             url="https://www.youtube.com/watch?v=ajLPlTRYTJY"
-            width={"540px"}
+            width={"100%"}
             height={"300px"}
             // style={{ minHeight: "300px" }}
           />

@@ -8,7 +8,7 @@ const Faq = () => {
       <div>
         <div className="text-center">
           <p className="red-heading">FAQ</p>
-          <h2 className="mb-12">Questions que vous pourriez vous poser</h2>
+          <h2 className="mb-12">Questions you might have</h2>
         </div>
         <div className="grid md:grid-cols-2 gap-x-20">
           <div className="flex flex-col gap-5">

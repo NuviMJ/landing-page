@@ -29,8 +29,8 @@ const CoachesPage = () => {
 
         {/*Section*/}
         <div className="section bg-warm">
-          <div className="flex gap-10">
-            <img className="w-2/5 object-contain" src={LiviaImg} />
+          <div className="flex gap-10 flex-col md:flex-row">
+            <img className="lg:w-2/5 object-contain" src={LiviaImg} />
             <div className="p-5">
               <div className="">
                 <p className="red-heading">HEY !</p>

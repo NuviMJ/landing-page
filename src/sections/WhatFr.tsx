@@ -77,7 +77,7 @@ const What = () => {
       </div>
 
       <div className="flex items-center">
-        <div className="px-8 relative">
+        <div className="px-8 relative overflow-hidden md:overflow-auto">
           <img
             onClick={goToPreviousSlide}
             className="absolute left-0 my-auto w-8 h-8 top-1/2 bottom-1/2"

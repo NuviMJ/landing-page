@@ -22,7 +22,7 @@ const Methodology = () => {
         {/*<MorphingText />*/}
         {/*section*/}
         <div className="section bg-warm">
-          <div className="flex flex-col lg:flex-row lg:gap-12">
+          <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2 flex flex-col items-start justify-center">
               <h1 className="leading-[1.3] mb-8">Coachello’s Methodology</h1>
 
@@ -79,20 +79,20 @@ const Methodology = () => {
           </div>
         </div>
         {/*section*/}
-        <div className="section bg-white flex md:gap-24">
+        <div className="section bg-white flex md:gap-24 flex-col md:flex-row">
           <div className="flex-1">
             <h2 className="mb-10">
               The Coachello <br />
               Method
             </h2>
-            <p>
+            <p className="mb-5">
               Coachello combines human support, data and technology to scale the
               effectiveness and well-being of leaders at all levels with
               one-on-one coaching. We do so by giving access to our MS Teams /
               Slack App, Admin Dashboard and 400+ community of coaches.
             </p>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 ">
             <svg
               width="73"
               height="51"
@@ -114,12 +114,12 @@ const Methodology = () => {
         </div>
 
         {/*section*/}
-        <div className="section bg-white flex gap-20">
+        <div className="section bg-white flex gap-20 flex-col md:flex-row">
           <div className="flex-1">
             <img src={methodImg} className="w-full" />
           </div>
           <div className="flex-1">
-            <h2 className="my-5">How it works</h2>
+            <h2 className="md:my-5">How it works</h2>
             <p className="my-5">
               An employee can use our MS Teams or Slack app access for async
               coaching and 1:1 live coaching with a certified professional
@@ -193,12 +193,12 @@ const Methodology = () => {
         <Support />
 
         {/*section*/}
-        <div className="section bg-warm flex gap-20">
+        <div className="section bg-warm flex gap-20 flex-col md:flex-row">
           <div className="flex-1">
             <img src={sessionImg} className="w-full" />
           </div>
           <div className="flex-1">
-            <h2 className="my-5">Coachello coaching sessions</h2>
+            <h2 className="md:my-5">Coachello coaching sessions</h2>
             <p className="my-5">
               Coachello coaching sessions are fully confidential. We never share
               personal information with one’s employer or third parties. That
@@ -266,9 +266,9 @@ const Methodology = () => {
         </div>
 
         {/*section*/}
-        <div className="section bg-orange-light flex gap-10">
-          <div className="w-1/2"></div>
-          <div className="w-1/2">
+        <div className="section bg-orange-light flex gap-10 flex-col md:flex-row">
+          <div className="flex-1"></div>
+          <div className="flex-1">
             <h2 className="mb-10">Periodic check-in</h2>
             <p className="my-5">
               During a periodic check-in, a coachee will re-assess their level
@@ -282,7 +282,7 @@ const Methodology = () => {
 
         {/*section*/}
         <div className="section bg-white">
-          <div className="flex flex-col lg:flex-row lg:gap-12">
+          <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2 flex flex-col items-start justify-center">
               <h1 className="leading-[1.3] mb-8">Coachello coaches</h1>
               <p>

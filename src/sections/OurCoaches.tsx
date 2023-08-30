@@ -33,13 +33,13 @@ const OurCoaches = () => {
           <img className="h-16" src={ICFLogo} />
           <img className="h-16" src={EMCCLogo} />
         </div>
-        <div>
+        <div className="w-full md:w-[560px]">
           <ReactPlayer
             playing
             muted={true}
             loop={true}
             url="https://www.youtube.com/watch?v=ajLPlTRYTJY"
-            width={"540px"}
+            width={"100%"}
             height={"300px"}
             // style={{ minHeight: "300px" }}
           />

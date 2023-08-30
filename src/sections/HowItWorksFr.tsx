@@ -38,7 +38,8 @@ const HowItWorks = () => {
     {
       number: "04",
       title: "Suivi personnalisé",
-      description: "entre les séances pour vous aider à atteindre vos objectifs (grâce à l’IA)",
+      description:
+        "entre les séances pour vous aider à atteindre vos objectifs (grâce à l’IA)",
       imageUrl: slide4Img,
     },
     // Add more slides as needed
@@ -52,9 +53,9 @@ const HowItWorks = () => {
   return (
     <div className="section bg-white">
       <h2 className="text-center">Comment ça marche?</h2>
-      <div className="flex">
-        <div className="w-1/2 p-8">
-          <div className="flex flex-col justify-center mt-16">
+      <div className="flex md:flex-row flex-col">
+        <div className="flex-1 p-8">
+          <div className="flex flex-col justify-center md:mt-16">
             <h2 className="rounded-full bg-green font-bold mb-2 mr-auto h-16 w-16 p-2">
               {slides[currentIndex].number}.
             </h2>
@@ -64,7 +65,7 @@ const HowItWorks = () => {
             <p className="text-gray-600">{slides[currentIndex].description}</p>
           </div>
         </div>
-        <div className="w-1/2 p-12 relative">
+        <div className="flex-1 p-12 relative">
           <img
             onClick={goToPreviousSlide}
             className="absolute left-0 my-auto w-8 h-8 top-1/2"

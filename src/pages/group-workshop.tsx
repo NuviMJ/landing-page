@@ -20,7 +20,7 @@ const GroupWorkshop = () => {
       <Layout>
         {/*section*/}
         <div className="section bg-warm">
-          <div className="flex flex-col lg:flex-row lg:gap-12">
+          <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2 flex flex-col items-start justify-center">
               <h1 className="leading-[1.3] mb-8">Group workshops</h1>
 

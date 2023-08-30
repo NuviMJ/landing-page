@@ -24,9 +24,10 @@ const Leaders = () => {
     <>
       <div className="section lg:px-32 bg-white">
         <h2 className="text-center mb-8">
-          Les leaders à tous les niveaux ont<br />  besoin d'un accompagnement <br /> personnalisé
+          Les leaders à tous les niveaux ont
+          <br /> besoin d'un accompagnement <br /> personnalisé
         </h2>
-        <div className="flex items-center justify-center gap-5 px-10">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-5 md:px-10">
           <LeaderCard
             bgColor="bg-warm"
             img={p1Img}
@@ -46,7 +47,7 @@ const Leaders = () => {
             des="Stefen"
           />
         </div>
-        <div className="flex items-center justify-center gap-5 mt-5">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-5 mt-5">
           <LeaderCard
             bgColor="bg-warm-dark"
             img={p4Img}
@@ -69,11 +70,11 @@ const Leaders = () => {
       </div>
       <div className="bg-green-light flex flex-col items-center section">
         <h2 className="text-center mb-8">
-          Découvrez comment le coaching personnalisé<br /> peut transformer votre entreprise
+          Découvrez comment le coaching personnalisé
+          <br /> peut transformer votre entreprise
         </h2>
         <a className="border border-gray rounded-full px-5 py-3 flex items-center gap-3">
-          Parler à un expert {" "}
-          <ArrowRight className="flex items-center" />
+          Parler à un expert <ArrowRight className="flex items-center" />
         </a>
       </div>
     </>

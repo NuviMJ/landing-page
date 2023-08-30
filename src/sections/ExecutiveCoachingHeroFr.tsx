@@ -6,7 +6,7 @@ import { CheckOne } from "@icon-park/react";
 const ExecutiveCoachingHero = () => {
   return (
     <div className="section bg-warm">
-      <div className="flex flex-col lg:flex-row lg:gap-5">
+      <div className="flex flex-col lg:flex-row gap-5">
         <div className="lg:w-1/2 flex flex-col items-start justify-center">
           <h1 className="leading-[1.3] mb-8">Coaching pour C-Levels</h1>
 
@@ -21,7 +21,8 @@ const ExecutiveCoachingHero = () => {
             </li>
             <li className="icon-text">
               <CheckOne className="text-green-700" />
-              Planifiez des séances 1:1 à votre propre rythme et selon votre convenance
+              Planifiez des séances 1:1 à votre propre rythme et selon votre
+              convenance
             </li>
             <li className="icon-text">
               <CheckOne className="text-green-700" />

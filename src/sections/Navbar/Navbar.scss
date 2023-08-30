@@ -234,6 +234,7 @@
   @media screen and (max-width: 1000px) {
     &-menuContainer > ul {
       position: relative;
+      width: 100%;
     }
     &-toggle {
       display: block;

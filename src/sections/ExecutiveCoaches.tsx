@@ -6,15 +6,23 @@ import { WebPage } from "@icon-park/react";
 const ExecutiveCoaches = () => {
   return (
     <div className="section bg-warm">
-      <div className="flex gap-10">
-        <img className="w-2/5" src={Img} />
-        <div className="p-16">
-          <h3 className="mb-8">Les Coachs Exécutifs chez Coachello</h3>
+      <div className="flex md:flex-nowrap flex-wrap gap-10">
+        <img className="w-full md:w-2/5" src={Img} />
+        <div className="md:p-16">
+          <h3 className="mb-8">Coachello Executive coaches</h3>
           <p>
-            Nos coachs pour C-Levels ont un historique rempli de succès en ce qui concerne l'accompagnement de dirigeants. Ce qui leur permet de les aider à développer leurs compétences en leadership, surmonter les défis et atteindre leurs objectifs. Ils comprennent les défis uniques auxquels font face les dirigeants et possèdent l'expertise nécessaire pour vous guider dans la gestion de ces défis et atteindre le succès.
+            Our executive coaches have a track record of success in working with
+            executives to help them develop their leadership skills, overcome
+            challenges, and achieve their goals. They understand the unique
+            challenges that executives face and have the expertise to help you
+            navigate these challenges and achieve success.
           </p>
           <p className="mt-8">
-            Nous sélectionnons soigneusement nos coachs pour nous assurer qu'ils ont l'expérience, les connaissances et les compétences nécessaires pour répondre aux standards des cadres dirigeants. Nos coachs sont également formés et supervisés selon notre méthodologie éprouvée en coaching pour garantir la cohérence et la qualité de notre programme de coaching.
+            We carefully select our coaches to ensure that they have the
+            experience, knowledge, and skills necessary to meet C-level
+            standards. Our coaches are also trained and monitored in our proven
+            coaching methodology to ensure consistency and quality in our
+            coaching program.
           </p>
         </div>
       </div>
@@ -43,7 +51,8 @@ const ExecutiveCoaches = () => {
               fill="black"
             />
           </svg>
-          Au minimum 10 ans d'expérience en tant que Directeur Senior ou Dirigeant dans un environnement corporate
+          10 years minimum experience as Senior Director level or C-level in
+          corporate environment
         </div>
         <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
@@ -71,7 +80,7 @@ const ExecutiveCoaches = () => {
               </clipPath>
             </defs>
           </svg>
-          Communauté mondiale dans 20 pays
+          Global community in 20 countries
         </div>
         <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
@@ -87,7 +96,7 @@ const ExecutiveCoaches = () => {
               fill="black"
             />
           </svg>
-          1000 heures de coaching minimum
+          1000 hours of coaching minimum
         </div>
         <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
@@ -103,7 +112,7 @@ const ExecutiveCoaches = () => {
               fill="black"
             />
           </svg>
-          Sélection pointue d’un panel de Top coachs (2% sur les 400)
+          Top 2% coaches
         </div>
         <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
@@ -119,7 +128,7 @@ const ExecutiveCoaches = () => {
               fill="black"
             />
           </svg>
-          90 % parlent au moins 2 langues
+          90% speak at least 2 languages
         </div>
       </div>
     </div>
