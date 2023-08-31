@@ -11,7 +11,7 @@
         border-style: solid;
         border-width: 0;
         margin: 0;
-        @apply leading-6
+        @apply leading-6 font-lexend
     }
     body {
         font-weight: 400;
@@ -26,7 +26,7 @@
         font-weight: 700;
         font-size: 64px;
         line-height: 70px;
-
+        @apply font-gambetta
     }
 
     h2 {
@@ -34,6 +34,7 @@
         font-weight: 700;
         font-size: 48px;
         line-height: 52px;
+        @apply font-gambetta
     }
 
     h3 {
@@ -95,7 +96,7 @@
         @apply [&>*:nth-child(1)]:shrink-0 [&>*:nth-child(1)]:w-5 [&>*:nth-child(1)]:stroke-[1.5] flex gap-2 items-center
     }
     .section {
-        @apply px-3 py-6 md:px-5 lg:px-32 lg:py-20
+        @apply px-6 py-9 md:px-5 lg:px-32 lg:py-20
 
     }
     .card-container {

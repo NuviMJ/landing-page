@@ -17,8 +17,8 @@ const DropDown = ({ placeHolder, name, icon, ...props }: Props) => {
         name={name}
       >
         {/*<option value="">None</option>*/}
-        <option value="dateDesc">Du plus récent au plus ancien</option>
-        <option value="dateAsc">Du plus ancien au plus récent</option>
+        <option value="dateDesc">Newest to oldest</option>
+        <option value="dateAsc">Oldest to Newest</option>
       </select>
 
       {/*<img src={icon} />*/}

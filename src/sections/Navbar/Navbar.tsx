@@ -25,7 +25,6 @@ const Navbar = () => {
         <div>
           <div className="Navbar-logoContainer">
             <Link to={`${prefix}/`}>
-              {" "}
               <img src={headerIcon} />
             </Link>
           </div>

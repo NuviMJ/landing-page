@@ -13,6 +13,7 @@ import Fuse from "fuse.js";
 import DropDown from "../../components/old/DropDown/DropDown";
 
 import "./ThoughtLeadership.scss";
+import DropDownFr from "../../components/old/DropDown/DropDownFr";
 
 interface ThoughtLeadership {
   data: any;
@@ -86,8 +87,8 @@ const ThoughtLeadership: React.FC<ThoughtLeadership> = ({ data: pages }) => {
         <div></div>
         <div className="ThoughtLeadership-contentContainer">
           <div>
-            <p className="h1-red">The future of coaching</p>
-            <h2>Thought Leadership</h2>
+            <p className="h1-red">L'avenir du coaching</p>
+            <h2>Leadership éclairé</h2>
           </div>
         </div>
         <div className="ThoughtLeadership-inputContainer">
@@ -98,14 +99,14 @@ const ThoughtLeadership: React.FC<ThoughtLeadership> = ({ data: pages }) => {
                 "data.title.text",
               ])
             }
-            placeHolder="Search"
+            placeHolder="Recherche"
             name="search"
             icon={searchIcon}
           />
-          <DropDown
+          <DropDownFr
             value={sort}
             onChange={handleSortChange}
-            placeHolder="Sort By"
+            placeHolder="Trier par"
             name="new"
             icon={searchIcon}
           />
@@ -113,7 +114,7 @@ const ThoughtLeadership: React.FC<ThoughtLeadership> = ({ data: pages }) => {
             onChange={(e) =>
               handleOnSearch(e.target.value, ["data.subject.text"])
             }
-            placeHolder="Subject"
+            placeHolder="Sujet"
             name="sub"
             icon={searchIcon}
           />

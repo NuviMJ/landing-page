@@ -22,6 +22,8 @@ import managerIcon from "../../assets/img/old/icons/manager.svg";
 import Seo from "../../utils/seo";
 import { graphql } from "gatsby";
 import ThoughtLeadershipFr from "../../sections/ThoughtLeadership/ThoughtLeadershipFr";
+// @ts-ignore
+import Layout from "../../layouts";
 
 interface ThoughtLeadershipPage {
   data: any;
@@ -31,9 +33,9 @@ const ThoughtLeadershipPage: React.FC<ThoughtLeadershipPage> = ({ data }) => {
   return (
     <>
       <Seo title="Coachello - Thought Leadership" />
-      <Navbar />
-      <ThoughtLeadershipFr data={data?.allPrismicBlogPage?.nodes || []} />
-      <Footer />
+      <Layout>
+        <ThoughtLeadershipFr data={data?.allPrismicBlogPage?.nodes || []} />
+      </Layout>
     </>
   );
 };

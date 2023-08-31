@@ -6,6 +6,10 @@
     font-family: 'Lexend';
     src: url('../assets/fonts/Lexend/Lexend-VariableFont_wght.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Gambetta';
+    src: url('../assets/fonts/Gambetta/Gambetta-Variable.ttf') format('truetype');
+}
 /*@font-face {*/
 /*    font-family: "GoldmanBold";*/
 /*    src: local("GoldmanBold"),*/

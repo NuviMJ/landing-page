@@ -229,7 +229,7 @@
   }
 
   @media screen and (max-width: 600px) {
-    padding: 0.45rem 2.0875rem;
+    padding: 1.2rem 2.0875rem;
   }
   @media screen and (max-width: 1000px) {
     &-menuContainer > ul {
@@ -246,6 +246,7 @@
       position: absolute;
       display: none;
 
+
       top: 60px;
       width: 100%;
       background-color: var(--pink-light);
@@ -260,7 +261,15 @@
           flex-direction: column;
         }
       }
+
     }
+      &-logoContainer {
+        display: grid;
+
+        & img {
+          height: 100%;
+        }
+      }
   }
 }
 

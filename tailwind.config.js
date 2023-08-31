@@ -44,6 +44,7 @@ module.exports = {
       fontFamily: {
         dm_sans: ["DM Sans", "sans-serif"],
         lexend: ["Lexend", "sans-serif"],
+        gambetta: ["Gambetta", "sans-serif"],
         playfair: ["Playfair"],
       },
     },

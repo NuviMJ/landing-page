@@ -37,7 +37,7 @@ const Hero = () => {
 
             <a
               target="_blank"
-              className="mt-8 no-underline"
+              className="mb-8 mx-auto md:mx-0 md:mt-8 no-underline"
               rel="noopener noreferrer"
               href="https://meetings.hubspot.com/quentin-bouche/intro-coachello"
             >
