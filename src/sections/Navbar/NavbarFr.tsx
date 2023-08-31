@@ -155,9 +155,11 @@ const Navbar = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://dashbord.coachello.io"
+                    href="https://dashboard.coachello.io"
                   >
-                    <button className="Navbar-button">Accéder au tableau de bord</button>
+                    <button className="Navbar-button">
+                      Accéder au tableau de bord
+                    </button>
                   </a>
                 </li>
               </ul>
