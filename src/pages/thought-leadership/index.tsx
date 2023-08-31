@@ -18,7 +18,7 @@ import coachingIcon from "../../assets/img/old/icons/coaching.svg";
 // @ts-ignore
 import managerIcon from "../../assets/img/old/icons/manager.svg";
 
-import ThoughtLeadership from "../../sections/old/ThoughtLeadership/ThoughtLeadership";
+import ThoughtLeadership from "../../sections/ThoughtLeadership/ThoughtLeadership";
 // @ts-ignore
 import Seo from "../../utils/seo";
 import { graphql } from "gatsby";

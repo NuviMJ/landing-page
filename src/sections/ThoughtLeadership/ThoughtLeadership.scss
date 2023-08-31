@@ -77,5 +77,8 @@
     &-contentContainer, &-cardContainer, &-inputContainer {
       padding: 1.45rem 2.0875rem;
     }
+    &-cardContainer>div {
+      flex:100%;
+    }
   }
 }

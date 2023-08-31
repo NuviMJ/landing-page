@@ -8,9 +8,9 @@ const Recognition = () => {
     <div className="section bg-white flex flex-col md:flex-row">
       <div className=" flex-1">
         <p className="red-heading my-2">Recognition</p>
-        <h2 className="my-2">From our partners. </h2>
+        <h2 className="mb-4">From our partners. </h2>
       </div>
-      <div className="grid grid-cols-2 flex-1 gap-8">
+      <div className="grid md:grid-cols-2 flex-1 gap-8">
         <div className="p-8 border border-gray/20 rounded">
           <img className="h-10" src={slackLogo} />
           <h5 className="mb-3 mt-6">Slack Future of Work Program</h5>

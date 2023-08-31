@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 
 // @ts-ignore
-import searchIcon from "../../../assets/img/old/icons/search.svg";
-import Input from "../../../components/old/Input/Input";
-import ThoughtCard from "../../../components/old/ThoughtCard/ThoughtCard";
+import searchIcon from "../../assets/img/old/icons/search.svg";
+import Input from "../../components/old/Input/Input";
+import ThoughtCard from "../../components/old/ThoughtCard/ThoughtCard";
 
 // @ts-ignore
-import i1Icon from "../../../assets/img/old/icons/cIcon.svg";
+import i1Icon from "../../assets/img/old/icons/cIcon.svg";
 import moment from "moment";
 import { Link } from "gatsby";
 import Fuse from "fuse.js";
-import DropDown from "../../../components/old/DropDown/DropDown";
+import DropDown from "../../components/old/DropDown/DropDown";
 
 import "./ThoughtLeadership.scss";
 

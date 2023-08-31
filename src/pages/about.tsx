@@ -37,9 +37,9 @@ const AboutPage = () => {
         <Human />
 
         <div className="section bg-warm">
-          <div className="flex gap-10">
-            <img className="w-2/5 object-contain" src={philosopyImg} />
-            <div className="p-16">
+          <div className="flex gap-10 flex-col md:flex-row">
+            <img className="md:w-2/5 object-contain" src={philosopyImg} />
+            <div className="md:p-16">
               <div className="">
                 <p className="red-heading">Our Philosophy</p>
                 <h2 className="mt-3 mb-10">
