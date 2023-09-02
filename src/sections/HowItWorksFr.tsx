@@ -2,11 +2,11 @@ import React, { useState } from "react";
 // @ts-ignore
 import slide1Img from "../assets/img/howItWorks/slide1.png";
 // @ts-ignore
-import slide2Img from "../assets/img/howItWorks/slide2.png";
+import slide2Img from "../assets/img/howItWorks/slide2fr.png";
 // @ts-ignore
-import slide3Img from "../assets/img/howItWorks/slide3.png";
+import slide3Img from "../assets/img/howItWorks/slide3fr.png";
 // @ts-ignore
-import slide4Img from "../assets/img/howItWorks/slide4.png";
+import slide4Img from "../assets/img/howItWorks/slide4fr.png";
 import useCarousel from "../hooks/useCarousel";
 // @ts-ignore
 import arrowLeft from "../assets/img/arrow-left.png";

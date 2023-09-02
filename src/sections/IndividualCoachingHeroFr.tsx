@@ -12,7 +12,7 @@ const IndividualCoachingHero = () => {
           <p>
             Un accompagnement personnalisé permettant au coaché d’atteindre des
             objectifs tangibles qu’il s’est fixé en mettant en place des plans
-            d’actions concrets. Le coaching est un accompgnement holistique
+            d’actions concrets.<br /> Le coaching est un accompgnement holistique
             agissant à la fois sur le bien-être et la performance et
             transformant les comportements de manière durable.
           </p>

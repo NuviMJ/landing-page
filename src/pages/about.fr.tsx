@@ -53,6 +53,7 @@ const AboutPage = () => {
                 propulsés par l'innovation technologique et fortement orientés
                 par les données.
               </p>
+              <br />
               <button className="dashboard-button bg-black rounded-full">
                 Parlons de votre projet !
               </button>

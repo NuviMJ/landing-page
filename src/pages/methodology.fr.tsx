@@ -158,7 +158,7 @@ const Methodology = () => {
           <h2 className="mb-10">Les catégories de coaching </h2>
 
           <div className="">
-            <p className="my-5">Scientific analysis</p>
+
             <p className="my-5">
               Les sujets et objectifs de coaching sont par définition infinis
               puisqu’ils sont 100% personnalisés pour chaque coaché. Tenter de
@@ -195,7 +195,7 @@ const Methodology = () => {
             <img src={sessionImg} className="w-full" />
           </div>
           <div className="flex-1">
-            <h2 className="md:my-5">Confidentialité des séances :</h2>
+            <h2 className="md:my-5">Confidentialité des <br />séances :</h2>
             <p className="my-5">
               Elles sont entièrement confidentielles. Rien de ce qui est dit en
               séance ne sera partagé à personne en dehors des séances. Ceci est
@@ -260,7 +260,7 @@ const Methodology = () => {
             outils, exercices et supports pertinents pour leur coaché à un
             moment donné et dans une situation donnée. Ils travaillent sur leurs
             croyances, leurs valeurs, leurs besoins en balayant les sphères
-            mentales, émotionnelles et corporelles. Les coachés améliorent leur
+            mentales, émotionnelles et corporelles.<br />Les coachés améliorent leur
             connaissance d’eux-mêmes, prennent conscience de leurs ressources
             mobilisables pour l’atteinte de leurs objectifs par l’éalobartion de
             plans d’action concrets.
@@ -271,7 +271,7 @@ const Methodology = () => {
         <div className="section bg-orange-light flex gap-10 flex-col md:flex-row">
           <div className="flex-1"></div>
           <div className="flex-1">
-            <h2 className="mb-10">Gestion des progrès</h2>
+            <h2 className="mb-10">Gestion des <br />progrès</h2>
             <p className="my-5">
               Après avoir entamé un travail en coaching, le coaché pourra
               régulièrement ré-évaluer son niveau de satisfaction dans

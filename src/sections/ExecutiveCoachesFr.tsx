@@ -9,7 +9,7 @@ const ExecutiveCoaches = () => {
       <div className="flex md:flex-nowrap flex-wrap gap-10">
         <img className="w-full md:w-2/5" src={Img} />
         <div className="md:p-16">
-          <h3 className="mb-8">Les Coachs Exécutifs chez Coachello</h3>
+          <h3 className="mb-8">Les Coachs Exécutifs chez<br /> Coachello</h3>
           <p>
             Nos coachs pour C-Levels ont un historique rempli de succès en ce
             qui concerne l'accompagnement de dirigeants. Ce qui leur permet de

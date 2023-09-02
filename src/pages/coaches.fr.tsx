@@ -35,7 +35,7 @@ const CoachesPage = () => {
               <div className="">
                 <p className="red-heading">Bonjour !</p>
                 <h2 className="mt-3 mb-10">
-                  Rencontrez Livia, notre Responsable Coaching
+                  Rencontrez Livia, notre<br /> Responsable Coaching
                 </h2>
               </div>
               <p className="my-5">

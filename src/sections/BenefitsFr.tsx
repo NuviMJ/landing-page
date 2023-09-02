@@ -11,7 +11,8 @@ import i4Img from "../assets/img/benefit/benefit4.png";
 const Benefits = () => {
   return (
     <div className="section bg-white">
-      <h2 className="text-center mb-8">Pourquoi Coachello ?</h2>
+      <h2 className="text-center mb-2">Pourquoi Coachello ?</h2>
+        <h4 className="text-center mb-8">La technologie et l'IA au service de l'humain</h4>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
         <IconCard
           icon={i1Img}

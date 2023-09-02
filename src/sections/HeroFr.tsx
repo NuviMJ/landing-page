@@ -1,7 +1,7 @@
 import React from "react";
 
 // @ts-ignore
-import heroImg from "../assets/img/hero.png";
+import heroImg from "../assets/img/herofr.png";
 // @ts-ignore
 import microsoftLogo from "../assets/img/companies/microsoft.png";
 // @ts-ignore
@@ -43,7 +43,7 @@ const Hero = () => {
               href="https://meetings.hubspot.com/quentin-bouche/intro-coachello"
             >
               <button className="py-3 cursor-pointer px-8 bg-pink rounded-3xl flex gap-4 border-0 items-center hover:bg-pink-200">
-                Parlez à un expert
+                Parlez à un expert &#10132;
               </button>
             </a>
           </div>

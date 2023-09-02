@@ -8,7 +8,7 @@ const Assessment = () => {
       <div className="section bg-white">
         <div className="">
           <h2 className="text-center mb-12">
-            Gestion des progrès dans le parcours à la demande
+            Gestion des progrès dans le<br /> parcours à la demande
           </h2>
           <div className="grid lg:grid-cols-3 gap-20 items-start">
             <AssessmentCard
@@ -36,7 +36,7 @@ const Assessment = () => {
       <div className="section bg-white">
         <div className="">
           <h2 className="text-center mb-12">
-            Gestion des progrès dans le parcours leadership
+            Gestion des progrès dans le<br /> parcours leadership
           </h2>
           <div className="grid lg:grid-cols-4 gap-10 items-start">
             <AssessmentCard

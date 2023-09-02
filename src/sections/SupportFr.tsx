@@ -99,9 +99,9 @@ const Support = () => {
           Coaching en leadership :
         </h2>
         <p className="text-center mb-5">
-          Avec l'aide de notre communauté internationale de coachs certifiés + en nous basant sur les dernières recherches scientifiques en la matière, nous avons identifié 10 comportements à travailler par les leaders.
-          <br />
-          Nous pouvons personnaliser ces comportements en intégrant votre modèle de leadership
+          Avec l'aide de notre communauté internationale de coachs certifiés + en nous basant sur les dernières<br /> recherches scientifiques en la matière, nous avons identifié 10 comportements à travailler par les leaders.
+        </p>
+          <p className="text-center mb-5">Nous pouvons personnaliser ces comportements en intégrant votre modèle de leadership
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
           <IconCard

@@ -10,10 +10,11 @@ import i2Img from "../assets/img/group-workshop/c2.png";
 import i3Img from "../assets/img/group-workshop/c3.png";
 // @ts-ignore
 import i4Img from "../assets/img/group-workshop/c4.png";
-import Faq from "../sections/Faq";
+import Faq from "../sections/FaqFr";
 // @ts-ignore
 import Layout from "../layouts";
 import { GreenTick } from "../components/GreenTick";
+import GetInTouch from "../sections/GetInTouchFr";
 const GroupWorkshop = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const GroupWorkshop = () => {
         <div className="section bg-warm">
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2 flex flex-col items-start justify-center">
-              <h1 className="leading-[1.3] mb-8">Ateliers collectifs</h1>
+              <h1 className="leading-[1.3] mb-8">Ateliers <br />collectifs</h1>
 
               <ul className="flex flex-col gap-3 pl-0 ">
                 <span className="font-semibold mb-5">
@@ -92,6 +93,8 @@ const GroupWorkshop = () => {
             />
           </div>
         </div>
+
+        <GetInTouch />
         <Faq />
       </Layout>
     </>

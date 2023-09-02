@@ -3,7 +3,7 @@ import React from "react";
 import i1Img from "../assets/img/tools.png";
 
 // @ts-ignore
-import i2Img from "../assets/img/workspace.png";
+import i2Img from "../assets/img/workspacefr.png";
 
 const TickIcon = () => {
   return (
