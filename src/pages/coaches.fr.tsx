@@ -29,21 +29,28 @@ const CoachesPage = () => {
 
         {/*Section*/}
         <div className="section bg-warm">
-          <div className="flex gap-10">
-            <img className="w-2/5 object-contain" src={LiviaImg} />
+          <div className="flex gap-10 flex-col md:flex-row">
+            <img className="lg:w-2/5 object-contain" src={LiviaImg} />
             <div className="p-5">
               <div className="">
                 <p className="red-heading">Bonjour !</p>
-                <h2 className="mt-3 mb-10">Rencontrez Livia, notre Responsable Coaching</h2>
+                <h2 className="mt-3 mb-10">
+                  Rencontrez Livia, notre Responsable Coaching
+                </h2>
               </div>
               <p className="my-5">
-                Coach certifié ICF PCC, ancienne avocate (Barreau de Paris et NY), formatrice soft-skills et mordue de théâtre.
-                </p>
-              <p>
-                Compétente, accessible et toujours de bonne humeur pour accompagner  nos clients dans leur programme de coaching ou de formation et recommender les coachs les plus adaptés à leurs Talents.
+                Coach certifié ICF PCC, ancienne avocate (Barreau de Paris et
+                NY), formatrice soft-skills et mordue de théâtre.
               </p>
-              <p>
-                Vous souhaitez prendre rendez-vous avec Livia ? Veuillez lui envoyer un mail à livia@coachello.io.{" "}
+              <p className="my-5">
+                Compétente, accessible et toujours de bonne humeur pour
+                accompagner nos clients dans leur programme de coaching ou de
+                formation et recommender les coachs les plus adaptés à leurs
+                Talents.
+              </p>
+              <p className="my-5">
+                Vous souhaitez prendre rendez-vous avec Livia ? Veuillez lui
+                envoyer un mail à{" "}
                 <a className="text-green-500">livia@coachello.io</a>
               </p>
               <button className="dashboard-button bg-black rounded-full">

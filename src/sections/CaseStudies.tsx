@@ -17,25 +17,25 @@ const CaseStudies = () => {
           icon={i1Img}
           header={"Education"}
           color="bg-green-light"
-          des="HEC embedded Coachello for 1:1 leadership coaching by their professors for candidates in the EMBA program"
+          des="<b>HEC</b> embedded Coachello for 1:1 leadership coaching by their professors for candidates in the EMBA program"
         />
         <IconCard
           icon={i2Img}
           header={"Internal coaching practice"}
           color="bg-warm-dark"
-          des="Telecom company streamlined and made their extensive coaching practice (100+ internal coaches) data-driven "
+          des="<b>Telecom company</b> streamlined and made their extensive coaching practice (100+ internal coaches) data-driven "
         />
         <IconCard
           icon={i3Img}
           header={"Internal coaching"}
           color="bg-green-light"
-          des="Scale-up used Coachello’s app for their internal mentoring program"
+          des="<b>Scale-up</b> used Coachello’s app for their internal mentoring program"
         />
         <IconCard
           icon={i4Img}
           header={"Leadership consultancy"}
           color="bg-warm-dark"
-          des="HR consultancy firm to digitalise the access to leadership consultants for their clients"
+          des="<b>HR consultancy</b> firm to digitalise the access to leadership consultants for their clients"
         />
       </div>
 

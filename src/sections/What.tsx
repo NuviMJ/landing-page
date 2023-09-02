@@ -1,12 +1,12 @@
 import React from "react";
 // @ts-ignore
-import slide1Img from "../assets/img/coaches/amelie.png";
+import slide1Img from "../assets/img/coaches/jordan.png";
 // @ts-ignore
-import slide2Img from "../assets/img/coaches/amilla.png";
+import slide2Img from "../assets/img/coaches/adeline.png";
 // @ts-ignore
-import slide3Img from "../assets/img/coaches/joff.png";
+import slide3Img from "../assets/img/coaches/lisa.png";
 // @ts-ignore
-import slide4Img from "../assets/img/coaches/krist.png";
+import slide4Img from "../assets/img/coaches/christie.png";
 import useCarousel from "../hooks/useCarousel";
 // @ts-ignore
 import arrowLeft from "../assets/img/arrow-left.png";
@@ -22,44 +22,32 @@ import { Pagination } from "swiper/modules";
 const What = () => {
   const slides = [
     {
-      title: "“Instant outcomes”",
-      description:
-        "Only after a few hours I felt I had grown so much in public speaking. My coach took the time to understand my needs and expectations. It was pleasure working with the whole Coachello team, which is very attentive.",
+      title: "“Incredible progress”",
+      des: "First coaching experience for me and I must say: after only a few sessions I felt a real evolution. My coach has been exceptional and the Coachello team was always there to support me.",
       profile: slide1Img,
-      name: "Lisa Lachkar",
-      position: "Regional Director of Riskified",
-    },
-    {
-      title: "“Tangible results”",
-      description:
-        "I grew both professionally and personally during the courses and even got to put it to the test whilst delivering some training to my colleagues today. I highly recommend Coachello platform.",
-      profile: slide2Img,
-      name: "Christie Jones ",
-      position: "Manager at Tokyo Marine HCC",
+      userName: "Jordan Chenevier-Truchet",
+      userDes: "CMO of Germinal",
     },
     {
       title: "“Measurable impact”",
-      description:
-        "Very responsive team, super convenient application, and very happy employees. At Gorgias we are data-driven and measure impact and Coachello is on top of the list form all the solutions we have seen so far.",
+      des: "Very responsive team, super convenient application, and very happy employees. At Gorgias we are data-driven and measure impact and Coachello is on top of the list form all the solutions we have seen so far.",
+      profile: slide2Img,
+      userName: "Adeline Bodemer",
+      userDes: "Head of People Gorgias",
+    },
+    {
+      title: "“Instant outcomes”",
+      des: "Only after a few hours I felt I had grown so much in public speaking. My coach took the time to understand my needs and expectations. It was pleasure working with the whole Coachello team, which is very attentive.",
       profile: slide3Img,
-      name: "Adeline Bodemer",
-      position: "Head of People Gorgias",
+      userName: "Lisa Lachkar",
+      userDes: "Regional Director of Riskified",
     },
     {
-      title: "“Instant outcomes”",
-      description:
-        "Only after a few hours I felt I had grown so much in public speaking. My coach took the time to understand my needs and expectations. It was pleasure working with the whole Coachello team, which is very attentive.",
+      title: "“Tangible results”",
+      des: "I grew both professionally and personally during the courses and even got to put it to the test whilst delivering some training to my colleagues today. I highly recommend Coachello platform.",
       profile: slide4Img,
-      name: "Lisa Lachkar",
-      position: "Regional Director of Riskified",
-    },
-    {
-      title: "“Instant outcomes”",
-      description:
-        "Only after a few hours I felt I had grown so much in public speaking. My coach took the time to understand my needs and expectations. It was pleasure working with the whole Coachello team, which is very attentive.",
-      profile: slide1Img,
-      name: "Lisa Lachkar",
-      position: "Regional Director of Riskified",
+      userName: "Christie Jones",
+      userDes: "Manager at Tokyo Marine HCC",
     },
   ];
 
@@ -108,7 +96,7 @@ const What = () => {
                     }`}
                   >
                     <h5 className="my-3">{slide.title}</h5>
-                    <p className="text-sm mb-5">{slide.description}</p>
+                    <p className="text-sm mb-5">{slide.des}</p>
                     <div className="flex items-center gap-5">
                       <img
                         src={slide.profile}
@@ -116,9 +104,11 @@ const What = () => {
                         className="w-8 h-8 rounded-full"
                       />
                       <div className="">
-                        <p className="font-normal my-1 text-sm">{slide.name}</p>
+                        <p className="font-normal my-1 text-sm">
+                          {slide.userName}
+                        </p>
                         <p className="text-gray my-1 text-sm">
-                          {slide.position}
+                          {slide.userDes}
                         </p>
                       </div>
                     </div>

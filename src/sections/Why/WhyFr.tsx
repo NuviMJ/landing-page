@@ -23,8 +23,8 @@ const Why = () => {
         <div className="Why-headerContainer">
           <p className="red-heading">Pourquoi LE COACHING ?</p>
           <h2 className="mb-8 mt-3">
-            Aider vos leaders à relever ces challenges <br /> de manière personnalisée
-           {" "}
+            Aidez vos leaders à relever ces challenges <br /> de manière
+            personnalisée{" "}
           </h2>
         </div>
         <div className="Why-cardContainer">
@@ -41,8 +41,11 @@ const Why = () => {
             <WhyCard icon={retentionIcon} title="Rétention et engagement" />
           </div>
           <div>
-            <WhyCard icon={increaseIcon} title="Augmentation de la performance
-            " />
+            <WhyCard
+              icon={increaseIcon}
+              title="Augmentation de la performance
+            "
+            />
           </div>
           <div>
             <WhyCard

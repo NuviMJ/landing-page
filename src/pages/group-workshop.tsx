@@ -14,6 +14,7 @@ import Faq from "../sections/Faq";
 // @ts-ignore
 import Layout from "../layouts";
 import { GreenTick } from "../components/GreenTick";
+import GetInTouch from "../sections/GetInTouch";
 const GroupWorkshop = () => {
   return (
     <>
@@ -70,28 +71,29 @@ const GroupWorkshop = () => {
               icon={i1Img}
               header={"DISC"}
               color="bg-green-light"
-              des="Qonto gives the opportunity for each team to do a DISC assessment during offsites to improve communication."
+              des="<b>Qonto</b> gives the opportunity for each team to do a DISC assessment during offsites to improve communication."
             />
             <IconCard
               icon={i2Img}
               header={"Public speaking"}
               color="bg-warm-dark"
-              des="Virtuo is working with Coachello for all Public Speaking workshops in French and English to empower every Talent."
+              des="<b>Virtuo</b> is working with Coachello for all Public Speaking workshops in French and English to empower every Talent."
             />
             <IconCard
               icon={i3Img}
               header={"Management training"}
               color="bg-green-light"
-              des="Amplitude Studios trained all their managers with Coachello's 'manager of the future' workshop to create a common managerial culture"
+              des="<b>Amplitude Studios</b> trained all their managers with Coachello's 'manager of the future' workshop to create a common managerial culture"
             />
             <IconCard
               icon={i4Img}
               header={"Co-development"}
               color="bg-warm-dark"
-              des="Qonto is training their People Business Partner to the co-development methodology to scale co-development within the company"
+              des="<b>Qonto</b> is training their People Business Partner to the co-development methodology to scale co-development within the company"
             />
           </div>
         </div>
+        <GetInTouch />
         <Faq />
       </Layout>
     </>

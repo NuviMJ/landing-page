@@ -17,31 +17,31 @@ const CaseStudies = () => {
           icon={i1Img}
           header={"Éducation"}
           color="bg-green-light"
-          des="HEC Paris a intégré Coachello dans les programmes MBA/EMBA pour améliorer la mise en relation entre un coach leadership et un coaché et mieux suivre les programmes."
+          des="<b>HEC</b> Paris a intégré Coachello dans les programmes MBA/EMBA pour améliorer la mise en relation entre un coach leadership et un coaché et mieux suivre les programmes."
         />
         <IconCard
           icon={i2Img}
           header={"Coaching interne "}
           color="bg-warm-dark"
-          des="Une entreprise de Télécom au Royaume-Uni utilise Coachello pour piloter son programme de coaching interne (avec plus de 80 coachs internes), améliorer l’expérience des coachés et des coachs et mesurer l’impact des programmes avec leur Tableau de Bord et des KPI’s personnalisés."
+          des="<b>Une entreprise</b> de Télécom au Royaume-Uni utilise Coachello pour piloter son programme de coaching interne (avec plus de 80 coachs internes), améliorer l’expérience des coachés et des coachs et mesurer l’impact des programmes avec leur Tableau de Bord et des KPI’s personnalisés."
         />
         <IconCard
           icon={i3Img}
           header={"Programme de Mentoring"}
           color="bg-green-light"
-          des="Une scale-up française a utilisé Coachello pour développer un programme de mentoring interne"
+          des="<b>Une scale-up</b> française a utilisé Coachello pour développer un programme de mentoring interne"
         />
         <IconCard
           icon={i4Img}
           header={"Cabinets de conseils RH"}
           color="bg-warm-dark"
-          des="Une société de conseil en transformation RH utilise Coachello pour digitaliser l’expérience qu’elle offre à ses clients "
+          des="<b>Une société</b> de conseil en transformation RH utilise Coachello pour digitaliser l’expérience qu’elle offre à ses clients "
         />
       </div>
 
       <div className="mt-10">
         <button className="dashboard-button rounded-full bg-black mx-auto">
-            Je voudrais discuter de mon projet
+          Je voudrais discuter de mon projet
         </button>
       </div>
     </div>

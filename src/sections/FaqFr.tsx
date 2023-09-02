@@ -1,5 +1,5 @@
 import React from "react";
-import { FAQData } from "../constant/FAQData";
+import { FAQDataFr } from "../constant/FAQData";
 import Accordion from "../components/old/Accordion/Accordion";
 
 const Faq = () => {
@@ -12,14 +12,14 @@ const Faq = () => {
         </div>
         <div className="grid md:grid-cols-2 gap-x-20">
           <div className="flex flex-col gap-5">
-            {FAQData.slice(0, Math.ceil(FAQData.length / 2)).map(
+            {FAQDataFr.slice(0, Math.ceil(FAQDataFr.length / 2)).map(
               ({ title, content }, index) => (
                 <Accordion key={index} title={title} content={content} />
               )
             )}
           </div>
           <div className="flex flex-col gap-5">
-            {FAQData.slice(Math.ceil(FAQData.length / 2)).map(
+            {FAQDataFr.slice(Math.ceil(FAQDataFr.length / 2)).map(
               ({ title, content }, index) => (
                 <Accordion key={index} title={title} content={content} />
               )

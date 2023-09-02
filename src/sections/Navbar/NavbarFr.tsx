@@ -71,29 +71,26 @@ const Navbar = () => {
                         : "Navbar-subCollapsed Navbar-subMenu" + "rounded"
                     }
                   >
-                    <li>
-                      <Link to={`${prefix}/individual-coaching`}>
-                        Individual-coaching
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to={`${prefix}/internal-coaching`}>
-                        Internal-coaching
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to={`${prefix}/executive-coaching`}>
-                        Executive-coaching
-                      </Link>
-                    </li>
+                    <Link to={`${prefix}/individual-coaching`}>
+                      Coaching individuel
+                    </Link>
+
+                    <Link to={`${prefix}/internal-coaching`}>
+                      Coaching interne
+                    </Link>
+
+                    <Link to={`${prefix}/executive-coaching`}>
+                      Coaching de dirigeants
+                    </Link>
+
                     {/*<li>*/}
                     {/*    <Link to='/metaverse'>Metaverse</Link>*/}
                     {/*</li>*/}
-                    <li>
-                      <Link to={`${prefix}/group-workshop`}>
-                        Group Workshop
-                      </Link>
-                    </li>
+
+                    <Link to={`${prefix}/group-workshop`}>
+                      Atelier de groupe
+                    </Link>
+
                     {/*<li>*/}
                     {/*  <Link to={`${prefix}/climate-coaching`}>*/}
                     {/*    Climate Coaching*/}

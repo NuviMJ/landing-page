@@ -15,24 +15,30 @@ const Benefits = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
         <IconCard
           icon={i1Img}
-          header={"Accès simple et expérience fluide grâce à l’intégration Microsoft Teams ou Slack"}
+          des={
+            "Accès simple et expérience fluide grâce à l’intégration Microsoft Teams ou Slack"
+          }
           color="bg-green-light"
         />
         <IconCard
           icon={i2Img}
-          header={"Piloter, Mesurer et agir, grâce au Dashboard RH accessible en continu"}
+          des={
+            "Piloter, Mesurer et agir, grâce au Dashboard RH accessible en continu"
+          }
           color="bg-warm-dark"
         />
         <IconCard
           icon={i3Img}
-          header={
+          des={
             "Accompagnement en continu, depuis le choix du coach jusqu’à la fin du coaching (auto-évaluations, suivi des progrès, bibliothèque de ressources, chat en continu...)"
           }
           color="bg-green-light"
         />
         <IconCard
           icon={i4Img}
-          header={"Personalisation des programmes et alignement avec votre modèle leadership"}
+          des={
+            "Personalisation des programmes et alignement avec votre modèle leadership"
+          }
           color="bg-warm-dark"
         />
       </div>

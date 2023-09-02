@@ -46,7 +46,7 @@ const HowItWorks = () => {
 
   const { currentIndex, goToNextSlide, goToPreviousSlide } = useCarousel({
     totalSlides: slides.length,
-    autoPlayInterval: 5000,
+    autoPlayInterval: 10000,
   });
 
   return (

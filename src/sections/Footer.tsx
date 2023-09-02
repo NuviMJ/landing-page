@@ -14,8 +14,8 @@ import instaIcon from "../assets/img/insta.png";
 // @ts-ignore
 import linkedInIcon from "../assets/img/linkedin.png";
 import { Link } from "gatsby";
-import Input from "../components/Input";
-import InputWithIcon from "../components/InputWithIcon";
+import Input from "../components/form/Input";
+import InputWithIcon from "../components/form/InputWithIcon";
 import { EmailBlock, Envelope, EnvelopeOne } from "@icon-park/react";
 import useLocale from "../hooks/useLocale";
 
@@ -71,27 +71,44 @@ const Footer = () => {
           <Link to={`${prefix}/coaches`} className="mb-2">
             I am a coach
           </Link>
-          <a href="https://legal.coachello.io/en/" className="mb-2">
-            Metaverse
-          </a>
+
+          <Link to={`${prefix}/methodology`}>Methodology</Link>
         </div>
         <div className="flex flex-col flex-1 gap-5">
           <a className="mb-2">I am an employee</a>
           {/*<Link to="/policies" className="mb-2">Policies</Link>*/}
-          <a
-            href="https://meetings.hubspot.com/quentin-bouche/intro-coachello"
-            target="_blank"
-            className="mb-2"
-            rel="noopener noreferrer"
-          >
-            Speak to an expert
+          {/*<a*/}
+          {/*  href="https://meetings.hubspot.com/quentin-bouche/intro-coachello"*/}
+          {/*  target="_blank"*/}
+          {/*  className="mb-2"*/}
+          {/*  rel="noopener noreferrer"*/}
+          {/*>*/}
+          {/*</a>*/}
+          <a href="https://legal.coachello.io/en/" className="mb-2">
+            Policies
           </a>
+          <Link to="/talk-to-expert"> Speak to an expert</Link>
+
           <Link to="/metaverse">Metaverse</Link>
         </div>
         <div className="">
           <div className="flex items-start gap-5">
-            <img src={instaIcon} alt="Instagram" className="w-8" />
-            <img src={linkedInIcon} alt="LinkedIn" className="w-8" />
+            <a
+              href="https://www.instagram.com/coachello.io"
+              target="_blank"
+              className=""
+              rel="noopener noreferrer"
+            >
+              <img src={instaIcon} alt="Instagram" className="w-8" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/coachello-io"
+              target="_blank"
+              className=""
+              rel="noopener noreferrer"
+            >
+              <img src={linkedInIcon} alt="LinkedIn" className="w-8" />
+            </a>
           </div>
           <p className="my-5 font-extralight">
             You don't have a project yet but want to receive innovative content

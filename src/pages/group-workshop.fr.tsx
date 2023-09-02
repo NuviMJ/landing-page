@@ -70,25 +70,25 @@ const GroupWorkshop = () => {
               icon={i1Img}
               header={"DISC"}
               color="bg-green-light"
-              des="Qonto offre à chaque équipe l'opportunité de réaliser une évaluation DISC lors des réunions hors site afin d'améliorer la communication"
+              des="<b>Qonto</b> offre à chaque équipe l'opportunité de réaliser une évaluation DISC lors des réunions hors site afin d'améliorer la communication"
             />
             <IconCard
               icon={i2Img}
               header={"Prise de parole"}
               color="bg-warm-dark"
-              des="Virtuo travaille avec Coachello pour tous les ateliers de prise de parole en public en français et en anglais afin de renforcer les compétences de chaque talent"
+              des="<b>Virtuo</b> travaille avec Coachello pour tous les ateliers de prise de parole en public en français et en anglais afin de renforcer les compétences de chaque talent"
             />
             <IconCard
               icon={i3Img}
               header={"Formation en management"}
               color="bg-green-light"
-              des="Amplitude Studios a formé tous ses managers avec l'atelier 'Le manager du futur' de Coachello pour créer une culture managériale commune"
+              des="<b>Amplitude Studios</b> a formé tous ses managers avec l'atelier 'Le manager du futur' de Coachello pour créer une culture managériale commune"
             />
             <IconCard
               icon={i4Img}
               header={"Co-développement"}
               color="bg-warm-dark"
-              des="Qonto forme ses HRBP sur la méthodologie de co-développement, afin de le transmettre au sein de l'entreprise"
+              des="<b>Qonto</b> forme ses HRBP sur la méthodologie de co-développement, afin de le transmettre au sein de l'entreprise"
             />
           </div>
         </div>

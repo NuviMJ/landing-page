@@ -29,10 +29,9 @@ const ExecutiveCoaches = () => {
           </p>
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 gap-x-12 gap-y-8 mt-12">
+      <div className="grid lg:grid-cols-3 gap-x-10 gap-y-8 mt-12">
         <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
-            className="!w-16"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -59,7 +58,6 @@ const ExecutiveCoaches = () => {
         </div>
         <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
-            className="!w-16"
             width="25"
             height="24"
             viewBox="0 0 25 24"
@@ -87,7 +85,6 @@ const ExecutiveCoaches = () => {
         </div>
         <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
-            className="!w-16"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -103,7 +100,6 @@ const ExecutiveCoaches = () => {
         </div>
         <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
-            className="!w-16"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -119,7 +115,6 @@ const ExecutiveCoaches = () => {
         </div>
         <div className="bg-white rounded p-5 icon-text font-normal">
           <svg
-            className="!w-16"
             width="25"
             height="24"
             viewBox="0 0 25 24"

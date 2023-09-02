@@ -15,24 +15,22 @@ const Benefits = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
         <IconCard
           icon={i1Img}
-          header={"Customized & embedded coaching in their working environment"}
+          des={"Customized & embedded coaching in their working environment"}
           color="bg-green-light"
         />
         <IconCard
           icon={i2Img}
-          header={"Assess their leadership behaviours"}
+          des={"Assess their leadership behaviours"}
           color="bg-warm-dark"
         />
         <IconCard
           icon={i3Img}
-          header={
-            "AI Matching and orientation calls for 100% successful matching"
-          }
+          des={"AI Matching and orientation calls for 100% successful matching"}
           color="bg-green-light"
         />
         <IconCard
           icon={i4Img}
-          header={"Data-driven for succesful transformations"}
+          des={"Data-driven for succesful transformations"}
           color="bg-warm-dark"
         />
       </div>

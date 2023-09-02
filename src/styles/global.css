@@ -85,6 +85,12 @@
     a{
         @apply no-underline text-inherit
     }
+    table{
+        border: none !important;
+    }
+    thead,tbody,th,td{
+        border: none !important;
+    }
 }
 
 @layer components {
